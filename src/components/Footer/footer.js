@@ -5,16 +5,6 @@ import socialIcons from "../../constants/social-icons"
 const Footer = () => {
   return (
     <FooterWrapper>
-      <div className="credit">
-        Designed & developed by{" "}
-        <a
-          href="http://www.morganbaker.dev"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Morgan
-        </a>
-      </div>
       {socialIcons.map((item, index) => {
         return (
           <a

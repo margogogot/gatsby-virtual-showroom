@@ -18,6 +18,10 @@ const Layout = ({ children }) => {
 }
 
 const LayoutWrapper = styled.div`
+  body{
+    overflow-x: hidden;
+  }
+  
   * {
     box-sizing: border-box;
   }
