@@ -15,11 +15,13 @@
   z-index: 10;
   height: 100vh;
   overflow: visible;
-  width: 200px;
+  width: 220px;
+  padding-left:20px;
 }
 .heroesListInner {
   display: grid;
   height: 100vh;
+  width: 220px;
   align-items: center;
   justify-content: space-between;
 }
@@ -58,7 +60,7 @@
 .hero {
   width: 100vw;
   height: 100vh;
-  margin-left: -200px;
+  margin-left: -220px;
   background-size: cover;
   background-position: center center;
   align-items: center;
@@ -67,7 +69,7 @@
 }
 .hero>h2 {
   position: absolute;
-  top: 20%;
+  top: 150px;
   right: 50%;
   z-index: 100;
 }
@@ -83,10 +85,15 @@
   position: absolute;
   right: 10%;
   width: 30%;
-  top: 25%;
+  height: calc(100vh - 40px);
+  top: 20px;
   display: block;
   color: #ffffff;
   text-align: left;
+  padding: 30px;
+  border-top: solid 5px #333333;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,0.07886904761904767) 0%, rgba(255,255,255,0) 75%, rgba(255,255,255,0) 100%);
 }
 .slideText a{
   color: #ffffff;
