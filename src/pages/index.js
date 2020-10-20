@@ -39,34 +39,41 @@ export default () => (
         >
           <div bigImage={factorChair1} bgColor='#893b2f'>
             <p>Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility. </p>
-            <ul>
-              <li>Tubular stainless steel frames with a durable powdercoat finish</li>
-              <li>Seats and backs of powdercoated formed aluminum with or without perforations; or seats of FSC 100% Cumaru or FSC 100% Teak hardwood slats with backs of powdercoated cast aluminum</li>
-              <li>Optional armrests</li>
-              <li>Generally stackable to four high</li>
-              <li>Chairs with and without arms can be stacked together</li>
-              <li>Freestanding; black nylon glides on chair feet</li>
-              <li>High recycled content; highly recyclable</li>
-              <li>Suitable for interior and exterior applications</li>
-            </ul>
+            <h2 className='hide-desktop'>Factor Chair</h2>
+            <div className='heroList'>
+              <ul>
+                <li>Tubular stainless steel frames with a durable powdercoat finish</li>
+                <li>Seats and backs of powdercoated formed aluminum with or without perforations; or seats of FSC 100% Cumaru or FSC 100% Teak hardwood slats with backs of powdercoated cast aluminum</li>
+                <li>Optional armrests</li>
+                <li>Generally stackable to four high</li>
+                <li>Chairs with and without arms can be stacked together</li>
+                <li>Freestanding; black nylon glides on chair feet</li>
+                <li>High recycled content; highly recyclable</li>
+                <li>Suitable for interior and exterior applications</li>
+              </ul>
+            </div>
             <p><a href="#">MORE INFO</a></p>
           </div>
           <div bigImage={factorChair2} bgColor='#505f4a'>
             <p>Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility. </p>
-            <ul>
-              <li>Tubular stainless steel frames with a durable powdercoat finish</li>
-              <li>Seats and backs of powdercoated formed aluminum with or without perforations; or seats of FSC 100% Cumaru or FSC 100% Teak hardwood slats with backs of powdercoated cast aluminum</li>
-              <li>Optional armrests</li>
-              <li>Generally stackable to four high</li>
-              <li>Chairs with and without arms can be stacked together</li>
-              <li>Freestanding; black nylon glides on chair feet</li>
-              <li>High recycled content; highly recyclable</li>
-              <li>Suitable for interior and exterior applications</li>
-            </ul>
+            <h2 className='hide-desktop'>Factor Chair</h2>
+            <div className='heroList'>
+              <ul>
+                <li>Tubular stainless steel frames with a durable powdercoat finish</li>
+                <li>Seats and backs of powdercoated formed aluminum with or without perforations; or seats of FSC 100% Cumaru or FSC 100% Teak hardwood slats with backs of powdercoated cast aluminum</li>
+                <li>Optional armrests</li>
+                <li>Generally stackable to four high</li>
+                <li>Chairs with and without arms can be stacked together</li>
+                <li>Freestanding; black nylon glides on chair feet</li>
+                <li>High recycled content; highly recyclable</li>
+                <li>Suitable for interior and exterior applications</li>
+              </ul>
+            </div>
             <p><a href="#">MORE INFO</a></p>
           </div>
           <div bigImage={factorChair3} bgColor="#464649">
             <p>Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility. </p>
+            <h2 className='hide-desktop'>Factor Chair</h2>
             <div className='heroList'>
               <ul>
                 <li>Tubular stainless steel frames with a durable powdercoat finish</li>
@@ -89,6 +96,7 @@ export default () => (
         >
           <div bigImage={aptosPedestrian1} bgColor='#898279'>
             <p>Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility. </p>
+            <h2 className='hide-desktop'>Factor Chair</h2>
             <div className='heroList'>
               <ul>
                 <li>Tubular stainless steel frames with a durable powdercoat finish</li>
@@ -105,6 +113,7 @@ export default () => (
           </div>
           <div bigImage={aptosPedestrian2} bgColor='#669999'>
             <p>Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility. </p>
+            <h2 className='hide-desktop'>Factor Chair</h2>
             <div className='heroList'>
               <ul>
                 <li>Tubular stainless steel frames with a durable powdercoat finish</li>
