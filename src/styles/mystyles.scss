@@ -1,0 +1,8 @@
+@import "~react-responsive-carousel/lib/styles/carousel.min.css";
+.carousel-root {
+  height: calc(100vh - 40px);
+  width: 100vw;
+}
+.carousel .control-dots {
+  bottom: 20px;
+}

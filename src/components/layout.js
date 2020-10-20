@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import "typeface-gothic-a1"
 import "./reset.css"
+import './global.css'
 import Navbar from "../components/Navbar/navbar"
 import Footer from "../components/Footer/footer"
 import SEO from "../components/Seo/seo"
@@ -21,15 +22,15 @@ const LayoutWrapper = styled.div`
   body{
     overflow-x: hidden;
   }
-  
+
   * {
     box-sizing: border-box;
   }
 
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Arial", sans-serif;
   color: #fff;
   /* background-color: #060c21; */
-  background: linear-gradient(45deg, #060c21, #0d0139);
+  background: #ffffff;
 
   h1,
   h2,

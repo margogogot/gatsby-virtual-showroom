@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Helvetica Neue LT Std 57 Condensed";
+  font-style: normal;
+  font-weight: normal;
+  src: local("/fonts/Helvetica Neue LT Std 57 Condensed"),
+    url("/fonts/HelveticaNeueLTStd-Cn.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Helvetica Neue LT Std 56 Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("/fonts/Helvetica Neue LT Std 56 Italic"),
+    url("/fonts/HelveticaNeueLTStd-It.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Helvetica Neue LT Std 47 Light Condensed";
+  font-style: normal;
+  font-weight: normal;
+  src: local("/fonts/Helvetica Neue LT Std 47 Light Condensed"),
+    url("/fonts/HelveticaNeueLTStd-LtCn.woff") format("woff");
+}
+
+@font-face {
+  font-family: "webfontregular";
+  src: url("/fonts/helveticaneue-thin.woff2") format("woff2"),
+    url("/fonts/helveticaneue-thin.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica Neue 43 Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("/fonts/Helvetica Neue 43 Light"),
+    url("/fonts/HelveticaNeueLight.woff") format("woff");
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std 45 Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("/fonts/Helvetica Neue LT Std 45 Light"),
+    url("/fonts/HelveticaNeueLTStd Lt.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Helvetica Neue LT Std 77 Bold Condensed";
+  font-style: normal;
+  font-weight: normal;
+  src: local("/fonts/Helvetica Neue LT Std 77 Bold Condensed"),
+    url("/fonts/HelveticaNeueLTStd-BdCn.woff") format("woff");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica Neue LT Std 45 Light";
+}
