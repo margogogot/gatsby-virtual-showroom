@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import Hero from './Hero'
-import styles from './heroes.module.css'
 import { Link, animateScroll as scroll } from 'react-scroll'
 
 class Heroes extends Component {
@@ -44,23 +43,32 @@ class Heroes extends Component {
         >{label}</Link>
       )
     })
-    heroesList.push(
-      <a href="#header" target="_PARENT">Virtual Showroom</a>
+    heroesList.unshift(
+      <Link
+          activeClass="active"
+          to={'virtual-showroom'}
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+          key={99}
+      >Virtual Showroom</Link>
     )
     return (
-      <div className={`${styles[`heroes`]} ${this.state.tabClass}`}>
-        <div className={styles['heroesList']}>
-        <div className={styles['heroesListInner']}>
+      <div className={'heroes'}>
+        <div className={'heroesList'}>
+        <div className={'heroesListInner'}>
         {heroesList}
         </div>
         </div>
-        <div className={styles['heroesContent']}>
+        <div className={'heroesContent'}>
         {children.map((child, i) => {
-          const { label, heroId, bigImage, children } = child.props
+          const { label, heroId, bigImage, bgColor, children } = child.props
 
           return (
             <Hero
               heroId={heroId}
+              bgColor={bgColor}
               label={label}
               bigImage={bigImage}
               children={children}

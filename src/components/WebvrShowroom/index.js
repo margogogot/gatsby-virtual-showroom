@@ -11,7 +11,7 @@ const WebvrShowroom = () => {
 
   return (
     <BannerWrapper>
-      <iframe src="https://www.eaxps.presentwel.com/vsr3da/v1/" />
+      <iframe src="https://www.eaxps.presentwel.com/vsr3da/v1/" id="virtual-showroom" />
     </BannerWrapper>
   )
 }

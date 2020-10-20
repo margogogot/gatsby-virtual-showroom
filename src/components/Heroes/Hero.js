@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import styles from './heroes.module.css'
 import { Carousel } from 'react-responsive-carousel'
 
 class Hero extends Component {
@@ -28,22 +27,26 @@ class Hero extends Component {
         sliderChildren = children.map(function(child, i){
           console.log(child)
           return(
-            <div className={`${styles[`heroSlide`]}`} key={i}>
-              <div className={`${styles[`slideImage`]}`}>
+            <div className={'heroSlide'} key={i} style={{
+              'backgroundColor': child.props.bgColor
+            }}>
+              <div className={'slideImage'}>
                 <img src={child.props.bigImage} />
               </div>
-              <div className={`${styles[`slideText`]}`}>
+              <div className={'slideText'}>
                 {child.props.children}
               </div>
             </div>
           )
         })
       }else{
-        sliderChildren = <div className={`${styles[`heroSlide`]}`} key={0}>
-          <div className={`${styles[`slideImage`]}`}>
+        sliderChildren = <div className={'heroSlide'} key={0} style={{
+          'backgroundColor': children.bgColor
+        }}>
+          <div className={'slideImage'}>
             <img src={children.bigImage} />
           </div>
-          <div className={`${styles[`slideText`]}`}>
+          <div className={'slideText'}>
             {children.children}
           </div>
         </div>
@@ -55,7 +58,7 @@ class Hero extends Component {
         </Carousel>
     }
     return (
-      <div id={heroId} className={`${styles[`hero`]}`}>
+      <div id={heroId} className={'hero'}>
         <h2>{label}</h2>
         {sliderChildren}
       </div>
