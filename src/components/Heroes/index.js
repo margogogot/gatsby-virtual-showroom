@@ -45,15 +45,7 @@ class Heroes extends Component {
       )
     })
     heroesList.push(
-      <Link
-          activeClass="active"
-          to='header'
-          spy={true}
-          smooth={true}
-          offset={0}
-          duration={500}
-          key={99}
-      >Virtual Showroom</Link>
+      <a href="#header">Virtual Showroom</a>
     )
     return (
       <div className={`${styles[`heroes`]} ${this.state.tabClass}`}>
