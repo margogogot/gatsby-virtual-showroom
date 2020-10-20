@@ -45,7 +45,7 @@ class Heroes extends Component {
       )
     })
     heroesList.push(
-      <a href="#header">Virtual Showroom</a>
+      <a href="#header" target="_PARENT">Virtual Showroom</a>
     )
     return (
       <div className={`${styles[`heroes`]} ${this.state.tabClass}`}>
