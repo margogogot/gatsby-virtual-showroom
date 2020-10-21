@@ -19,7 +19,7 @@ const WebvrShowroom = () => {
 const BannerWrapper = styled.section`
   iframe {
     width: 100vw;
-    height: calc(100vh - 80px);
+    height: 100vh;
     border: none;
     margin: 0px;
     display: block;

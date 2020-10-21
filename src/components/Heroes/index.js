@@ -37,7 +37,7 @@ class Heroes extends Component {
             to={heroId}
             spy={true}
             smooth={true}
-            offset={-80}
+            offset={0}
             duration={500}
             key={i}
         >{label}</Link>
@@ -49,7 +49,7 @@ class Heroes extends Component {
           to={'virtual-showroom'}
           spy={true}
           smooth={true}
-          offset={-80}
+          offset={0}
           duration={500}
           key={99}
       >Virtual Showroom</Link>
