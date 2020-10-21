@@ -59,7 +59,6 @@ class Hero extends Component {
     }
     return (
       <div id={heroId} className={'hero'}>
-        <h2>{label}</h2>
         {sliderChildren}
       </div>
     )

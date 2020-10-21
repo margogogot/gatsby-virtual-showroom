@@ -39,7 +39,7 @@ export default () => (
         >
           <div bigImage={factorChair1} bgColor='#893b2f'>
             <p>Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility. </p>
-            <h2 className='hide-desktop'>Factor Chair</h2>
+            <h2 className='hero-title'>Factor Chair</h2>
             <div className='heroTextInner'>
               <ul>
                 <li>Tubular stainless steel frames with a durable powdercoat finish</li>
@@ -56,7 +56,7 @@ export default () => (
           </div>
           <div bigImage={factorChair2} bgColor='#505f4a'>
             <p>Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility. </p>
-            <h2 className='hide-desktop'>Factor Chair</h2>
+            <h2 className='hero-title'>Factor Chair</h2>
             <div className='heroTextInner'>
               <ul>
                 <li>Tubular stainless steel frames with a durable powdercoat finish</li>
@@ -73,7 +73,7 @@ export default () => (
           </div>
           <div bigImage={factorChair3} bgColor="#464649">
             <p>Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility. </p>
-            <h2 className='hide-desktop'>Factor Chair</h2>
+            <h2 className='hero-title'>Factor Chair</h2>
             <div className='heroTextInner'>
               <ul>
                 <li>Tubular stainless steel frames with a durable powdercoat finish</li>
@@ -96,7 +96,7 @@ export default () => (
         >
           <div bigImage={aptosPedestrian1} bgColor='#898279'>
             <p>Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility. </p>
-            <h2 className='hide-desktop'>Factor Chair</h2>
+            <h2 className='hero-title'>Aptos Pedestrian</h2>
             <div className='heroTextInner'>
               <ul>
                 <li>Tubular stainless steel frames with a durable powdercoat finish</li>
@@ -113,7 +113,7 @@ export default () => (
           </div>
           <div bigImage={aptosPedestrian2} bgColor='#669999'>
             <p>Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility. </p>
-            <h2 className='hide-desktop'>Factor Chair</h2>
+            <h2 className='hero-title'>Aptos Pedestrian</h2>
             <div className='heroTextInner'>
               <ul>
                 <li>Tubular stainless steel frames with a durable powdercoat finish</li>
