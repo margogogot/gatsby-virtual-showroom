@@ -15,12 +15,13 @@ class Hero extends Component {
     }
   }
 
+
+
   render() {
     const {
       props: { content, label, heroId, bigImage, children },
-      state: { activeTab },
+      state: {  },
     } = this
-
     let sliderChildren = []
     if(children){
       if(children.length >1){

@@ -37,7 +37,7 @@ export default () => (
         bigImage={heroImage1}
         heroId="factor-chair"
         >
-          <div bigImage={factorChair1} bgColor='#893b2f'>
+          <div bigImage={factorChair1} bgColor='#8c4131'>
             <p>Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility. </p>
             <h2 className='hero-title'>Factor Chair</h2>
             <div className='heroTextInner'>
@@ -54,7 +54,7 @@ export default () => (
             </div>
             <p><a href="#">MORE INFO</a></p>
           </div>
-          <div bigImage={factorChair2} bgColor='#505f4a'>
+          <div bigImage={factorChair2} bgColor='#434a3e'>
             <p>Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility. </p>
             <h2 className='hero-title'>Factor Chair</h2>
             <div className='heroTextInner'>
@@ -94,7 +94,7 @@ export default () => (
         bigImage={aptosPedestrian1}
         heroId="aptos-pedestrian"
         >
-          <div bigImage={aptosPedestrian1} bgColor='#898279'>
+          <div bigImage={aptosPedestrian1} bgColor='#918f8a'>
             <p>Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility. </p>
             <h2 className='hero-title'>Aptos Pedestrian</h2>
             <div className='heroTextInner'>

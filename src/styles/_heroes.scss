@@ -6,7 +6,6 @@
   background-color: #E9E8E7;
 }
 .heroes h1,h2,h3,h4,h5,h6{
-  color: #ffffff;
   text-transform: uppercase;
 }
 .heroesList {
@@ -36,6 +35,7 @@
   position: relative;
   text-indent: 10px;
   font-size: 1rem;
+  transition: color .5s ease;
 }
 .heroesList .heroesListInner a:before{
   content: '';
@@ -48,6 +48,7 @@
   position: absolute;
   left: 0px;
   top: 0px;
+  transition: border-color .5s ease;
 }
 .heroesList .heroesListInner a.active{
   color: #E11734;
@@ -84,6 +85,7 @@
   background-image: url('./img/background-shapes-01.svg');
   background-position: right bottom;
   background-size: cover;
+  transition: background-color .5s ease;
 }
 .slideText{
   position: absolute;
@@ -101,9 +103,29 @@
   border-top: solid 5px #444444;
   background: rgb(2,0,36);
   background: linear-gradient(180deg, rgba(2,0,36,0.07886904761904767) 0%, rgba(255,255,255,0) 75%, rgba(255,255,255,0) 100%);
+  transition: color .5s ease;
 }
 .slideText a{
   color: #ffffff;
+  transition: color .5s ease;
+}
+.heroes:not(.visible){
+  .heroSlide{
+    background-color: #e9e8e7 !important;
+  }
+  .heroesList .heroesListInner a{
+    color: #808080;
+  }
+  .heroesList .heroesListInner a:before{
+    border: solid 1px #808080;
+  }
+  .slideText {
+    color: #808080;
+    text-shadow: none;
+  }
+  .slideText a {
+    color: #808080;
+  }
 }
 .slideImage{
   position: absolute;
