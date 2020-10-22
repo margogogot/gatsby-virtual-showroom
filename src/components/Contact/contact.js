@@ -8,20 +8,31 @@ const Contact = ({ title, subtitle, id }) => {
       <div className="content-container">
         <h2>{title}</h2>
         <p>{subtitle}</p>
-        <form name="contact" netlify="true">
+        <form name="contact"
+        netlify="true"
+        action="#thanks"
+        data-netlify-honeypot="website">
+          <input type="hidden" name="website" />
           <div className="input-area">
             <input
               type="text"
-              name="name"
-              aria-label="Name"
+              name="firstName"
+              aria-label="First Name"
               required
               autoComplete="off"
+              placeholder="FIRST NAME"
             />
-            <label className="label-name" htmlFor="name">
-              <span className="content-name">Name</span>
-            </label>
           </div>
-
+          <div className="input-area">
+            <input
+              type="text"
+              name="lastName"
+              aria-label="Last Name"
+              required
+              autoComplete="off"
+              placeholder="LAST NAME"
+            />
+          </div>
           <div className="input-area">
             <input
               type="email"
@@ -29,24 +40,20 @@ const Contact = ({ title, subtitle, id }) => {
               aria-label="Email"
               required
               autoComplete="off"
+              placeholder="EMAIL"
             />
-            <label className="label-name" htmlFor="email">
-              <span className="content-name">Email</span>
-            </label>
           </div>
 
           <div className="input-area">
             <textarea
               type="text"
-              name="message"
+              name="comments"
               rows="5"
               required
               autoComplete="off"
               aria-label="Message"
+              placeholder="MESSAGE"
             />
-            <label className="label-name" htmlFor="message">
-              <span className="content-name">Message</span>
-            </label>
           </div>
 
           <div className="input-area button-area">
@@ -60,8 +67,8 @@ const Contact = ({ title, subtitle, id }) => {
 
 const ContactWrapper = styled.section`
   padding: 100px 30px;
-  background: #c8102e;
-  color: #ffffff;
+  background: #f2f2f2;
+  color: #666666;
 
   .content-container {
     width: 100%;
@@ -69,7 +76,7 @@ const ContactWrapper = styled.section`
 
     h2 {
       text-align: left;
-      color: #ffffff;
+      color: #666666;
 
       @media (min-width: 768px) {
         text-align: center;
@@ -101,19 +108,18 @@ const ContactWrapper = styled.section`
       textarea {
         height: 100%;
         font-size: 1rem;
-        letter-spacing: 0.25rem;
-        padding: 20px;
+        letter-spacing: 0.05rem;
+        padding: 0px;
         display: block;
         width: 100% !important;
         border: none;
-        background-color: #0b132e;
-        color: #fff;
-        text-transform: uppercase;
+        background-color: #f2f2f2;
+        color: #666666;
         position: relative;
         box-sizing: border-box;
         outline: none;
-
-        &:focus,
+        border-bottom: solid 1px #666666;
+        /* &:focus,
         &:valid {
           + .label-name {
             .content-name {
@@ -125,7 +131,7 @@ const ContactWrapper = styled.section`
               transform: translateX(0%);
             }
           }
-        }
+        } */
       }
 
       label {
@@ -136,7 +142,7 @@ const ContactWrapper = styled.section`
         height: 100%;
         pointer-events: none;
 
-        &::after {
+        /* &::after {
           content: "";
           position: absolute;
           left: 0px;
@@ -146,7 +152,7 @@ const ContactWrapper = styled.section`
           width: 100%;
           transform: translateX(-100%);
           transition: transform 0.3s ease;
-        }
+        } */
       }
       button {
         color: #c8102e;
@@ -162,7 +168,7 @@ const ContactWrapper = styled.section`
       }
       .content-name {
         position: absolute;
-        top: 10px;
+        top: 0px;
         left: 20px;
         transition: all 0.3s ease;
         text-transform: uppercase;
