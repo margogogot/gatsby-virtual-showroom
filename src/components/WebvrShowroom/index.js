@@ -69,11 +69,13 @@ const BannerWrapper = styled.section`
     left: -100vw;
   }
   .hp-overlay h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     width: 50%;
-    padding: 10%;
+    padding: 10% 0 0;
+    margin: 0 auto;
+    text-align: center;
   }
   .fs-logo {
     width: 3rem;
@@ -125,6 +127,7 @@ const BannerWrapper = styled.section`
       text-transform: uppercase;
       width: 50%;
       padding: 20% 20% 2rem;
+      margin: 0;
     }
   }
 `
