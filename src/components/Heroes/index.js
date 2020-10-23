@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import Hero from './Hero'
 import { Link, animateScroll as scroll } from 'react-scroll'
-import VisibilitySensor from 'react-visibility-sensor'
+
 
 class Heroes extends Component {
   static propTypes = {
@@ -18,12 +18,6 @@ class Heroes extends Component {
     }
   }
 
-  onChange = (isVisible) => {
-    this.setState({
-      visible: isVisible
-    })
-  }
-
   onClickHeroItem = hero => {
     this.setState({ activeHero: hero })
   }
@@ -32,7 +26,7 @@ class Heroes extends Component {
     const {
       onClickHeroItem,
       props: { children },
-      state: { activeHero, visible },
+      state: { activeHero },
     } = this
     console.log(children)
     let heroesList = children.map((child, i) => {
@@ -61,13 +55,9 @@ class Heroes extends Component {
           key={99}
       >Virtual Showroom</Link>
     )
-    let visibleClass = ''
-    if(visible){
-      visibleClass = ' visible'
-    }
     return (
-      <VisibilitySensor onChange={this.onChange} partialVisibility={true} offset={{top:500}} minTopValue={500}>
-      <div className={'heroes'+visibleClass}>
+
+      <div className={'heroes'}>
         <div className={'heroesList'}>
         <div className={'heroesListInner'}>
         {heroesList}
@@ -76,7 +66,6 @@ class Heroes extends Component {
         <div className={'heroesContent'}>
         {children.map((child, i) => {
           const { label, heroId, bigImage, bgColor, children } = child.props
-
           return (
             <Hero
               heroId={heroId}
@@ -90,7 +79,6 @@ class Heroes extends Component {
         })}
         </div>
       </div>
-      </VisibilitySensor>
     )
   }
 }

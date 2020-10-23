@@ -35,7 +35,8 @@
   position: relative;
   text-indent: 10px;
   font-size: 1rem;
-  transition: color .5s ease;
+  transition: opacity .5s ease;
+  opacity: 0.6;
 }
 .heroesList .heroesListInner a:before{
   content: '';
@@ -48,14 +49,14 @@
   position: absolute;
   left: 0px;
   top: 0px;
-  transition: border-color .5s ease;
+  transition: opacity .5s ease;
+  opacity: 0.6;
 }
 .heroesList .heroesListInner a.active{
-  color: #E11734;
+  opacity: 1;
 }
 .heroesList .heroesListInner a.active:before{
-  background: #E11734;
-  border-color: #E11734;
+  opacity: 1;
 }
 .heroesContent {
   top:0px;
@@ -100,16 +101,32 @@
   padding: 0px 10px 10px;
   font-size: 1rem;
   text-shadow: 1px 1px #666666;
+  transition: opacity .5s ease;
+  opacity: 1;
+}
+.slideText *:not(.hero-title){
+  transition: opacity .5s ease;
+  opacity: 1;
+}
+.slideText:before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
   border-top: solid 5px #444444;
   background: rgb(2,0,36);
   background: linear-gradient(180deg, rgba(2,0,36,0.07886904761904767) 0%, rgba(255,255,255,0) 75%, rgba(255,255,255,0) 100%);
-  transition: color .5s ease;
+  transition: opacity .5s ease;
+  opacity: 1;
 }
 .slideText a{
   color: #ffffff;
   transition: color .5s ease;
 }
-.heroes:not(.visible){
+.hero:not(.visible){
   .heroSlide{
     background-color: #e9e8e7 !important;
   }
@@ -119,9 +136,9 @@
   .heroesList .heroesListInner a:before{
     border: solid 1px #808080;
   }
-  .slideText {
-    color: #808080;
-    text-shadow: none;
+  .slideText:before,
+  .slideText *:not(.hero-title){
+    opacity: 0;
   }
   .slideText a {
     color: #808080;

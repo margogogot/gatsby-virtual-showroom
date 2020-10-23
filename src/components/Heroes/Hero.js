@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { Carousel } from 'react-responsive-carousel'
+import VisibilitySensor from 'react-visibility-sensor'
 
 class Hero extends Component {
   static propTypes = {
@@ -15,14 +16,22 @@ class Hero extends Component {
     }
   }
 
-
+  onChange = (isVisible) => {
+    this.setState({
+      visible: isVisible
+    })
+  }
 
   render() {
     const {
       props: { content, label, heroId, bigImage, children },
-      state: {  },
+      state: { visible },
     } = this
     let sliderChildren = []
+    let visibleClass = ''
+    if(visible){
+      visibleClass = ' visible'
+    }
     if(children){
       if(children.length >1){
         sliderChildren = children.map(function(child, i){
@@ -59,9 +68,11 @@ class Hero extends Component {
         </Carousel>
     }
     return (
-      <div id={heroId} className={'hero'}>
+      <VisibilitySensor onChange={this.onChange} partialVisibility={true} offset={{top:500}} minTopValue={500}>
+      <div id={heroId} className={'hero'+visibleClass}>
         {sliderChildren}
       </div>
+      </VisibilitySensor>
     )
   }
 }
