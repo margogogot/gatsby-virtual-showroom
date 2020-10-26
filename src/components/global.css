@@ -53,12 +53,19 @@
     url("/fonts/HelveticaNeueLTStd-BdCn.woff") format("woff");
 }
 
+@font-face {
+font-family: 'Helvetica Neue Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue Medium'), url('/fonts/helveticaneue-mediumext-webfont.woff') format('woff');
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue LT Std 77 Bold Condensed";
+  font-family: "Helvetica Neue Medium";
   letter-spacing: 0.15rem;
 }

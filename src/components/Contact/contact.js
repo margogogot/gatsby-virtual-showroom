@@ -67,8 +67,8 @@ const Contact = ({ title, subtitle, id }) => {
 
 const ContactWrapper = styled.section`
   padding: 100px 30px;
-  background: #f2f2f2;
-  color: #666666;
+  background: #ffffff;
+  color: #999999;
 
   .content-container {
     width: 100%;
@@ -76,7 +76,7 @@ const ContactWrapper = styled.section`
 
     h2 {
       text-align: left;
-      color: #666666;
+      color: #999999;
 
       @media (min-width: 768px) {
         text-align: center;
@@ -113,12 +113,12 @@ const ContactWrapper = styled.section`
         display: block;
         width: 100% !important;
         border: none;
-        background-color: #f2f2f2;
-        color: #666666;
+        background-color: #ffffff;
+        color: #999999;
         position: relative;
         box-sizing: border-box;
         outline: none;
-        border-bottom: solid 1px #666666;
+        border-bottom: solid 1px #999999;
         /* &:focus,
         &:valid {
           + .label-name {
@@ -155,12 +155,12 @@ const ContactWrapper = styled.section`
         } */
       }
       button {
-        color: #c8102e;
-        background: #ffffff;
+        color: #ffffff;
+        background: #999999;
       }
       button:hover {
-        color: #c8102e;
-        background: #ffffff;
+        color: #ffffff;
+        background: #999999;
         animation: none;
       }
       button:hover:before{

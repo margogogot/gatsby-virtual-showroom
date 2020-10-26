@@ -47,7 +47,7 @@ class WebvrShowroom extends Component {
           </div>
         </div>
       </div>
-        <iframe src="https://virtual-showroom.forms-surfaces.net/iframed_viewset_v1b5i02.html" id="virtual-showroom" />
+        <iframe src="https://virtual-showroom.forms-surfaces.net/iframed_viewset_v1b5i02.html" id="virtual-showroom" title="Virtual Showroom" />
       </BannerWrapper>
     )
   }
