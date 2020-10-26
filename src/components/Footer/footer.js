@@ -140,10 +140,10 @@ const FooterWrapper = styled.footer`
   }
   .footer-links{
     display: flex;
+    flex-wrap: wrap;
     padding: 0;
     margin: 0 auto;
     width: 100%;
-    flex-basis: 100%;
     max-width: 950px;
     color: #999;
     font-size: .8rem;
@@ -176,14 +176,15 @@ const FooterWrapper = styled.footer`
       line-height: 1.1rem;
     }
     >div {
-      flex-basis: 100%;
-      width: 100%;
+      width: 50%;
       padding-bottom: 1rem;
       margin-top: 1rem;
       padding-top: 0;
       margin-bottom: 1rem;
       padding-right: 10px;
       padding-left: 10px;
+    }
+    >div:nth-child(even){
       border-right: solid 1px #e5e5e5;
     }
     >div:first-child{
@@ -264,10 +265,18 @@ const FooterWrapper = styled.footer`
   }
   @media only screen and (min-width: 600px) {
     .footer-links{
-      display: flex;
-      flex-basis: 20%;
       >div {
-        flex-basis: 20%;
+        width: 50%;
+      }
+    }
+  }
+  @media only screen and (min-width: 800px) {
+    .footer-links{
+      >div {
+        width: 20%;
+      }
+      >div:nth-child(odd){
+        border-right: solid 1px #e5e5e5;
       }
     }
   }
