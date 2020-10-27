@@ -7,13 +7,15 @@
   "scripts": {
     "prebuild": "npm run clean && npm run zip",
     "build": "gatsby build",
+    "build-dev": "gatsby build",
     "clean": "rm -rf functions-build && mkdir functions-build",
     "zip": "cd functions/submission-created && yarn install && zip -r submission-created.zip *",
     "postzip": "mv functions/submission-created/submission-created.zip functions-build",
+    "copy-showroom": "aws s3 cp s3://fs-virtual-showroom ./src/components/WebvrShowroom/src/ --recursive",
     "develop": "gatsby develop -H 0.0.0.0",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
-    "serve": "gatsby serve",
+    "serve": "gatsby serve -H 0.0.0.0 -p 8000",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
