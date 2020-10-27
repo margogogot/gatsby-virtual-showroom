@@ -1,0 +1,176 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 101415,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 22411,
+      "max": [
+        0.277645140886307,
+        0.295588254928589,
+        0.836406588554382
+      ],
+      "min": [
+        -0.277644425630569,
+        -0.295074343681335,
+        -9.06884670257568e-05
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 22411,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 22411,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 6.2.2",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 405660,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 268932,
+      "byteOffset": 405660,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 268932,
+      "byteOffset": 674592,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 179288,
+      "byteOffset": 943524,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1122812,
+      "uri": "Factor_Table_Aluminum_Armless_Chairs.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "Factor_Table_Aluminum_Armless_Chairs_baseColor.png"
+    },
+    {
+      "uri": "Factor_Table_Aluminum_Armless_Chairs_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "Factor_Table_Aluminum_Armless_Chairs_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "Factor_Table_Aluminum_Armless_Chairs",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Factor_Table_Aluminum_Armless_Chairs",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "Factor_Table_Aluminum_Armless_Chairs",
+      "rotation": [
+        -0.70710676908493,
+        0.0,
+        0.0,
+        0.70710676908493
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "Factor_Table_Aluminum_Armless_Chairs"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+<svg version="1.1" id="fns_icon_env_show" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
+  <style type="text/css">
+	.st0{fill:#ffffff;}
+	.st1{fill:none;stroke:#aaaaaa;stroke-width:1.504;stroke-miterlimit:10;}
+</style>
+  <g>
+    <circle class="st0" cx="40" cy="40" r="40"/>
+    <g>
+      <g>
+        <g>
+          <polygon class="st1" points="69.64,51.82 10.93,51.82 20.68,28.79 59.88,28.79 				"/>
+        </g>
+        <line class="st1" x1="18.24" y1="34.55" x2="62.33" y2="34.55"/>
+        <line class="st1" x1="15.1" y1="41.96" x2="65.46" y2="41.96"/>
+        <line class="st1" x1="33.75" y1="28.79" x2="30.5" y2="51.82"/>
+        <line class="st1" x1="46.82" y1="28.79" x2="50.07" y2="51.82"/>
+      </g>
+    </g>
+  </g>
+</svg>
