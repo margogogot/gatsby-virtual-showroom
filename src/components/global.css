@@ -54,6 +54,13 @@
 }
 
 @font-face {
+font-family: 'Helvetica 83 Heavy Extended';
+font-style: normal;
+font-weight: normal;
+src: local('/fonts/Helvetica 83 Heavy Extended'), url('/fonts/HelveticaNeue-HeavyExt.woff') format('woff');
+}
+
+@font-face {
 font-family: 'Helvetica Neue Medium';
 font-style: normal;
 font-weight: normal;
@@ -66,6 +73,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue Medium";
+  font-family: "Helvetica 83 Heavy Extended";
   letter-spacing: 0.15rem;
 }

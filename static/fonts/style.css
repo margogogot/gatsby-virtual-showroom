@@ -38,3 +38,10 @@ font-style: normal;
 font-weight: normal;
 src: local('Helvetica Neue LT Std 77 Bold Condensed'), url('HelveticaNeueLTStd-BdCn.woff') format('woff');
 }
+
+@font-face {
+font-family: 'Helvetica 83 Heavy Extended';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica 83 Heavy Extended'), url('HelveticaNeue-HeavyExt.woff') format('woff');
+}

@@ -24,6 +24,7 @@ import factorChair3 from '../images/hero-images/factor-chair-3.png'
 import aptosPedestrian1 from '../images/hero-images/aptos-pedestrian-1.png'
 import aptosPedestrian2 from '../images/hero-images/aptos-pedestrian-2.png'
 import aptosBollard from '../images/hero-images/aptos-bollard-1.png'
+import radiaBollard from '../images/hero-images/aptos-bollard-1.png'
 import { IconContext } from "react-icons"
 import { MdDone, MdClear } from "react-icons/md"
 
@@ -59,7 +60,7 @@ export default () => (
       label="APTOS BOLLARD"
       heroId="aptos-bollard"
       >
-        <div bigImage={aptosBollard} bgColor='#999999'>
+        <div bigImage={aptosBollard} bgColor='#996666'>
           <p>Aptos Bollards unite the best of two worlds with solar-powered and hardwired designs and coordinate beautifully with Aptos Pedestrian Lighting.</p>
           <h2 className='hero-title'>APTOS BOLLARD</h2>
           <div className='heroTextInner'>
@@ -78,7 +79,30 @@ export default () => (
           </div>
           <p><a href="#contact">MORE INFO</a></p>
         </div>
-    </div>
+      </div>
+      <div
+      label="RADIA BOLLARD"
+      heroId="radia-bollard"
+      >
+        <div bigImage={radiaBollard} bgColor='#3F4448'>
+          <p>The Radia Bollard integrates solar technology and performance LEDs in a distinctive cove form that’s equally enticing day and night.</p>
+          <h2 className='hero-title'>RADIA BOLLARD</h2>
+          <div className='heroTextInner'>
+            <ul>
+              <li>Fixture consists of corrosion-resistant cast aluminum, aluminum extrusion, and acrylic lens</li>
+              <li>Durable powdercoat finish</li>
+              <li>36" high x 6.5" diameter</li>
+              <li>Performance LEDs in 3000K warm white and 4000K neutral white with individual mounted optics</li>
+              <li>Asymmetrical light distribution</li>
+              <li>Solar module has high-efficiency monocrystalline cells encapsulated in high-impact UV-resistant polyurethane</li>
+              <li>ETL and C-ETL listed for wet locations</li>
+              <li>High recycled content; highly recyclable</li>
+              <li>Launching in early 2021</li>
+            </ul>
+          </div>
+          <p><a href="#contact">KEEP ME POSTED</a></p>
+        </div>
+      </div>
         <div
         label="Factor Chair"
         bigImage={heroImage1}
