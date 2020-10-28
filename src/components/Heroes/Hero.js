@@ -33,7 +33,7 @@ class Hero extends Component {
       visibleClass = ' visible'
     }
     if(children){
-      if(children.length >1){
+      if(children.length > 1){
         sliderChildren = children.map(function(child, i){
           console.log(child)
           return(
@@ -51,18 +51,20 @@ class Hero extends Component {
         })
       }else{
         sliderChildren = <div className={'heroSlide'} key={0} style={{
-          'backgroundColor': children.bgColor
+          'backgroundColor': children.props.bgColor
         }}>
           <div className={'slideImage'}>
-            <img src={children.bigImage} />
+            <img src={children.props.bigImage} />
           </div>
           <div className={'slideText'}>
-            {children.children}
+            <div className={'slideTextInner'}>
+            {children.props.children}
+            </div>
           </div>
         </div>
       }
     }
-    if(sliderChildren.length > 1){
+    if(sliderChildren.length > 0){
       sliderChildren = <Carousel showArrows={false} autoPlay={false} infiniteLoop={true} showThumbs={false} showStatus={false} dynamicHeight={false}>
           {sliderChildren}
         </Carousel>
