@@ -59,6 +59,24 @@ export default () => (
             </div>
             <p><a href="#contact">KEEP ME POSTED</a></p>
           </div>
+          <div bigImage={aptosPedestrian2} bgColor='#669999'>
+            <p>Aptos Pedestrian Lighting blends graceful lines, performance LEDs, and the visual lightness and distinctive design of the coordinating Aptos Bollard.</p>
+            <h2 className='hero-title'>APTOS PEDESTRIAN LIGHTING</h2>
+            <div className='heroTextInner'>
+              <ul>
+                <li>Fixtures consist of one or two luminaires on a 4" dia. x 12’ high pole</li>
+                <li>Luminaire head is cast aluminum with an acrylic lens</li>
+                <li>Extruded Aluminum powdercoated pole</li>
+                <li>Cast aluminum powdercoated base</li>
+                <li>Performance Cree® LEDs in 3000K warm white and 4000K neutral white with individual mounted optics</li>
+                <li>Dimmable</li>
+                <li>High recycled content; highly recyclable</li>
+                <li>ETL and C-ETL listed for wet locations</li>
+                <li>Launching in December 2020</li>
+              </ul>
+            </div>
+            <p><a href="#contact">KEEP ME POSTED</a></p>
+          </div>
       </div>
       <div
       label="APTOS BOLLARD"
@@ -81,7 +99,7 @@ export default () => (
               <li>High recycled content; highly recyclable</li>
             </ul>
           </div>
-          <p><a href="#contact">MORE INFO</a></p>
+          <p><a href="https://www.forms-surfaces.com/aptos-bollard" target="_NEW">LEARN MORE</a></p>
         </div>
       </div>
       <div
@@ -127,7 +145,7 @@ export default () => (
               <li>Coordinating 6" diameter Helio Bollards in illuminated, non-illuminated, and medium security core variations also available</li>
             </ul>
           </div>
-          <p><a href="#contact">MORE INFO</a></p>
+          <p><a href="https://www.forms-surfaces.com/helio-bollard" target="_NEW">LEARN MORE</a></p>
         </div>
       </div>
       <div
@@ -173,7 +191,7 @@ export default () => (
               <li>Suitable for interior and exterior applications</li>
             </ul>
           </div>
-          <p><a href="#contact">MORE INFO</a></p>
+          <p><a href="https://www.forms-surfaces.com/factor-table" target="_NEW">LEARN MORE</a></p>
         </div>
       </div>
       <div
@@ -195,7 +213,7 @@ export default () => (
               <li>Suitable for interior and exterior applications</li>
             </ul>
           </div>
-          <p><a href="#contact">MORE INFO</a></p>
+          <p><a href="https://www.forms-surfaces.com/factor-chair" target="_NEW">LEARN MORE</a></p>
         </div>
       </div>
       <div
