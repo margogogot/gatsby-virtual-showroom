@@ -110,6 +110,7 @@
   text-shadow: 1px 1px #666666;
   transition: opacity .5s ease;
   opacity: 1;
+  z-index: 4;
 }
 .slideText .slideTextInner *:not(.hero-title){
   transition: opacity .5s ease;

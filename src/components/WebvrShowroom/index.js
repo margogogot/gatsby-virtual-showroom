@@ -7,7 +7,12 @@ import forwardImg from './img/forward-page.svg'
 import linkedinImg from './img/linkedin.svg'
 import twitterImg from './img/twitter.svg'
 import fsLogoImg from './img/fs-logo-white.svg'
-
+import {
+  EmailShareButton,
+  FacebookShareButton,
+  LinkedinShareButton,
+  TwitterShareButton,
+} from 'react-share'
 class WebvrShowroom extends Component {
   constructor(props) {
     super(props)
@@ -36,10 +41,34 @@ class WebvrShowroom extends Component {
         <div className="hp-enter-block">
           <p>Step inside our 3D showroom to interactively preview upcoming new products</p>
           <div className="hp-enter-buttons">
+            <EmailShareButton
+            url="https://www.forms-surfaces.com"
+            subject="Forms+Surfaces Virtual Showroom"
+            body="Step inside our 3D showroom to interactively preview upcoming new products"
+            target="_NEW"
+            >
             <img src={forwardImg} alt="Forward" />
+            </EmailShareButton>
+            <FacebookShareButton
+            url="https://www.forms-surfaces.com"
+            quote="Step inside our 3D showroom to interactively preview upcoming new products">
             <img src={facebookImg} alt="Facebook" />
+            </FacebookShareButton>
+            <LinkedinShareButton
+            title="Forms+Surfaces Virtual Showroom"
+            url="https://www.forms-surfaces.com"
+            source="https://www.forms-surfaces.com"
+            summary="Step inside our 3D showroom to interactively preview upcoming new products"
+            >
             <img src={linkedinImg} alt="LinkedIn" />
+            </LinkedinShareButton>
+            <TwitterShareButton
+            title="Forms+Surfaces Virtual Showroom"
+            url="https://www.forms-surfaces.com/showroom"
+            related={["@forms_surfaces"]}
+            >
             <img src={twitterImg} alt="Twitter" />
+            </TwitterShareButton>
             <button onClick={this.onEnter} className="hp-enter-button">
               <img src={enterImg} alt="Enter"/>
               ENTER

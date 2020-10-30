@@ -7,7 +7,7 @@ import TextBlock from "../components/TextBlock/textBlock"
 import TextBlockImg from "../components/TextBlockImg/textBlockImg"
 import Button from "../components/Button/button"
 import Contact from "../components/Contact/contact"
-import { Link } from "react-scroll"
+import { Link, animateScroll as scroll } from 'react-scroll'
 
 import heroImage1 from "../images/hero-images/5.2.20_factor_chair_settings_Factor.457_09242020.jpg"
 import heroImage2 from "../images/hero-images/5.2.20_factor_table_studio_Factor.TA1_.408_09242020.jpg"

@@ -58,13 +58,13 @@ class Heroes extends Component {
     return (
 
       <div className={'heroes'}>
-        <div className={'heroesBackground'}/>
         <div className={'heroesList'}>
         <div className={'heroesListInner'}>
         {heroesList}
         </div>
         </div>
         <div className={'heroesContent'}>
+        <div className={'heroesBackground'}/>
         {children.map((child, i) => {
           const { label, heroId, bigImage, bgColor, children } = child.props
           return (
