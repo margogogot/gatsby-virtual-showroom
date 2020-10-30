@@ -24,7 +24,7 @@ class Hero extends Component {
 
   render() {
     const {
-      props: { content, label, heroId, bigImage, children },
+      props: { content, label, heroId, bigImage, children, index },
       state: { visible },
     } = this
     let sliderChildren = []
@@ -32,6 +32,8 @@ class Hero extends Component {
     if(visible){
       visibleClass = ' visible'
     }
+    let backgroundPosition = 'calc(100vh * -'+index+')'
+    console.log(backgroundPosition)
     if(children){
       if(children.length > 1){
         sliderChildren = children.map(function(child, i){
@@ -40,6 +42,9 @@ class Hero extends Component {
             <div className={'heroSlide'} key={i} style={{
               'backgroundColor': child.props.bgColor
             }}>
+              <div className={'heroesBackground'} style={{
+                backgroundPositionY: backgroundPosition
+              }}/>
               <div className={'slideImage'}>
                 <img src={child.props.bigImage} />
               </div>
@@ -53,6 +58,9 @@ class Hero extends Component {
         sliderChildren = <div className={'heroSlide'} key={0} style={{
           'backgroundColor': children.props.bgColor
         }}>
+          <div className={'heroesBackground'} style={{
+            backgroundPositionY: backgroundPosition
+          }}/>
           <div className={'slideImage'}>
             <img src={children.props.bigImage} />
           </div>
@@ -69,6 +77,7 @@ class Hero extends Component {
           {sliderChildren}
         </Carousel>
     }
+
     return (
       <VisibilitySensor onChange={this.onChange} partialVisibility={true} offset={{top:500}} minTopValue={500}>
       <div id={heroId} className={'hero'+visibleClass}>

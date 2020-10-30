@@ -64,7 +64,6 @@ class Heroes extends Component {
         </div>
         </div>
         <div className={'heroesContent'}>
-        <div className={'heroesBackground'}/>
         {children.map((child, i) => {
           const { label, heroId, bigImage, bgColor, children } = child.props
           return (
@@ -74,6 +73,7 @@ class Heroes extends Component {
               label={label}
               bigImage={bigImage}
               children={children}
+              index={i}
               key={i}
             />
           )
