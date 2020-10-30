@@ -5,16 +5,9 @@ import Heroes from '../components/Heroes/'
 import Banner from "../components/Banner/banner"
 import TextBlock from "../components/TextBlock/textBlock"
 import TextBlockImg from "../components/TextBlockImg/textBlockImg"
-import Perk from "../components/Perk/perk"
 import Button from "../components/Button/button"
-import Packages from "../components/Packages/packages"
-import Package from "../components/Package/package"
 import Contact from "../components/Contact/contact"
 import { Link } from "react-scroll"
-
-import perk1Img from "../images/speed.svg"
-import perk2Img from "../images/piggy-bank.svg"
-import perk3Img from "../images/friendly-staff.svg"
 
 import heroImage1 from "../images/hero-images/5.2.20_factor_chair_settings_Factor.457_09242020.jpg"
 import heroImage2 from "../images/hero-images/5.2.20_factor_table_studio_Factor.TA1_.408_09242020.jpg"
@@ -29,8 +22,6 @@ import helioBollard from '../images/hero-images/helio-bollard-1.png'
 import tonyoReceptacle from '../images/hero-images/tonyo-receptacle-1.png'
 import factorTable from '../images/hero-images/factor-table-1.png'
 import liniaChair from '../images/hero-images/linia-cafe-1.png'
-import { IconContext } from "react-icons"
-import { MdDone, MdClear } from "react-icons/md"
 
 export default () => (
   <>
@@ -240,8 +231,8 @@ export default () => (
       </Heroes>
       <Contact
         id="contact"
-        title="Contact Us"
-        subtitle=""
+        title="Interested in our latest and upcoming outdoor products?"
+        subtitle="Connect with a local Forms+Surfaces contact"
       />
     </Layout>
   </>

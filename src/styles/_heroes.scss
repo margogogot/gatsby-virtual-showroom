@@ -8,6 +8,17 @@
 .heroes h1,h2,h3,h4,h5,h6{
   text-transform: uppercase;
 }
+.heroesBackground{
+  position: absolute;
+  top:0px;
+  right: 0px;
+  display: block;
+  background-image: url('./img/background-shapes-3-01.svg');
+  background-size: cover;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
 .heroesList {
   position: sticky;
   top: 0;
@@ -83,9 +94,6 @@
   width: 100vw;
   height: 100vh;
   position: relative;
-  background-image: url('./img/background-shapes-01.svg');
-  background-position: right bottom;
-  background-size: cover;
   transition: background-color .5s ease;
 }
 .slideText{

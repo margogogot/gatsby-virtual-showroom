@@ -69,7 +69,7 @@ const BannerWrapper = styled.section`
     left: -100vw;
   }
   .hp-overlay h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     width: 50%;

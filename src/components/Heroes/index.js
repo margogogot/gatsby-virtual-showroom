@@ -58,6 +58,7 @@ class Heroes extends Component {
     return (
 
       <div className={'heroes'}>
+        <div className={'heroesBackground'}/>
         <div className={'heroesList'}>
         <div className={'heroesListInner'}>
         {heroesList}

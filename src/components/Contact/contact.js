@@ -6,60 +6,140 @@ const Contact = ({ title, subtitle, id }) => {
   return (
     <ContactWrapper id="contact">
       <div className="content-container">
-        <h2>{title}</h2>
+        <h3>{title}</h3>
         <p>{subtitle}</p>
-        <form name="contact"
-        netlify="true"
-        action="#thanks"
-        data-netlify-honeypot="website">
-          <input type="hidden" name="website" />
-          <div className="input-area">
-            <input
-              type="text"
-              name="firstName"
-              aria-label="First Name"
-              required
-              autoComplete="off"
-              placeholder="FIRST NAME"
-            />
+        <div className="contact-row">
+          <div className="contact-column">
+            <p>Our Territory Managers are ready to assist you with any questions or projects.  Just fill out the form to right and we will get back to you ASAP.</p>
+            <p>-OR- connect directly with your local Forms+Surfaces contact:</p>
+            <h3>John Patterson</h3>
+            <p>Territory Manager  |  Eastern Pennsylvania  |  Delaware  |  New Jersey </p>
+            <p>T 		+800.451.0410</p>
+            <p>M 	+973.934.8732</p>
+            <p>F 		+412.385.4715</p>
+            <p>john.patterson@forms-surfaces.com</p>
+            <p>www.forms-surfaces.com</p>
           </div>
-          <div className="input-area">
-            <input
-              type="text"
-              name="lastName"
-              aria-label="Last Name"
-              required
-              autoComplete="off"
-              placeholder="LAST NAME"
-            />
-          </div>
-          <div className="input-area">
-            <input
-              type="email"
-              name="email"
-              aria-label="Email"
-              required
-              autoComplete="off"
-              placeholder="EMAIL"
-            />
-          </div>
+          <div className="contact-column">
+            <p>Provide us with your information and details and we will get back to you.</p>
+            <form name="contact"
+            netlify="true"
+            action="#thanks"
+            data-netlify-honeypot="website">
+              <input type="hidden" name="website" />
+              <div className="form-row">
+                <div className="input-area">
+                  <input
+                    type="text"
+                    name="firstName"
+                    aria-label="First Name"
+                    required
+                    autoComplete="off"
+                    placeholder="First Name"
+                  />
+                </div>
 
-          <div className="input-area">
-            <textarea
-              type="text"
-              name="comments"
-              rows="5"
-              required
-              autoComplete="off"
-              aria-label="Message"
-              placeholder="MESSAGE"
-            />
-          </div>
+                <div className="column">
+                  <div className="input-area">
+                    <input
+                      type="text"
+                      name="lastName"
+                      aria-label="Last Name"
+                      required
+                      autoComplete="off"
+                      placeholder="Last Name"
+                    />
+                  </div>
+                </div>
 
-          <div className="input-area button-area">
-            <Button label="Send Contact Form" cta="Send" type="submit" />
+                <div className="input-area">
+                  <input
+                    type="text"
+                    name="firmName"
+                    aria-label="Firm Name"
+                    required
+                    autoComplete="off"
+                    placeholder="Firm Name"
+                  />
+                </div>
+
+                <div className="input-area">
+                  <input
+                    type="text"
+                    name="title"
+                    aria-label="Title"
+                    required
+                    autoComplete="off"
+                    placeholder="Title"
+                  />
+                </div>
+
+                <div className="input-area">
+                  <input
+                    type="email"
+                    name="email"
+                    aria-label="Email"
+                    required
+                    autoComplete="off"
+                    placeholder="Email"
+                  />
+                </div>
+
+                <div className="input-area">
+                  <input
+                    type="tel"
+                    name="phone"
+                    aria-label="Phone"
+                    required
+                    autoComplete="off"
+                    placeholder="Phone"
+                  />
+                </div>
+
+                <div className="input-area">
+                  <input
+                    type="text"
+                    name="country"
+                    aria-label="Country"
+                    required
+                    autoComplete="off"
+                    placeholder="Country"
+                  />
+                </div>
+
+                <div className="input-area">
+                  <input
+                    type="text"
+                    name="zipcode"
+                    aria-label="Zip / Postal Code"
+                    required
+                    autoComplete="off"
+                    placeholder="Zip / Postal Code"
+                  />
+                </div>
+
+                <div className="input-area wide">
+                  <textarea
+                    type="text"
+                    name="comments"
+                    rows="5"
+                    required
+                    autoComplete="off"
+                    aria-label="Message"
+                    placeholder="Tell us more:"
+                  />
+                </div>
+
+              </div>
+
+
+
+              <div className="input-area button-area">
+                <Button label="Submit Information" cta="Submit Information" type="submit" />
+              </div>
+            </form>
           </div>
-        </form>
+        </div>
       </div>
     </ContactWrapper>
   )
@@ -74,22 +154,52 @@ const ContactWrapper = styled.section`
     width: 100%;
     margin: 0 auto;
 
-    h2 {
+    h3 {
       text-align: left;
       color: #999999;
-
+      text-transform: none;
+      letter-spacing: normal;
+      font-weight: 200;
+      margin-bottom: 0px;
+      font-family: "Arial",sans-serif;
       @media (min-width: 768px) {
-        text-align: center;
+        text-align: left;
       }
     }
     p {
+      font-size: .98rem;
+    }
+    >p {
+      margin-top: .5rem;
       margin-bottom: 2rem;
-
+      padding-bottom: 1rem;
+      border-bottom: solid 3px #999999;
       @media (min-width: 768px) {
-        text-align: center;
+        text-align: left;
       }
     }
-
+    .form-row {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      >div {
+        width: calc(50% - 30px);
+      }
+      >div.wide{
+        width: 100%;
+      }
+    }
+    .contact-row {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      >div {
+        width: 100%;
+        @media(min-width: 1024px){
+          width: calc(50% - 30px);
+        }
+      }
+    }
     form {
       position: relative;
       overflow: hidden;
@@ -99,7 +209,7 @@ const ContactWrapper = styled.section`
         position: relative;
 
         &.button-area {
-          text-align: center;
+          text-align: left;
           margin-bottom: 0;
         }
       }
@@ -155,8 +265,8 @@ const ContactWrapper = styled.section`
         } */
       }
       button {
-        color: #ffffff;
-        background: #999999;
+        color: #999999;
+        background: #ffffff;
       }
       button:hover {
         color: #ffffff;
