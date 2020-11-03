@@ -139,6 +139,9 @@
   position: absolute;
   top:0px;
   left:0px;
+  padding: 50px 10px 10px 10px;
+  max-height: 90vh;
+  overflow-y: auto;
 }
 .slideText a{
   color: #ffffff;
@@ -177,14 +180,38 @@
 .hero-title{
   font-size: 2rem;
 }
+
+a.hero-home{
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  z-index: 10;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  text-indent: -9999px;
+  background: url('img/home-01.svg');
+  background-size: cover;
+}
+
 @media only screen and (min-width: 600px) {
   .slideText{
     top: 30px;
     left: 30px;
     width: calc(100vw - 80px);
   }
+  a.hero-home{
+    top: 60px;
+    right: 70px;
+  }
 }
 @media only screen and (min-width: 800px) {
+  a.hero-home{
+    display: none;
+  }
   .slideImage{
     width: 100vw;
     max-width: 150vh;
@@ -197,9 +224,11 @@
     padding: 30px;
     right: 10vw;
     top: 30px;
+    max-height: 100%;
   }
   .slideTextInner{
     padding: 30px;
+    overflow-y: visible;
   }
   .hero {
     margin-left: -30vw;

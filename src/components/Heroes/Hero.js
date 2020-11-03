@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { Carousel } from 'react-responsive-carousel'
 import VisibilitySensor from 'react-visibility-sensor'
+import { Link, animateScroll as scroll } from 'react-scroll'
 
 class Hero extends Component {
   static propTypes = {
@@ -49,7 +50,9 @@ class Hero extends Component {
                 <img src={child.props.bigImage} />
               </div>
               <div className={'slideText'}>
+                <div className={'slideTextInner'}>
                 {child.props.children}
+                </div>
               </div>
             </div>
           )
@@ -81,6 +84,14 @@ class Hero extends Component {
     return (
       <VisibilitySensor onChange={this.onChange} partialVisibility={true} offset={{top:500}} minTopValue={500}>
       <div id={heroId} className={'hero'+visibleClass}>
+        <Link
+            to={'virtual-showroom'}
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+            className="hero-home"
+        >Home</Link>
         {sliderChildren}
       </div>
       </VisibilitySensor>
