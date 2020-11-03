@@ -12,13 +12,15 @@ const Contact = ({ title, subtitle, id }) => {
           <div className="contact-column">
             <p>Our Territory Managers are ready to assist you with any questions or projects.  Just fill out the form to right and we will get back to you ASAP.</p>
             <p>-OR- connect directly with your local Forms+Surfaces contact:</p>
-            <h3>John Patterson</h3>
-            <p>Territory Manager  |  Eastern Pennsylvania  |  Delaware  |  New Jersey </p>
-            <p>T 		+800.451.0410</p>
-            <p>M 	+973.934.8732</p>
-            <p>F 		+412.385.4715</p>
-            <p>john.patterson@forms-surfaces.com</p>
-            <p>www.forms-surfaces.com</p>
+            <h3>Forms+Surfaces</h3>
+            <p>US Headquarters</p>
+            <p>
+              <a id="contact-phone" href="tel:+1 800 4510410">T +1 800 4510410</a><br/>
+              <a id="contact-mobile" href="tel:+1 412 7819003">M +1 412 7819003</a><br/>
+              <a id="contact-fax" href="tel:+1 412 7817840">F +1 412 7817840</a><br/>
+              <a id="contact-email" href="mailto:sales@forms-surfaces.com">sales@forms-surfaces.com</a><br/>
+              <a id="contact-website" href="https://www.forms-surfaces.com/?utm_source=microsite&amp;utm_content=112019-fs-logo&amp;utm_campaign=us-elevator-interiors&amp;azure=b" target="_blank">www.forms-surfaces.com</a>
+            </p>
           </div>
           <div className="contact-column">
             <p>Provide us with your information and details and we will get back to you.</p>
@@ -159,7 +161,7 @@ const ContactWrapper = styled.section`
       color: #999999;
       text-transform: none;
       letter-spacing: normal;
-      font-weight: 200;
+      font-weight: 600;
       margin-bottom: 0px;
       font-family: "Arial",sans-serif;
       @media (min-width: 768px) {
@@ -168,6 +170,10 @@ const ContactWrapper = styled.section`
     }
     p {
       font-size: .98rem;
+    }
+    a {
+      color: #999999;
+      text-decoration: none;
     }
     >p {
       margin-top: .5rem;
