@@ -14,14 +14,14 @@ import heroImage2 from "../images/hero-images/5.2.20_factor_table_studio_Factor.
 import factorChair from '../images/hero-images/factor-chair.png'
 import factorChair2 from '../images/hero-images/factor-chair-2.png'
 import factorChair3 from '../images/hero-images/factor-chair-3.png'
-import aptosPedestrian1 from '../images/hero-images/Aptos_Pedestrian_2560.png'
+import aptosPedestrian1 from '../images/hero-images/aptos-pedestrian.png'
 import aptosPedestrian2 from '../images/hero-images/aptos-pedestrian-2.png'
-import aptosBollard from '../images/hero-images/aptos-bollard-2.png'
-import radiaBollard from '../images/hero-images/radia-bollard-5.png'
-import helioBollard from '../images/hero-images/helio-bollard-1.png'
-import tonyoReceptacle from '../images/hero-images/tonyo-receptacle-1.png'
-import factorTable from '../images/hero-images/factor-table-1.png'
-import liniaChair from '../images/hero-images/linia-cafe-1.png'
+import aptosBollard from '../images/hero-images/aptos-bollard.png'
+import radiaBollard from '../images/hero-images/radia-bollard.png'
+import helioBollard from '../images/hero-images/helio-bollard.png'
+import tonyoReceptacle from '../images/hero-images/tonyo-receptacle.png'
+import factorTable from '../images/hero-images/factor-table.png'
+import liniaChair from '../images/hero-images/linia-chair.png'
 
 export default () => (
   <>

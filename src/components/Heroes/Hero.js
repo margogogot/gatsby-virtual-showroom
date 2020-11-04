@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { Carousel } from 'react-responsive-carousel'
 import VisibilitySensor from 'react-visibility-sensor'
 import { Link, animateScroll as scroll } from 'react-scroll'
-
 class Hero extends Component {
   static propTypes = {
     children: PropTypes.instanceOf(Array).isRequired,
@@ -48,7 +47,6 @@ class Hero extends Component {
     if(children){
       if(children.length > 1){
         sliderChildren = children.map(function(child, i){
-          console.log(child)
           return(
             <div className={'heroSlide'} key={i} style={{
               'backgroundColor': child.props.bgColor
@@ -68,6 +66,7 @@ class Hero extends Component {
           )
         })
       }else{
+        console.log(children.props.bigImage)
         sliderChildren = <div className={'heroSlide'} key={0} style={{
           'backgroundColor': children.props.bgColor
         }}>
