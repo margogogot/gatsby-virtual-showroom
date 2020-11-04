@@ -113,6 +113,11 @@
   transition: opacity .5s ease;
   opacity: 1;
   z-index: 4;
+  transition: left 1s ease;
+}
+.hero.hideText>.heroSlide .slideText,
+.hero.hideText .slide.selected .heroSlide .slideText{
+  left: -100vw;
 }
 .slideText .slideTextInner *:not(.hero-title){
   transition: opacity .5s ease;
@@ -197,18 +202,44 @@ a.hero-home{
   background-size: cover;
 }
 
+.text-toggle-button {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  z-index: 10;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  text-indent: -9999px;
+  background: url('img/arrow-left-01.svg');
+  background-size: cover;
+  border: none;
+  outline: none;
+  transition: transform 1s ease;
+}
+.hero.hideText .text-toggle-button{
+  transform: rotate(180deg);
+}
 @media only screen and (min-width: 600px) {
   .slideText{
     top: 30px;
     left: 30px;
     width: calc(100vw - 80px);
   }
+  .text-toggle-button {
+    top: 50px;
+    left: 50px;
+  }
   a.hero-home{
-    top: 60px;
+    top: 50px;
     right: 70px;
   }
 }
 @media only screen and (min-width: 800px) {
+  .text-toggle-button,
   a.hero-home{
     display: none;
   }
@@ -225,6 +256,9 @@ a.hero-home{
     right: 10vw;
     top: 30px;
     max-height: 100%;
+  }
+  .hero.hideText .slideText{
+    left: 55%;
   }
   .slideTextInner{
     padding: 30px;

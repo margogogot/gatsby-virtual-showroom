@@ -7,6 +7,10 @@ import forwardImg from './img/forward-page.svg'
 import linkedinImg from './img/linkedin.svg'
 import twitterImg from './img/twitter.svg'
 import fsLogoImg from './img/fs-logo-white.svg'
+import vaslaHomeRed from './img/vasla-home-red-left.jpg'
+import vaslaHomeGrey from './img/vasla-home-grey-right.jpg'
+import vaslaHomeGrey1 from './img/vasla-home-grey-1-bottom.jpg'
+import vaslaHomeRed1 from './img/vasla-home-red-1-top.jpg'
 import {
   EmailShareButton,
   FacebookShareButton,
@@ -76,6 +80,7 @@ class WebvrShowroom extends Component {
           </div>
         </div>
       </div>
+      <div className={'hp-overlay2'+overlayVisibleClass} />
         <iframe src="/showroom/iframed_viewset_v1b5i02.html" id="virtual-showroom" title="Virtual Showroom" />
       </BannerWrapper>
     )
@@ -90,12 +95,30 @@ const BannerWrapper = styled.section`
     left: 0px;
     width: 100vw;
     height: 50vh;
-    background-color: rgba(225,23,52,1);
-    transition: left 2s ease;
-    opacity: 0.8
+    z-index:1;
+    background-image: url(${vaslaHomeRed1});
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: ease all 2s;
+  }
+  .hp-overlay2 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 50vh;
+    background-image: url(${vaslaHomeGrey1});
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: ease all 2s;
   }
   .hp-overlay.hidden{
-    left: -100vw;
+    top: -100vh;
+  }
+  .hp-overlay2.hidden{
+    bottom: -100vh;
   }
   .hp-overlay h1 {
     font-size: 2rem;
@@ -126,7 +149,7 @@ const BannerWrapper = styled.section`
     display: block;
   }
   .hp-enter-block{
-    padding: 0 20% 20%;
+    padding: 0 10% 20%;
   }
   .hp-enter-button{
     border: none;
@@ -144,8 +167,36 @@ const BannerWrapper = styled.section`
   }
   @media only screen and (min-width: 600px) {
     .hp-overlay {
+      position: absolute;
+      top: 0px;
+      left: 0px;
       width: 50vw;
       height: 100vh;
+      z-index:1;
+      background-image: url(${vaslaHomeRed});
+      background-position: center right;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .hp-overlay2 {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      left: auto;
+      width: 50vw;
+      height: 100vh;
+      background-image: url(${vaslaHomeGrey});
+      background-position: center left;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .hp-overlay.hidden{
+      left: -100vw;
+      top: 0px;
+    }
+    .hp-overlay2.hidden{
+      right: -100vw;
+      top: 0px;
     }
     .fs-logo {
       right: -1.5rem;

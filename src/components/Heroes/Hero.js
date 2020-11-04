@@ -13,7 +13,7 @@ class Hero extends Component {
     super(props)
 
     this.state = {
-
+      textVisible: true
     }
   }
 
@@ -23,15 +23,25 @@ class Hero extends Component {
     })
   }
 
+  toggleText = () => {
+    this.setState({
+      textVisible: !this.state.textVisible
+    })
+  }
+
   render() {
     const {
       props: { content, label, heroId, bigImage, children, index },
-      state: { visible },
+      state: { visible, textVisible },
     } = this
     let sliderChildren = []
     let visibleClass = ''
+    let textVisibleClass = ''
     if(visible){
       visibleClass = ' visible'
+    }
+    if(!textVisible){
+      textVisibleClass = ' hideText'
     }
     let backgroundPosition = 'calc(100vh * -'+index+')'
     console.log(backgroundPosition)
@@ -83,7 +93,8 @@ class Hero extends Component {
 
     return (
       <VisibilitySensor onChange={this.onChange} partialVisibility={true} offset={{top:500}} minTopValue={500}>
-      <div id={heroId} className={'hero'+visibleClass}>
+      <div id={heroId} className={'hero'+visibleClass+textVisibleClass}>
+        <button onClick={this.toggleText} className="text-toggle-button"></button>
         <Link
             to={'virtual-showroom'}
             spy={true}
