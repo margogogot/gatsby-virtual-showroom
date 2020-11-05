@@ -37,6 +37,7 @@ class WebvrShowroom extends Component {
     if(!this.state.overlayVisible){
       overlayVisibleClass = ' hidden'
     }
+    let iframe = <iframe src="/showroom/iframed_viewset_v1b5i02.html" id="virtual-showroom" title="Virtual Showroom" />
     return (
       <BannerWrapper>
       <div className={'hp-overlay'+overlayVisibleClass}>
@@ -81,7 +82,7 @@ class WebvrShowroom extends Component {
         </div>
       </div>
       <div className={'hp-overlay2'+overlayVisibleClass} />
-        <iframe src="/showroom/iframed_viewset_v1b5i02.html" id="virtual-showroom" title="Virtual Showroom" />
+        {iframe}
       </BannerWrapper>
     )
   }
@@ -100,7 +101,7 @@ const BannerWrapper = styled.section`
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
-    transition: ease all 2s;
+    transition: left 2s linear, top 1s linear;
   }
   .hp-overlay2 {
     position: absolute;
@@ -112,13 +113,13 @@ const BannerWrapper = styled.section`
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
-    transition: ease all 2s;
+    transition: right 2s linear, bottom 1s linear;
   }
   .hp-overlay.hidden{
-    top: -100vh;
+    top: -200vh;
   }
   .hp-overlay2.hidden{
-    bottom: -100vh;
+    bottom: -200vh;
   }
   .hp-overlay h1 {
     font-size: 2rem;
@@ -191,11 +192,11 @@ const BannerWrapper = styled.section`
       background-size: cover;
     }
     .hp-overlay.hidden{
-      left: -100vw;
+      left: -200vw;
       top: 0px;
     }
     .hp-overlay2.hidden{
-      right: -100vw;
+      right: -200vw;
       top: 0px;
     }
     .fs-logo {

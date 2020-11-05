@@ -43,7 +43,6 @@ class Hero extends Component {
       textVisibleClass = ' hideText'
     }
     let backgroundPosition = 'calc(100vh * -'+index+')'
-    console.log(backgroundPosition)
     if(children){
       if(children.length > 1){
         sliderChildren = children.map(function(child, i){
@@ -66,7 +65,6 @@ class Hero extends Component {
           )
         })
       }else{
-        console.log(children.props.bigImage)
         sliderChildren = <div className={'heroSlide'} key={0} style={{
           'backgroundColor': children.props.bgColor
         }}>
