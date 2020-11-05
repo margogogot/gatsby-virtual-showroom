@@ -78,6 +78,7 @@
 .hero {
   width: 100vw;
   height: 100vh;
+  min-height: 700px;
   margin-left: 0;
   background-size: cover;
   background-position: center center;
@@ -96,6 +97,7 @@
 .heroSlide {
   width: 100vw;
   height: 100vh;
+  min-height: 700px;
   position: relative;
   transition: background-color .5s ease;
 }
@@ -105,20 +107,32 @@
   left: 10px;
   width: calc(100vw - 40px);
   height: calc(100vh - 60px);
+  min-height: calc(600px - 60px);
   top: 10px;
   display: block;
   color: #ffffff;
   text-align: left;
-  font-size: 1rem;
+  font-size: .75rem;
+  line-height: .9rem;
   text-shadow: 1px 1px #666666;
   transition: opacity .5s ease;
   opacity: 1;
   z-index: 4;
   transition: left 1s ease;
 }
-.hero.hideText>.heroSlide .slideText,
-.hero.hideText .slide.selected .heroSlide .slideText{
-  left: -100vw;
+.slideText .hero-title{
+  width: 100%;
+  transition: left 1s ease;
+}
+.hero.hideText>.heroSlide .slideTextInner *:not(.hero-title),
+.hero.hideText .slide.selected .heroSlide .slideTextInner *:not(.hero-title),
+.hero.hideText>.heroSlide .slideText:before,
+.hero.hideText .slide.selected .heroSlide .slideText:before{
+  opacity: 0;
+}
+.hero.hideText>.heroSlide .slideText .hero-title,
+.hero.hideText .slide.selected .heroSlide .slideText .hero-title{
+  opacity: 1;
 }
 .slideText .slideTextInner *:not(.hero-title){
   transition: opacity .5s ease;
@@ -135,7 +149,7 @@
   border-top: solid 5px #ffffff;
   background: rgb(2,0,36);
   background: linear-gradient(180deg, rgba(2,0,36,0.07886904761904767) 0%, rgba(255,255,255,0) 75%, rgba(255,255,255,0) 100%);
-  transition: opacity .5s ease;
+  transition: opacity .5s ease, left 1s ease;
   opacity: 1;
   z-index: -1;
 }
@@ -146,7 +160,6 @@
   top:0px;
   left:0px;
   padding: 50px 10px 10px 10px;
-  max-height: 90vh;
 }
 .slideText a{
   color: #ffffff;
@@ -172,8 +185,10 @@
 }
 .slideImage{
   position: absolute;
+  bottom: 0px;
   left: -25%;
   height: 100vh;
+  min-height: 500px;
   width: 150%;
   display: flex;
   align-items: flex-end;
@@ -205,7 +220,7 @@ a.hero-home{
 .text-toggle-button {
   position: absolute;
   top: 30px;
-  left: 40px;
+  left: 19px;
   z-index: 10;
   color: #ffffff;
   cursor: pointer;
@@ -223,11 +238,13 @@ a.hero-home{
 .hero.hideText .text-toggle-button{
   transform: rotate(180deg);
 }
+
 @media only screen and (min-width: 600px) {
   .slideText{
     top: 30px;
     left: 30px;
     width: calc(100vw - 80px);
+    font-size: 1rem;
   }
   .text-toggle-button {
     top: 50px;

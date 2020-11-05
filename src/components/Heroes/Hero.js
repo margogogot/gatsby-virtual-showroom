@@ -89,7 +89,7 @@ class Hero extends Component {
     }
 
     return (
-      <VisibilitySensor onChange={this.onChange} partialVisibility={true} offset={{top:500}} minTopValue={500}>
+      <VisibilitySensor onChange={this.onChange} partialVisibility={true} offset={{top:200}} minTopValue={200}>
       <div id={heroId} className={'hero'+visibleClass+textVisibleClass}>
         <button onClick={this.toggleText} className="text-toggle-button"></button>
         <Link

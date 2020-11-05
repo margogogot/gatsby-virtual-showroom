@@ -125,7 +125,7 @@ const BannerWrapper = styled.section`
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-    width: 50%;
+    width: 100%;
     padding: 10% 0 0;
     margin: 0 auto;
     text-align: center;
