@@ -18,7 +18,7 @@
   background-position: 0px 0px;
   background-repeat: repeat-y;
   z-index: 0;
-  width: 100%;
+  width: 80vw;
   height: 100%;
 }
 .heroesList {
@@ -146,7 +146,6 @@
   left:0px;
   padding: 50px 10px 10px 10px;
   max-height: 90vh;
-  overflow-y: auto;
 }
 .slideText a{
   color: #ffffff;
@@ -262,7 +261,6 @@ a.hero-home{
   }
   .slideTextInner{
     padding: 30px;
-    overflow-y: visible;
   }
   .hero {
     margin-left: -30vw;
