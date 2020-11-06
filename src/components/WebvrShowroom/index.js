@@ -44,7 +44,7 @@ class WebvrShowroom extends Component {
         <h1>Virtual Showroom</h1>
         <img src={fsLogoImg} alt="Forms+Surfaces Inc" className="fs-logo"/>
         <div className="hp-enter-block">
-          <p>Step inside our 3D showroom to interactively preview upcoming new products</p>
+          <p>Step inside our 3D showroom to interactively view our newest designs + upcoming new products</p>
           <div className="hp-enter-buttons">
             <EmailShareButton
             url="https://www.forms-surfaces.com"
@@ -179,6 +179,8 @@ const BannerWrapper = styled.section`
     outline: none;
     opacity: 1;
     transition: opacity 0.5s ease;
+    font-family: "Helvetica 83 Heavy Extended";
+    letter-spacing: 0.1rem;
   }
   .hp-enter-button:hover{
     opacity: 0.7;
