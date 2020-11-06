@@ -53,8 +53,9 @@ class Hero extends Component {
               <div className={'heroesBackground'} style={{
                 backgroundPositionY: backgroundPosition
               }}/>
-              <div className={'slideImage'}>
-                <img src={child.props.bigImage} />
+              <div className={'slideImage'} style={{
+                backgroundImage: 'url('+child.props.bigImage+')'
+              }}>
               </div>
               <div className={'slideText'}>
                 <div className={'slideTextInner'}>
@@ -71,8 +72,9 @@ class Hero extends Component {
           <div className={'heroesBackground'} style={{
             backgroundPositionY: backgroundPosition
           }}/>
-          <div className={'slideImage'}>
-            <img src={children.props.bigImage} />
+          <div className={'slideImage'} style={{
+            backgroundImage: 'url('+children.props.bigImage+')'
+          }}>
           </div>
           <div className={'slideText'}>
             <div className={'slideTextInner'}>

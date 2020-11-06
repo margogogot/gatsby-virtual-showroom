@@ -74,10 +74,12 @@ class WebvrShowroom extends Component {
             >
             <img src={twitterImg} alt="Twitter" />
             </TwitterShareButton>
-            <button onClick={this.onEnter} className="hp-enter-button">
-              <img src={enterImg} alt="Enter"/>
-              ENTER
-            </button>
+            <div className="end-button">
+              <button onClick={this.onEnter} className="hp-enter-button">
+                <img src={enterImg} alt="Enter"/>
+                ENTER
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -126,7 +128,7 @@ const BannerWrapper = styled.section`
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     width: 100%;
-    padding: 10% 0 0;
+    padding: 10% 10px; 0;
     margin: 0 auto;
     text-align: center;
   }
@@ -137,9 +139,24 @@ const BannerWrapper = styled.section`
     right: calc(50% - 1.5rem);
     top: calc(50vh - 1.5rem);
   }
+  .hp-enter-buttons{
+    border-top: solid 3px #fff;
+    padding-top: .5rem;
+  }
+  .end-button,
+  .hp-enter-buttons {
+    display: flex;
+  }
+  .end-button {
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .end-button button {
+    margin-right: 1.5rem;
+  }
   .hp-enter-buttons img{
-    width: 2rem;
-    height: 2rem;
+    width: 1.25rem;
+    height: 1.25rem;
     margin-right: .5rem;
   }
   iframe {
@@ -156,7 +173,7 @@ const BannerWrapper = styled.section`
     border: none;
     background-color: transparent;
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 2.1rem;
     cursor: pointer;
     outline: none;
@@ -207,7 +224,7 @@ const BannerWrapper = styled.section`
       font-size: 3rem;
       text-transform: uppercase;
       width: 50%;
-      padding: 20% 20% 2rem;
+      padding: 20% 10% 2rem;
       margin: 0;
     }
   }
