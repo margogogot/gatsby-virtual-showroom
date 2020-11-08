@@ -3,13 +3,13 @@
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 117765,
+      "count": 118269,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 30930,
+      "count": 31396,
       "max": [
         0.277645111083984,
         0.295588254928589,
@@ -25,13 +25,13 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 30930,
+      "count": 31396,
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 30930,
+      "count": 31396,
       "type": "VEC2"
     }
   ],
@@ -42,31 +42,31 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 471060,
+      "byteLength": 473076,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 371160,
-      "byteOffset": 471060,
+      "byteLength": 376752,
+      "byteOffset": 473076,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 371160,
-      "byteOffset": 842220,
+      "byteLength": 376752,
+      "byteOffset": 849828,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 247440,
-      "byteOffset": 1213380,
+      "byteLength": 251168,
+      "byteOffset": 1226580,
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 1460820,
+      "byteLength": 1477748,
       "uri": "Factor_Chair_Armless_Perforated.bin"
     }
   ],

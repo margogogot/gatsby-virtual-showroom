@@ -9,7 +9,7 @@
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 47948,
+      "count": 48368,
       "max": [
         0.293960958719254,
         0.301019340753555,
@@ -25,13 +25,13 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 47948,
+      "count": 48368,
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 47948,
+      "count": 48368,
       "type": "VEC2"
     }
   ],
@@ -47,27 +47,27 @@
     },
     {
       "buffer": 0,
-      "byteLength": 575376,
+      "byteLength": 580416,
       "byteOffset": 541572,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 575376,
-      "byteOffset": 1116948,
+      "byteLength": 580416,
+      "byteOffset": 1121988,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 383584,
-      "byteOffset": 1692324,
+      "byteLength": 386944,
+      "byteOffset": 1702404,
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 2075908,
-      "uri": "Tonyo_Receptacle_36_Gallon_PC2.bin"
+      "byteLength": 2089348,
+      "uri": "Tonyo_Receptacle_36_Gallon_PC3.bin"
     }
   ],
   "images": [
@@ -84,7 +84,7 @@
   "materials": [
     {
       "alphaMode": "OPAQUE",
-      "name": "Tonyo_Receptacle_36_Gallon_PC2",
+      "name": "Tonyo_Receptacle_36_Gallon_PC3",
       "normalTexture": {
         "index": 2
       },

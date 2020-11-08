@@ -3,35 +3,35 @@
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 123309,
+      "count": 123837,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 32017,
+      "count": 32667,
       "max": [
-        0.320549011230469,
+        0.320549041032791,
         0.295430064201355,
-        0.836406648159027
+        0.836406588554382
       ],
       "min": [
-        -0.320549577474594,
+        -0.320549607276917,
         -0.294916301965714,
-        -9.07182693481445e-05
+        -9.06884670257568e-05
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 32017,
+      "count": 32667,
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 32017,
+      "count": 32667,
       "type": "VEC2"
     }
   ],
@@ -42,31 +42,31 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 493236,
+      "byteLength": 495348,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 384204,
-      "byteOffset": 493236,
+      "byteLength": 392004,
+      "byteOffset": 495348,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 384204,
-      "byteOffset": 877440,
+      "byteLength": 392004,
+      "byteOffset": 887352,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 256136,
-      "byteOffset": 1261644,
+      "byteLength": 261336,
+      "byteOffset": 1279356,
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 1517780,
+      "byteLength": 1540692,
       "uri": "Factor_Chair_Armed_Perforated.bin"
     }
   ],

@@ -3,13 +3,13 @@
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 11976,
+      "count": 139278,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 3080,
+      "count": 32471,
       "max": [
         0.270877122879028,
         0.254606008529663,
@@ -25,13 +25,13 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 3080,
+      "count": 32471,
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 3080,
+      "count": 32471,
       "type": "VEC2"
     }
   ],
@@ -42,31 +42,31 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 47904,
+      "byteLength": 557112,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 36960,
-      "byteOffset": 47904,
+      "byteLength": 389652,
+      "byteOffset": 557112,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 36960,
-      "byteOffset": 84864,
+      "byteLength": 389652,
+      "byteOffset": 946764,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 24640,
-      "byteOffset": 121824,
+      "byteLength": 259768,
+      "byteOffset": 1336416,
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 146464,
+      "byteLength": 1596184,
       "uri": "Parker_Cafe_Armed_Solid.bin"
     }
   ],

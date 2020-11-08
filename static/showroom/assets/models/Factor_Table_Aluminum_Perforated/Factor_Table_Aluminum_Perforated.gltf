@@ -3,20 +3,20 @@
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 751614,
+      "count": 749994,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 143685,
+      "count": 143565,
       "max": [
-        0.541337549686432,
+        0.541337251663208,
         0.541337490081787,
         0.748780250549316
       ],
       "min": [
-        -0.541337490081787,
+        -0.541337728500366,
         -0.541337490081787,
         -7.01844692230225e-05
       ],
@@ -25,13 +25,13 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 143685,
+      "count": 143565,
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 143685,
+      "count": 143565,
       "type": "VEC2"
     }
   ],
@@ -42,31 +42,31 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 3006456,
+      "byteLength": 2999976,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 1724220,
-      "byteOffset": 3006456,
+      "byteLength": 1722780,
+      "byteOffset": 2999976,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 1724220,
-      "byteOffset": 4730676,
+      "byteLength": 1722780,
+      "byteOffset": 4722756,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 1149480,
-      "byteOffset": 6454896,
+      "byteLength": 1148520,
+      "byteOffset": 6445536,
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 7604376,
+      "byteLength": 7594056,
       "uri": "Factor_Table_Aluminum_Perforated.bin"
     }
   ],

@@ -3,70 +3,70 @@
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 3828,
+      "count": 8538,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 1084,
+      "count": 4029,
       "max": [
-        0.0777240321040154,
-        0.0777241364121437,
-        1.04090404510498
+        0.0777240172028542,
+        0.0777241215109825,
+        1.01596188545227
       ],
       "min": [
-        -0.0777240470051765,
-        -0.0777239501476288,
-        -0.000496029853820801
+        -0.0777240321040154,
+        -0.0777239352464676,
+        0.0
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 1084,
+      "count": 4029,
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 1084,
+      "count": 4029,
       "type": "VEC2"
     }
   ],
   "asset": {
-    "generator": "Substance Painter 6.2.1",
+    "generator": "Substance Painter 6.2.2",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 15312,
+      "byteLength": 34152,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 13008,
-      "byteOffset": 15312,
+      "byteLength": 48348,
+      "byteOffset": 34152,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 13008,
-      "byteOffset": 28320,
+      "byteLength": 48348,
+      "byteOffset": 82500,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 8672,
-      "byteOffset": 41328,
+      "byteLength": 32232,
+      "byteOffset": 130848,
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 50000,
+      "byteLength": 163080,
       "uri": "Helio_Bollard_SEC_PU40.bin"
     }
   ],

@@ -1,0 +1,258 @@
+{
+  "medias": {
+    "environments": {
+      "Environment_Map": {
+        "path": "./assets/medias/",
+        "name": "Environment_Map.hdr"
+      }
+    },
+    "textures": {
+      "Aptos_Bollard_Solar_Light_Map_Alpha": {
+        "path": "./assets/medias/",
+        "name": "Aptos_Bollard_Solar_Light_Map_Alpha.png"
+      },
+      "Aptos_Bollard_AC_Light_Map_Alpha": {
+        "path": "./assets/medias/",
+        "name": "Aptos_Bollard_AC_Light_Map_Alpha.png"
+      },
+      "Aptos_Pedestrian_Dual_luminaire_Light_Map_Alpha": {
+        "path": "./assets/medias/",
+        "name": "Aptos_Pedestrian_Dual_luminaire_Light_Map_Alpha.png"
+      },
+      "Aptos_Pedestrian_Single_luminaire_Light_Map_Alpha": {
+        "path": "./assets/medias/",
+        "name": "Aptos_Pedestrian_Single_luminaire_Light_Map_Alpha.png"
+      },
+      "Helio_Bollard_SEC_M50_Light_Map_Alpha": {
+        "path": "./assets/medias/",
+        "name": "Helio_Bollard_SEC_M50_Light_Map_Alpha.png"
+      },
+      "Helio_Bollard_SEC_M30_Light_Map_Alpha": {
+        "path": "./assets/medias/",
+        "name": "Helio_Bollard_SEC_M30_Light_Map_Alpha.png"
+      },
+      "Helio_Bollard_SEC_PU40_Light_Map_Alpha": {
+        "path": "./assets/medias/",
+        "name": "Helio_Bollard_SEC_PU40_Light_Map_Alpha.png"
+      },
+      "Solar_Bollard_Solar_Light_Map_Alpha": {
+        "path": "./assets/medias/",
+        "name": "Solar_Bollard_Solar_Light_Map_Alpha.png"
+      },
+      "Solar_Bollard_AC_Light_Map_Alpha": {
+        "path": "./assets/medias/",
+        "name": "Solar_Bollard_AC_Light_Map_Alpha.png"
+      }
+    }
+  },
+  "models": {
+    "Aptos_Pedestrian_Dual_luminaire": {
+      "uri": "./assets/models/Aptos_Pedestrian_Dual_luminaire/Aptos_Pedestrian_Dual_luminaire.gltf",
+      "position": {
+        "x": -14,
+        "y": 0,
+        "z": 3
+      }
+    },
+    "Aptos_Pedestrian_Single_luminaire": {
+      "uri": "./assets/models/Aptos_Pedestrian_Single_luminaire/Aptos_Pedestrian_Single_luminaire.gltf",
+      "position": {
+        "x": -14,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "Aptos_Bollard_Solar": {
+      "uri": "./assets/models/Aptos_Bollard_Solar/Aptos_Bollard_Solar.gltf",
+      "position": {
+        "x": -10,
+        "y": 0,
+        "z": 3
+      }
+    },
+    "Aptos_Bollard_AC": {
+      "uri": "./assets/models/Aptos_Bollard_AC/Aptos_Bollard_AC.gltf",
+      "position": {
+        "x": -10,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "Solar_Bollard_Solar": {
+      "uri": "./assets/models/Solar_Bollard_Solar/Solar_Bollard_Solar.gltf",
+      "position": {
+        "x": -6,
+        "y": 0,
+        "z": 3
+      }
+    },
+    "Solar_Bollard_AC": {
+      "uri": "./assets/models/Solar_Bollard_AC/Solar_Bollard_AC.gltf",
+      "position": {
+        "x": -6,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "Helio_Bollard_SEC_M50": {
+      "uri": "./assets/models/Helio_Bollard_SEC_M50/Helio_Bollard_SEC_M50.gltf",
+      "position": {
+        "x": -2,
+        "y": 0,
+        "z": 3
+      }
+    },
+    "Helio_Bollard_SEC_M30": {
+      "uri": "./assets/models/Helio_Bollard_SEC_M30/Helio_Bollard_SEC_M30.gltf",
+      "position": {
+        "x": -2,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "Helio_Bollard_SEC_PU40": {
+      "uri": "./assets/models/Helio_Bollard_SEC_PU40/Helio_Bollard_SEC_PU40.gltf",
+      "position": {
+        "x": -2,
+        "y": 0,
+        "z": -3
+      }
+    },
+    "Tonyo_Receptacle_36_Gallon": {
+      "uri": "./assets/models/Tonyo_Receptacle_36_Gallon/Tonyo_Receptacle_36_Gallon.gltf",
+      "position": {
+        "x": 2,
+        "y": 0,
+        "z": 3
+      }
+    },
+    "Tonyo_Receptacle_36_Gallon_02": {
+      "uri": "./assets/models/Tonyo_Receptacle_36_Gallon/Tonyo_Receptacle_36_Gallon_PC3.gltf",
+      "position": {
+        "x": 2,
+        "y": 1,
+        "z": 3
+      }
+    },
+    "Tonyo_Receptacle_30_Gallon": {
+      "uri": "./assets/models/Tonyo_Receptacle_30_Gallon/Tonyo_Receptacle_30_Gallon.gltf",
+      "position": {
+        "x": 2,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "Tonyo_Receptacle_30_Gallon_02": {
+      "uri": "./assets/models/Tonyo_Receptacle_30_Gallon/Tonyo_Receptacle_30_Gallon_PC3.gltf",
+      "position": {
+        "x": 2,
+        "y": 1,
+        "z": 0
+      }
+    },
+    "Tonyo_Receptacle_60_Gallon": {
+      "uri": "./assets/models/Tonyo_Receptacle_60_Gallon/Tonyo_Receptacle_60_Gallon.gltf",
+      "position": {
+        "x": 2,
+        "y": 0,
+        "z": -3
+      }
+    },
+    "Tonyo_Receptacle_60_Gallon_02": {
+      "uri": "./assets/models/Tonyo_Receptacle_60_Gallon/Tonyo_Receptacle_60_Gallon_PC3.gltf",
+      "position": {
+        "x": 2,
+        "y": 1,
+        "z": -3
+      }
+    },
+    "Factor_Table_Aluminum_Solid": {
+      "uri": "./assets/models/Factor_Table_Aluminum_Solid/Factor_Table_Aluminum_Solid.gltf",
+      "position": {
+        "x": 6,
+        "y": 0,
+        "z": 3
+      }
+    },
+    "Factor_Table_Aluminum_Perforated": {
+      "uri": "./assets/models/Factor_Table_Aluminum_Perforated/Factor_Table_Aluminum_Perforated.gltf",
+      "position": {
+        "x": 6,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "Factor_Table_Aluminum_Armless_Chairs": {
+      "uri": "./assets/models/Factor_Table_Aluminum_Armless_Chairs/Factor_Table_Aluminum_Armless_Chairs.gltf",
+      "position": {
+        "x": 6,
+        "y": 0,
+        "z": -3
+      }
+    },
+    "Factor_Chair_Armless_Perforated": {
+      "uri": "./assets/models/Factor_Chair_Armless_Perforated/Factor_Chair_Armless_Perforated.gltf",
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 3
+      }
+    },
+    "Factor_Chair_Armed_Perforated": {
+      "uri": "./assets/models/Factor_Chair_Armed_Perforated/Factor_Chair_Armed_Perforated.gltf",
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "Factor_Chair_Armless_TeakTop": {
+      "uri": "./assets/models/Factor_Chair_Armless_TeakTop/Factor_Chair_Armless_TeakTop.gltf",
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": -3
+      }
+    },
+    "Parker_Cafe_Armed_Solid": {
+      "uri": "./assets/models/Parker_Cafe_Armed_Solid/Parker_Cafe_Armed_Solid.gltf",
+      "position": {
+        "x": 14,
+        "y": 0,
+        "z": 3
+      }
+    },
+    "Parker_Cafe_Armed_Perforated": {
+      "uri": "./assets/models/Parker_Cafe_Armed_Perforated/Parker_Cafe_Armed_Perforated.gltf",
+      "position": {
+        "x": 14,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "Parker_Cafe_Ensemble": {
+      "uri": "./assets/models/Parker_Cafe_Ensemble/Parker_Cafe_Ensemble.gltf",
+      "position": {
+        "x": 14,
+        "y": 0,
+        "z": -3
+      }
+    },
+    "Scene06": {
+      "uri": "./assets/models/EnvStage/Scene06.glb",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "Human": {
+      "uri": "./assets/models/EnvStage/Human/Human.gltf",
+      "position": {
+        "x": 1,
+        "y": 0,
+        "z": 1
+      }
+    }
+  }
+}

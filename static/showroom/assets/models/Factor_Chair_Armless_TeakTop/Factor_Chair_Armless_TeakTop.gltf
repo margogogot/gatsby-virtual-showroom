@@ -3,13 +3,13 @@
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 689484,
+      "count": 687864,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 127300,
+      "count": 127233,
       "max": [
         0.541337549686432,
         0.541337490081787,
@@ -25,13 +25,13 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 127300,
+      "count": 127233,
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 127300,
+      "count": 127233,
       "type": "VEC2"
     }
   ],
@@ -42,31 +42,31 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 2757936,
+      "byteLength": 2751456,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 1527600,
-      "byteOffset": 2757936,
+      "byteLength": 1526796,
+      "byteOffset": 2751456,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 1527600,
-      "byteOffset": 4285536,
+      "byteLength": 1526796,
+      "byteOffset": 4278252,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 1018400,
-      "byteOffset": 5813136,
+      "byteLength": 1017864,
+      "byteOffset": 5805048,
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 6831536,
+      "byteLength": 6822912,
       "uri": "Factor_Chair_Armless_TeakTop.bin"
     }
   ],

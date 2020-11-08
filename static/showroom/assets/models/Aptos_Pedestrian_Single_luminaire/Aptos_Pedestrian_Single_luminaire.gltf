@@ -3,128 +3,70 @@
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 415632,
+      "count": 346488,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 74762,
+      "count": 67550,
       "max": [
-        0.244516313076019,
-        0.168364971876144,
-        4.31626081466675
+        0.815493941307068,
+        0.244516372680664,
+        3.65825581550598
       ],
       "min": [
-        -0.243908494710922,
-        -0.815495252609253,
-        4.76837158203125e-07
+        -0.15798607468605,
+        -0.243908375501633,
+        2.38418579101563e-07
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 74762,
+      "count": 67550,
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 74762,
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 4,
-      "componentType": 5125,
-      "count": 1272,
-      "type": "SCALAR"
-    },
-    {
-      "bufferView": 5,
-      "componentType": 5126,
-      "count": 318,
-      "max": [
-        0.221551775932312,
-        -0.34872379899025,
-        4.26858568191528
-      ],
-      "min": [
-        -0.221551716327667,
-        -0.792021691799164,
-        4.26858425140381
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 6,
-      "componentType": 5126,
-      "count": 318,
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 7,
-      "componentType": 5126,
-      "count": 318,
+      "count": 67550,
       "type": "VEC2"
     }
   ],
   "asset": {
-    "generator": "Substance Painter 6.2.1",
+    "generator": "Substance Painter 6.2.2",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 1662528,
+      "byteLength": 1385952,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 897144,
-      "byteOffset": 1662528,
+      "byteLength": 810600,
+      "byteOffset": 1385952,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 897144,
-      "byteOffset": 2559672,
+      "byteLength": 810600,
+      "byteOffset": 2196552,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 598096,
-      "byteOffset": 3456816,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 5088,
-      "byteOffset": 4054912,
-      "target": 34963
-    },
-    {
-      "buffer": 0,
-      "byteLength": 3816,
-      "byteOffset": 4060000,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 3816,
-      "byteOffset": 4063816,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 2544,
-      "byteOffset": 4067632,
+      "byteLength": 540400,
+      "byteOffset": 3007152,
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 4070176,
+      "byteLength": 3547552,
       "uri": "Aptos_Pedestrian_Single_luminaire.bin"
     }
   ],
@@ -139,21 +81,20 @@
       "uri": "Aptos_Pedestrian_Single_luminaire_normal.png"
     },
     {
-      "uri": "Aptos_Pedestrian_Single_luminaire_Light_baseColor.png"
-    },
-    {
-      "uri": "Aptos_Pedestrian_Single_luminaire_Light_occlusionRoughnessMetallic.png"
-    },
-    {
-      "uri": "Aptos_Pedestrian_Single_luminaire_Light_normal.png"
-    },
-    {
-      "uri": "Aptos_Pedestrian_Single_luminaire_Light_emissive.png"
+      "uri": "Aptos_Pedestrian_Single_luminaire_emissive.png"
     }
   ],
   "materials": [
     {
       "alphaMode": "OPAQUE",
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 3
+      },
       "name": "Aptos_Pedestrian_Single_luminaire",
       "normalTexture": {
         "index": 2
@@ -167,32 +108,6 @@
         },
         "metallicRoughnessTexture": {
           "index": 1
-        }
-      }
-    },
-    {
-      "alphaMode": "OPAQUE",
-      "emissiveFactor": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "emissiveTexture": {
-        "index": 6
-      },
-      "name": "Aptos_Pedestrian_Single_luminaire_Light",
-      "normalTexture": {
-        "index": 5
-      },
-      "occlusionTexture": {
-        "index": 4
-      },
-      "pbrMetallicRoughness": {
-        "baseColorTexture": {
-          "index": 3
-        },
-        "metallicRoughnessTexture": {
-          "index": 4
         }
       }
     }
@@ -212,28 +127,12 @@
           "mode": 4
         }
       ]
-    },
-    {
-      "name": "Aptos_Pedestrian_Single_luminaire_Light",
-      "primitives": [
-        {
-          "attributes": {
-            "NORMAL": 6,
-            "POSITION": 5,
-            "TEXCOORD_0": 7
-          },
-          "indices": 4,
-          "material": 1,
-          "mode": 4
-        }
-      ]
     }
   ],
   "nodes": [
     {
       "children": [
-        1,
-        3
+        1
       ],
       "name": "RootNode"
     },
@@ -252,22 +151,6 @@
     {
       "mesh": 0,
       "name": "Aptos_Pedestrian_Single_luminaire"
-    },
-    {
-      "children": [
-        4
-      ],
-      "name": "Aptos_Pedestrian_Single_luminaire_Light",
-      "rotation": [
-        -0.70710676908493,
-        0.0,
-        0.0,
-        0.70710676908493
-      ]
-    },
-    {
-      "mesh": 1,
-      "name": "Aptos_Pedestrian_Single_luminaire_Light"
     }
   ],
   "samplers": [
@@ -303,18 +186,6 @@
     {
       "sampler": 0,
       "source": 3
-    },
-    {
-      "sampler": 0,
-      "source": 4
-    },
-    {
-      "sampler": 0,
-      "source": 5
-    },
-    {
-      "sampler": 0,
-      "source": 6
     }
   ]
 }

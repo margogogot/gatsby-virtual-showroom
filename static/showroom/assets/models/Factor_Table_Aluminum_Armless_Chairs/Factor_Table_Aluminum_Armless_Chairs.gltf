@@ -3,13 +3,13 @@
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 101415,
+      "count": 101847,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 22411,
+      "count": 22767,
       "max": [
         0.277645140886307,
         0.295588254928589,
@@ -25,13 +25,13 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 22411,
+      "count": 22767,
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 22411,
+      "count": 22767,
       "type": "VEC2"
     }
   ],
@@ -42,31 +42,31 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 405660,
+      "byteLength": 407388,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 268932,
-      "byteOffset": 405660,
+      "byteLength": 273204,
+      "byteOffset": 407388,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 268932,
-      "byteOffset": 674592,
+      "byteLength": 273204,
+      "byteOffset": 680592,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 179288,
-      "byteOffset": 943524,
+      "byteLength": 182136,
+      "byteOffset": 953796,
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 1122812,
+      "byteLength": 1135932,
       "uri": "Factor_Table_Aluminum_Armless_Chairs.bin"
     }
   ],

@@ -9,7 +9,7 @@
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 29268,
+      "count": 29575,
       "max": [
         0.293209075927734,
         1.19582450389862,
@@ -25,13 +25,13 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 29268,
+      "count": 29575,
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 29268,
+      "count": 29575,
       "type": "VEC2"
     }
   ],
@@ -47,26 +47,26 @@
     },
     {
       "buffer": 0,
-      "byteLength": 351216,
+      "byteLength": 354900,
       "byteOffset": 485748,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 351216,
-      "byteOffset": 836964,
+      "byteLength": 354900,
+      "byteOffset": 840648,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 234144,
-      "byteOffset": 1188180,
+      "byteLength": 236600,
+      "byteOffset": 1195548,
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 1422324,
+      "byteLength": 1432148,
       "uri": "Tonyo_Receptacle_30_Gallon.bin"
     }
   ],

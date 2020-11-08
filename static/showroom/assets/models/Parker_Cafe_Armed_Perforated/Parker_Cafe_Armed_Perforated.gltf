@@ -3,35 +3,35 @@
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 185694,
+      "count": 312996,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 82048,
+      "count": 111412,
       "max": [
         0.270877122879028,
         0.254606008529663,
-        0.800399959087372
+        0.800652623176575
       ],
       "min": [
         -0.270877182483673,
         -0.291548848152161,
-        -0.00116568803787231
+        -0.000912994146347046
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 82048,
+      "count": 111412,
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 82048,
+      "count": 111412,
       "type": "VEC2"
     }
   ],
@@ -42,31 +42,31 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 742776,
+      "byteLength": 1251984,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 984576,
-      "byteOffset": 742776,
+      "byteLength": 1336944,
+      "byteOffset": 1251984,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 984576,
-      "byteOffset": 1727352,
+      "byteLength": 1336944,
+      "byteOffset": 2588928,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 656384,
-      "byteOffset": 2711928,
+      "byteLength": 891296,
+      "byteOffset": 3925872,
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 3368312,
+      "byteLength": 4817168,
       "uri": "Parker_Cafe_Armed_Perforated.bin"
     }
   ],

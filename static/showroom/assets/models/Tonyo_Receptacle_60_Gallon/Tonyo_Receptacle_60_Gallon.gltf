@@ -9,7 +9,7 @@
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 35176,
+      "count": 35561,
       "max": [
         0.451055407524109,
         0.302189946174622,
@@ -25,13 +25,13 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 35176,
+      "count": 35561,
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 35176,
+      "count": 35561,
       "type": "VEC2"
     }
   ],
@@ -47,26 +47,26 @@
     },
     {
       "buffer": 0,
-      "byteLength": 422112,
+      "byteLength": 426732,
       "byteOffset": 466080,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 422112,
-      "byteOffset": 888192,
+      "byteLength": 426732,
+      "byteOffset": 892812,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 281408,
-      "byteOffset": 1310304,
+      "byteLength": 284488,
+      "byteOffset": 1319544,
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 1591712,
+      "byteLength": 1604032,
       "uri": "Tonyo_Receptacle_60_Gallon.bin"
     }
   ],

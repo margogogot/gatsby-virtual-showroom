@@ -3,13 +3,13 @@
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 133788,
+      "count": 132348,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 23957,
+      "count": 25234,
       "max": [
         0.0811294317245483,
         0.0812794640660286,
@@ -25,48 +25,48 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 23957,
+      "count": 25234,
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 23957,
+      "count": 25234,
       "type": "VEC2"
     }
   ],
   "asset": {
-    "generator": "Substance Painter 6.2.1",
+    "generator": "Substance Painter 6.2.2",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 535152,
+      "byteLength": 529392,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 287484,
-      "byteOffset": 535152,
+      "byteLength": 302808,
+      "byteOffset": 529392,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 287484,
-      "byteOffset": 822636,
+      "byteLength": 302808,
+      "byteOffset": 832200,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 191656,
-      "byteOffset": 1110120,
+      "byteLength": 201872,
+      "byteOffset": 1135008,
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 1301776,
+      "byteLength": 1336880,
       "uri": "Aptos_Bollard_AC.bin"
     }
   ],
@@ -143,8 +143,8 @@
       "name": "Aptos_Bollard_AC",
       "rotation": [
         -0.70710676908493,
-        0.0,
-        0.0,
+        4.11590310445131e-11,
+        -4.11590310445131e-11,
         0.70710676908493
       ]
     },

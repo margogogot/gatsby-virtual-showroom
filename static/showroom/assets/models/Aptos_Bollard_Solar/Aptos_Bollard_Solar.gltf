@@ -3,70 +3,70 @@
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 133788,
+      "count": 127128,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 23957,
+      "count": 25107,
       "max": [
-        0.0811294317245483,
-        0.0812794640660286,
-        0.927559971809387
+        0.0829297080636024,
+        0.0830963775515556,
+        0.920726001262665
       ],
       "min": [
-        -0.0814286470413208,
-        -0.0812786594033241,
-        -2.08616256713867e-07
+        -0.0829297229647636,
+        -0.0832281187176704,
+        -1.78813934326172e-07
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 23957,
+      "count": 25107,
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 23957,
+      "count": 25107,
       "type": "VEC2"
     }
   ],
   "asset": {
-    "generator": "Substance Painter 6.2.1",
+    "generator": "Substance Painter 6.2.2",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 535152,
+      "byteLength": 508512,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 287484,
-      "byteOffset": 535152,
+      "byteLength": 301284,
+      "byteOffset": 508512,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 287484,
-      "byteOffset": 822636,
+      "byteLength": 301284,
+      "byteOffset": 809796,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 191656,
-      "byteOffset": 1110120,
+      "byteLength": 200856,
+      "byteOffset": 1111080,
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 1301776,
+      "byteLength": 1311936,
       "uri": "Aptos_Bollard_Solar.bin"
     }
   ],
@@ -143,8 +143,8 @@
       "name": "Aptos_Bollard_Solar",
       "rotation": [
         -0.70710676908493,
-        0.0,
-        0.0,
+        4.11590310445131e-11,
+        -4.11590310445131e-11,
         0.70710676908493
       ]
     },
