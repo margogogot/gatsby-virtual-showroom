@@ -231,6 +231,25 @@ const BannerWrapper = styled.section`
       text-align: left;
     }
   }
+  @media only screen and (min-width: 2000px){
+    .hp-overlay h1 {
+      font-size: 4rem;
+      line-height: 4.5rem;
+    }
+    .fs-logo {
+      width: 6rem;
+      height: 6rem;
+      right: -3rem;
+    }
+    .hp-enter-buttons img {
+      height: 3rem;
+      width: 3rem;
+    }
+    .hp-enter-button {
+      font-size: 3rem;
+      line-height: 4rem;
+    }
+  }
 `
 
 export default WebvrShowroom
