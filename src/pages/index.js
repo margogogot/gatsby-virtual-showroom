@@ -240,7 +240,7 @@ export default () => (
       </Heroes>
       <Contact
         id="contact"
-        title="Interested in our latest and upcoming outdoor products?"
+        formTitle="Interested in our latest and upcoming outdoor products?"
         subtitle="Connect with a local Forms+Surfaces contact"
       />
     </Layout>

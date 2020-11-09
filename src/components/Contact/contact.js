@@ -1,27 +1,75 @@
 import React, { Component } from 'react'
-import styled from "styled-components"
-import Button from "../Button/button"
+import styled from 'styled-components'
+import Button from '../Button/button'
+import fetch from 'node-fetch'
 
 class Contact extends Component {
   constructor(props) {
     super(props)
 
     this.state = {
-      formVisible: true
+      formVisible: true,
+      firstName: '',
+      lastName: '',
+      title: '',
+      email: '',
+      phone: '',
+      zipcode: '',
+      comments: '',
+      updates: '',
     }
   }
-  
+
+  handleSubmit = e => {
+    console.log(this.state)
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: { "form-name": "contact", ...this.state }
+    })
+      .then(() => {
+        this.setState({
+          formVisible: false
+        })
+      })
+      .catch(error => alert(error));
+
+    e.preventDefault()
+  }
+
+  handleChange = e => this.setState({ [e.target.name]: e.target.value })
+
   render(){
-    let {title, subtitle} = this.props
+    let {formTitle, subtitle} = this.props
+    const { firstName,
+      lastName,
+      firmName,
+      title,
+      email,
+      phone,
+      zipcode,
+      country,
+      comments,
+      updates,
+      formVisible} = this.state
+    let successMessage = ''
+    if(!formVisible){
+      successMessage = <div className="success-message">
+      <h2>Thanks!</h2>
+      <p>We received your information.</p>
+      </div>
+    }
     return(
       <ContactWrapper id="contact">
+        {successMessage}
         <div className="content-container">
-          <h3>{title}</h3>
+          <h3>{formTitle}</h3>
           <p>{subtitle}</p>
           <form name="contact"
           netlify="true"
-          action="#thanks"
-          data-netlify-honeypot="website">
+          data-netlify-honeypot="website"
+          onSubmit={this.handleSubmit}
+          >
           <div className="contact-row">
             <div className="contact-column">
               <p>Our Territory Managers are ready to assist you with any questions or projects.  Just fill out the form to right and we will get back to you ASAP.</p>
@@ -48,6 +96,8 @@ class Contact extends Component {
                       required
                       autoComplete="off"
                       placeholder="First Name"
+                      value={firstName}
+                      onChange={this.handleChange}
                     />
                   </div>
 
@@ -60,6 +110,8 @@ class Contact extends Component {
                         required
                         autoComplete="off"
                         placeholder="Last Name"
+                        value={lastName}
+                        onChange={this.handleChange}
                       />
                     </div>
                   </div>
@@ -72,6 +124,8 @@ class Contact extends Component {
                       required
                       autoComplete="off"
                       placeholder="Firm Name"
+                      value={firmName}
+                      onChange={this.handleChange}
                     />
                   </div>
 
@@ -83,6 +137,8 @@ class Contact extends Component {
                       required
                       autoComplete="off"
                       placeholder="Title"
+                      value={title}
+                      onChange={this.handleChange}
                     />
                   </div>
 
@@ -94,6 +150,8 @@ class Contact extends Component {
                       required
                       autoComplete="off"
                       placeholder="Email"
+                      value={email}
+                      onChange={this.handleChange}
                     />
                   </div>
 
@@ -105,6 +163,8 @@ class Contact extends Component {
                       required
                       autoComplete="off"
                       placeholder="Phone"
+                      value={phone}
+                      onChange={this.handleChange}
                     />
                   </div>
 
@@ -116,6 +176,8 @@ class Contact extends Component {
                       required
                       autoComplete="off"
                       placeholder="Country"
+                      value={country}
+                      onChange={this.handleChange}
                     />
                   </div>
 
@@ -127,6 +189,8 @@ class Contact extends Component {
                       required
                       autoComplete="off"
                       placeholder="Zip / Postal Code"
+                      value={zipcode}
+                      onChange={this.handleChange}
                     />
                   </div>
 
@@ -139,6 +203,8 @@ class Contact extends Component {
                       autoComplete="off"
                       aria-label="Message"
                       placeholder="Tell us more:"
+                      value={comments}
+                      onChange={this.handleChange}
                     />
                   </div>
                 </div>
@@ -151,13 +217,15 @@ class Contact extends Component {
                 type="checkbox"
                 name="updates"
                 aria-label="Notify me when new Forms+Surfaces products are launching."
+                checked={updates}
+                onChange={this.handleChange}
               />
               <label for="updates">Notify me when new Forms+Surfaces products are launching.</label>
             </div>
             </div>
             <div className="contact-column">
               <div className="input-area button-area">
-                <Button label="Submit Information" cta="Submit Information" type="submit" />
+                <input label="Submit Information" cta="Submit Information" type="submit" value="Submit Information" />
               </div>
             </div>
             </div>
@@ -172,11 +240,24 @@ const ContactWrapper = styled.section`
   padding: 100px 30px;
   background: #ffffff;
   color: #999999;
-
+  position: relative;
+  .success-message{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+    z-index: 10;
+    flex-direction: column;
+    align-items: center;
+  }
   .content-container {
     width: 100%;
     margin: 0 auto;
-
+    position: relative;
     h3 {
       text-align: left;
       color: #999999;
@@ -241,7 +322,7 @@ const ContactWrapper = styled.section`
         }
       }
 
-      input,
+      input:not([type="submit"]),
       textarea {
         height: 100%;
         font-size: 1rem;
@@ -291,16 +372,30 @@ const ContactWrapper = styled.section`
         margin-right: .5rem;
         display: inline-block;
       }
-      button {
+      input[type="submit"] {
         color: #999999;
         background: #ffffff;
+        position: relative;
+        display: inline-block;
+        padding: 0px 20px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        font-size: 0.85rem;
+        letter-spacing: 0.25rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        box-sizing: border-box;
+        border: 3px solid rgb(153, 153, 153);
+        z-index: 1;
+        cursor: pointer;
       }
-      button:hover {
+      input[type="submit"]:hover {
         color: #ffffff;
         background: #999999;
         animation: none;
       }
-      button:hover:before{
+      input[type="submit"]:hover:before{
         display: none;
       }
       .content-name {
