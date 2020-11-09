@@ -228,6 +228,7 @@ const BannerWrapper = styled.section`
       width: 50%;
       padding: 20% 10% 2rem;
       margin: 0;
+      text-align: left;
     }
   }
 `

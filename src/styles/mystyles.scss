@@ -17,9 +17,13 @@
 .carousel .control-dots .dot:focus{
   outline: none;
 }
-ul li{
-  line-height: 1.5rem;
-}
 button {
   outline: none;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.45;
+  margin: 1rem 0;
+
 }

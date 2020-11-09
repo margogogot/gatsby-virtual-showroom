@@ -8,6 +8,9 @@
 .heroes h1,h2,h3,h4,h5,h6{
   text-transform: uppercase;
 }
+ul li{
+  line-height: 1.5rem;
+}
 .heroesBackground{
   position: absolute;
   top:0px;
@@ -328,6 +331,27 @@ a.hero-home{
 @media only screen and (min-width: 2000px) {
   .slideText{
     font-size: 2rem;
-    right: 10vw;;
+    line-height: 3rem;
+    max-width: 100%;
+    p {
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+  }
+  ul li {
+    line-height: 3rem;
+  }
+  .hero .hero-title{
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+  .heroesList .heroesListInner a{
+    font-size: 2rem;
+    line-height: 2.2rem;
+    padding-left: 3rem;
+  }
+  .heroesList .heroesListInner a:before{
+    width: 2rem;
+    height: 2rem;
   }
 }
