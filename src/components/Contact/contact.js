@@ -17,6 +17,7 @@ class Contact extends Component {
       zipcode: '',
       comments: '',
       updates: '',
+      website: ''
     }
   }
 
@@ -25,7 +26,7 @@ class Contact extends Component {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: { "form-name": "contact", ...this.state }
+      body: encodeURIComponent({ "form-name": "contact", ...this.state })
     })
       .then(() => {
         this.setState({
@@ -51,6 +52,7 @@ class Contact extends Component {
       country,
       comments,
       updates,
+      website,
       formVisible} = this.state
     let successMessage = ''
     if(!formVisible){
