@@ -11,7 +11,7 @@ class Contact extends Component {
       formVisible: true,
       firstName: '',
       lastName: '',
-      company: '',
+      firmName: '',
       title: '',
       email: '',
       phone: '',
@@ -50,7 +50,7 @@ class Contact extends Component {
     let {formTitle, subtitle} = this.props
     const { firstName,
       lastName,
-      company,
+      firmName,
       title,
       email,
       phone,
@@ -133,7 +133,7 @@ class Contact extends Component {
                       required
                       autoComplete="off"
                       placeholder="Firm Name"
-                      value={company}
+                      value={firmName}
                       onChange={this.handleChange}
                     />
                   </div>
