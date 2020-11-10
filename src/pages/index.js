@@ -122,7 +122,7 @@ export default () => (
       </div>
       <div
       label="HELIO SECURITY BOLLARD"
-      heroId="helio-bollard"
+      heroId="helio-security-bollard"
       >
         <div bigImage={helioBollard} bgColor='#c5c1be'>
           <h2 className='hero-title mobile-title'>HELIO BOLLARD</h2>
