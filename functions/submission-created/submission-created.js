@@ -2,7 +2,7 @@ var axios = require('axios');
 
 exports.handler = function(event, context, callback) {
     const body = JSON.parse(event.body).payload;
-    axios.post('https://api.forms-surfaces.net/v1/contact', body,
+    axios.post('https://api.forms-surfaces.net/v1/contact', body.data,
     {headers: {'Content-Type': 'application/json'}})
     .then((data)=>{
       return callback(null, {
