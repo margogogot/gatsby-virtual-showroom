@@ -21,19 +21,24 @@ class Contact extends Component {
     }
   }
 
+  const encode = (data) => {
+    return Object.keys(data)
+        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&");
+  }
+
   handleSubmit = e => {
-    console.log(this.state)
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encodeURIComponent({ "form-name": "contact", ...this.state })
+      body: this.encode({ "form-name": "contact", ...this.state })
     })
-      .then(() => {
-        this.setState({
-          formVisible: false
-        })
+    .then(() => {
+      this.setState({
+        formVisible: false
       })
-      .catch(error => alert(error));
+    })
+    .catch(error => alert(error));
 
     e.preventDefault()
   }
