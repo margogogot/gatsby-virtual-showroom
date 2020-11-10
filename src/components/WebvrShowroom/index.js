@@ -11,6 +11,7 @@ import vaslaHomeRed from './img/vasla-home-red-left.jpg'
 import vaslaHomeGrey from './img/vasla-home-grey-right.jpg'
 import vaslaHomeGrey1 from './img/vasla-home-grey-1-bottom.jpg'
 import vaslaHomeRed1 from './img/vasla-home-red-1-top.jpg'
+import arIcons from './img/ar-ar-core-01.svg'
 import {
   EmailShareButton,
   FacebookShareButton,
@@ -82,6 +83,7 @@ class WebvrShowroom extends Component {
             </div>
           </div>
         </div>
+        <div className="arIcons" />
       </div>
       <div className={'hp-overlay2'+overlayVisibleClass} />
         {iframe}
@@ -184,6 +186,16 @@ const BannerWrapper = styled.section`
   }
   .hp-enter-button:hover{
     opacity: 0.7;
+  }
+  .arIcons{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 120px;
+    height: 20px;
+    background-color: transparent;
+    background-image: url(${arIcons});
+    background-size: cover;
   }
   @media only screen and (min-width: 600px) {
     .hp-overlay {
