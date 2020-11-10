@@ -21,10 +21,10 @@ class Contact extends Component {
     }
   }
 
-  const encode = (data) => {
+  encode = (data) => {
     return Object.keys(data)
         .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-        .join("&");
+        .join("&")
   }
 
   handleSubmit = e => {
