@@ -47,23 +47,23 @@ class WebvrShowroom extends Component {
           <p>Step inside our 3D showroom to interactively view our newest designs + upcoming new products</p>
           <div className="hp-enter-buttons">
             <EmailShareButton
-            url="https://www.forms-surfaces.com"
+            url="https://www.forms-surfaces.com/showroom"
             subject="Forms+Surfaces Virtual Showroom"
-            body="Step inside our 3D showroom to interactively preview upcoming new products"
-            target="_NEW"
+            body="Step inside our 3D showroom to interactively view our newest designs + upcoming new products."
+            target="_PARENT"
             >
             <img src={forwardImg} alt="Forward" />
             </EmailShareButton>
             <FacebookShareButton
-            url="https://www.forms-surfaces.com"
-            quote="Step inside our 3D showroom to interactively preview upcoming new products">
+            url="https://www.forms-surfaces.com/showroom"
+            quote="Step inside our 3D showroom to interactively view our newest designs + upcoming new products.">
             <img src={facebookImg} alt="Facebook" />
             </FacebookShareButton>
             <LinkedinShareButton
             title="Forms+Surfaces Virtual Showroom"
-            url="https://www.forms-surfaces.com"
+            url="https://www.forms-surfaces.com/showroom"
             source="https://www.forms-surfaces.com"
-            summary="Step inside our 3D showroom to interactively preview upcoming new products"
+            summary="Step inside our 3D showroom to interactively view our newest designs + upcoming new products."
             >
             <img src={linkedinImg} alt="LinkedIn" />
             </LinkedinShareButton>

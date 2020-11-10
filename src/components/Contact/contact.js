@@ -70,6 +70,8 @@ class Contact extends Component {
           data-netlify-honeypot="website"
           onSubmit={this.handleSubmit}
           >
+          <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="website" />
           <div className="contact-row">
             <div className="contact-column">
               <p>Our Territory Managers are ready to assist you with any questions or projects.  Just fill out the form to right and we will get back to you ASAP.</p>
@@ -86,7 +88,6 @@ class Contact extends Component {
             </div>
             <div className="contact-column">
               <p>Provide us with your information and details and we will get back to you.</p>
-                <input type="hidden" name="website" />
                 <div className="form-row">
                   <div className="input-area">
                     <input
