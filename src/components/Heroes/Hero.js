@@ -53,7 +53,7 @@ class Hero extends Component {
               <div className={'heroesBackground'} style={{
                 backgroundPositionY: backgroundPosition
               }}/>
-              <div className={'slideImage'} style={{
+              <div className={'slideImage '+child.props.classOverride} style={{
                 backgroundImage: 'url('+child.props.bigImage+')'
               }}>
               </div>
