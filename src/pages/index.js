@@ -47,8 +47,8 @@ export default () => (
         >
           <div bigImage={aptosPedestrian1} bgColor='#c5c1be'>
             <h2 className='hero-title mobile-title'>APTOS PEDESTRIAN <br/>LIGHTING</h2>
-            <p>PRODUCT PREVIEW: Aptos Pedestrian Lighting blends graceful lines, performance LEDs, and the visual lightness and distinctive design of the coordinating Aptos Bollard.</p>
             <h2 className='hero-title'>APTOS PEDESTRIAN <br/>LIGHTING</h2>
+            <p>PRODUCT PREVIEW | Aptos Pedestrian Lighting blends graceful lines, performance LEDs, and the visual lightness and distinctive design of the coordinating Aptos Bollard.</p>
             <div className='heroTextInner'>
               <ul>
                 <li>Fixtures consist of one or two luminaires on a 4" dia. x 12’ high pole</li>
@@ -66,8 +66,8 @@ export default () => (
           </div>
           <div bigImage={aptosPedestrian2} bgColor='#918f8a'>
             <h2 className='hero-title mobile-title'>APTOS PEDESTRIAN <br/>LIGHTING</h2>
-            <p>PRODUCT PREVIEW: Aptos Pedestrian Lighting blends graceful lines, performance LEDs, and the visual lightness and distinctive design of the coordinating Aptos Bollard.</p>
             <h2 className='hero-title'>APTOS PEDESTRIAN <br/>LIGHTING</h2>
+            <p>PRODUCT PREVIEW | Aptos Pedestrian Lighting blends graceful lines, performance LEDs, and the visual lightness and distinctive design of the coordinating Aptos Bollard.</p>
             <div className='heroTextInner'>
               <ul>
                 <li>Fixtures consist of one or two luminaires on a 4" dia. x 12’ high pole</li>
@@ -85,8 +85,8 @@ export default () => (
           </div>
           <div bigImage={aptosPedestrian3} bgColor='#626d6f'>
             <h2 className='hero-title mobile-title'>APTOS PEDESTRIAN <br/>LIGHTING</h2>
-            <p>PRODUCT PREVIEW: Aptos Pedestrian Lighting blends graceful lines, performance LEDs, and the visual lightness and distinctive design of the coordinating Aptos Bollard.</p>
             <h2 className='hero-title'>APTOS PEDESTRIAN <br/>LIGHTING</h2>
+            <p>PRODUCT PREVIEW | Aptos Pedestrian Lighting blends graceful lines, performance LEDs, and the visual lightness and distinctive design of the coordinating Aptos Bollard.</p>
             <div className='heroTextInner'>
               <ul>
                 <li>Fixtures consist of one or two luminaires on a 4" dia. x 12’ high pole</li>
@@ -109,8 +109,8 @@ export default () => (
       >
         <div bigImage={aptosBollard1} bgColor='#c5c1be'>
           <h2 className='hero-title mobile-title'>APTOS BOLLARD</h2>
-          <p>PRODUCT PREVIEW: Aptos Bollards unite the best of two worlds with solar-powered and hardwired designs and coordinate beautifully with Aptos Pedestrian Lighting.</p>
           <h2 className='hero-title'>APTOS BOLLARD</h2>
+          <p>Aptos Bollards unite the best of two worlds with solar-powered and hardwired designs and coordinate beautifully with Aptos Pedestrian Lighting.</p>
           <div className='heroTextInner'>
             <ul>
               <li>Powdercoated cast aluminum body</li>
@@ -129,8 +129,8 @@ export default () => (
         </div>
         <div bigImage={aptosBollard2} bgColor='#434a3e'>
           <h2 className='hero-title mobile-title'>APTOS BOLLARD</h2>
-          <p>PRODUCT PREVIEW: Aptos Bollards unite the best of two worlds with solar-powered and hardwired designs and coordinate beautifully with Aptos Pedestrian Lighting.</p>
           <h2 className='hero-title'>APTOS BOLLARD</h2>
+          <p>Aptos Bollards unite the best of two worlds with solar-powered and hardwired designs and coordinate beautifully with Aptos Pedestrian Lighting.</p>
           <div className='heroTextInner'>
             <ul>
               <li>Powdercoated cast aluminum body</li>
@@ -149,8 +149,8 @@ export default () => (
         </div>
         <div bigImage={aptosBollard3} bgColor='#626d6f'>
           <h2 className='hero-title mobile-title'>APTOS BOLLARD</h2>
-          <p>PRODUCT PREVIEW: Aptos Bollards unite the best of two worlds with solar-powered and hardwired designs and coordinate beautifully with Aptos Pedestrian Lighting.</p>
           <h2 className='hero-title'>APTOS BOLLARD</h2>
+          <p>Aptos Bollards unite the best of two worlds with solar-powered and hardwired designs and coordinate beautifully with Aptos Pedestrian Lighting.</p>
           <div className='heroTextInner'>
             <ul>
               <li>Powdercoated cast aluminum body</li>
@@ -174,8 +174,8 @@ export default () => (
       >
         <div bigImage={radiaBollard1} bgColor='#3F4448'>
           <h2 className='hero-title mobile-title'>RADIA BOLLARD</h2>
-          <p>PRODUCT PREVIEW: The Radia Bollard integrates solar technology and performance LEDs in a distinctive cove form that’s equally enticing day and night.</p>
           <h2 className='hero-title'>RADIA BOLLARD</h2>
+          <p>PRODUCT PREVIEW | The Radia Bollard integrates solar technology and performance LEDs in a distinctive cove form that’s equally enticing day and night.</p>
           <div className='heroTextInner'>
             <ul>
               <li>Fixture consists of corrosion-resistant cast aluminum, aluminum extrusion, and acrylic lens</li>
@@ -193,8 +193,8 @@ export default () => (
         </div>
         <div bigImage={radiaBollard2} bgColor='#29534f'>
           <h2 className='hero-title mobile-title'>RADIA BOLLARD</h2>
-          <p>PRODUCT PREVIEW: The Radia Bollard integrates solar technology and performance LEDs in a distinctive cove form that’s equally enticing day and night.</p>
           <h2 className='hero-title'>RADIA BOLLARD</h2>
+          <p>PRODUCT PREVIEW | The Radia Bollard integrates solar technology and performance LEDs in a distinctive cove form that’s equally enticing day and night.</p>
           <div className='heroTextInner'>
             <ul>
               <li>Fixture consists of corrosion-resistant cast aluminum, aluminum extrusion, and acrylic lens</li>
@@ -212,8 +212,8 @@ export default () => (
         </div>
         <div bigImage={radiaBollard3} bgColor='#877f76'>
           <h2 className='hero-title mobile-title'>RADIA BOLLARD</h2>
-          <p>PRODUCT PREVIEW: The Radia Bollard integrates solar technology and performance LEDs in a distinctive cove form that’s equally enticing day and night.</p>
           <h2 className='hero-title'>RADIA BOLLARD</h2>
+          <p>PRODUCT PREVIEW | The Radia Bollard integrates solar technology and performance LEDs in a distinctive cove form that’s equally enticing day and night.</p>
           <div className='heroTextInner'>
             <ul>
               <li>Fixture consists of corrosion-resistant cast aluminum, aluminum extrusion, and acrylic lens</li>
@@ -236,8 +236,8 @@ export default () => (
       >
         <div bigImage={helioBollard1} bgColor='#c5c1be'>
           <h2 className='hero-title mobile-title'>HELIO BOLLARD</h2>
-          <p>PRODUCT PREVIEW: Helio Security Bollards offer robust protection for public spaces of all kinds with M30-P1/K4, M40-P1/K8 and M50-P1/K12 impact ratings.</p>
           <h2 className='hero-title'>HELIO BOLLARD</h2>
+          <p>Helio Security Bollards offer robust protection for public spaces of all kinds with M30-P1/K4, M40-P1/K8 and M50-P1/K12 impact ratings.</p>
           <div className='heroTextInner'>
             <ul>
               <li>Stainless steel construction</li>
@@ -255,8 +255,8 @@ export default () => (
         </div>
         <div bigImage={helioBollard2} bgColor='#c9c4b3'>
           <h2 className='hero-title mobile-title'>HELIO BOLLARD</h2>
-          <p>PRODUCT PREVIEW: Helio Security Bollards offer robust protection for public spaces of all kinds with M30-P1/K4, M40-P1/K8 and M50-P1/K12 impact ratings.</p>
           <h2 className='hero-title'>HELIO BOLLARD</h2>
+          <p>Helio Security Bollards offer robust protection for public spaces of all kinds with M30-P1/K4, M40-P1/K8 and M50-P1/K12 impact ratings.</p>
           <div className='heroTextInner'>
             <ul>
               <li>Stainless steel construction</li>
@@ -274,8 +274,8 @@ export default () => (
         </div>
         <div bigImage={helioBollard3} bgColor='#3f4448'>
           <h2 className='hero-title mobile-title'>HELIO BOLLARD</h2>
-          <p>PRODUCT PREVIEW: Helio Security Bollards offer robust protection for public spaces of all kinds with M30-P1/K4, M40-P1/K8 and M50-P1/K12 impact ratings.</p>
           <h2 className='hero-title'>HELIO BOLLARD</h2>
+          <p>Helio Security Bollards offer robust protection for public spaces of all kinds with M30-P1/K4, M40-P1/K8 and M50-P1/K12 impact ratings.</p>
           <div className='heroTextInner'>
             <ul>
               <li>Stainless steel construction</li>
@@ -298,8 +298,8 @@ export default () => (
       >
         <div bigImage={tonyoReceptacle1} bgColor='#626d6f'>
           <h2 className='hero-title mobile-title'>TONYO RECEPTACLES</h2>
-          <p>PRODUCT PREVIEW: Tonyo Litter & Recycling Receptacles are durable, highly configurable, and offer impressive design, size, material, and indoor/outdoor flexibility.</p>
           <h2 className='hero-title'>TONYO RECEPTACLES</h2>
+          <p>PRODUCT PREVIEW | Tonyo Litter & Recycling Receptacles are durable, highly configurable, and offer impressive design, size, material, and indoor/outdoor flexibility.</p>
           <div className='heroTextInner'>
             <ul>
               <li>Stainless steel frame</li>
@@ -319,8 +319,8 @@ export default () => (
         </div>
         <div bigImage={tonyoReceptacle2} bgColor='#3f4448'>
           <h2 className='hero-title mobile-title'>TONYO RECEPTACLES</h2>
-          <p>PRODUCT PREVIEW: Tonyo Litter & Recycling Receptacles are durable, highly configurable, and offer impressive design, size, material, and indoor/outdoor flexibility.</p>
           <h2 className='hero-title'>TONYO RECEPTACLES</h2>
+          <p>PRODUCT PREVIEW | Tonyo Litter & Recycling Receptacles are durable, highly configurable, and offer impressive design, size, material, and indoor/outdoor flexibility.</p>
           <div className='heroTextInner'>
             <ul>
               <li>Stainless steel frame</li>
@@ -340,8 +340,8 @@ export default () => (
         </div>
         <div bigImage={tonyoReceptacle3} bgColor='#3f4448'>
           <h2 className='hero-title mobile-title'>TONYO RECEPTACLES</h2>
-          <p>PRODUCT PREVIEW: Tonyo Litter & Recycling Receptacles are durable, highly configurable, and offer impressive design, size, material, and indoor/outdoor flexibility.</p>
           <h2 className='hero-title'>TONYO RECEPTACLES</h2>
+          <p>PRODUCT PREVIEW | Tonyo Litter & Recycling Receptacles are durable, highly configurable, and offer impressive design, size, material, and indoor/outdoor flexibility.</p>
           <div className='heroTextInner'>
             <ul>
               <li>Stainless steel frame</li>
@@ -366,8 +366,8 @@ export default () => (
       >
         <div bigImage={factorTable1} bgColor='#434a3e'>
           <h2 className='hero-title mobile-title'>FACTOR TABLE</h2>
-          <p>PRODUCT PREVIEW: Highly configurable Factor Tables coordinate with Factor Chairs and unite clean lines, simple geometry, and go-anywhere versatility.</p>
           <h2 className='hero-title'>FACTOR TABLE</h2>
+          <p>Highly configurable Factor Tables coordinate with Factor Chairs and unite clean lines, simple geometry, and go-anywhere versatility.</p>
           <div className='heroTextInner'>
             <ul>
               <li>Stainless steel frames with a durable powdercoat finish</li>
@@ -383,8 +383,8 @@ export default () => (
         </div>
         <div bigImage={factorTable2} bgColor='#626d6f' classOverride='anchorLeft'>
           <h2 className='hero-title mobile-title'>FACTOR TABLE</h2>
-          <p>PRODUCT PREVIEW: Highly configurable Factor Tables coordinate with Factor Chairs and unite clean lines, simple geometry, and go-anywhere versatility.</p>
           <h2 className='hero-title'>FACTOR TABLE</h2>
+          <p>Highly configurable Factor Tables coordinate with Factor Chairs and unite clean lines, simple geometry, and go-anywhere versatility.</p>
           <div className='heroTextInner'>
             <ul>
               <li>Stainless steel frames with a durable powdercoat finish</li>
@@ -400,8 +400,8 @@ export default () => (
         </div>
         <div bigImage={factorTable3} bgColor='#3f4448'>
           <h2 className='hero-title mobile-title'>FACTOR TABLE</h2>
-          <p>PRODUCT PREVIEW: Highly configurable Factor Tables coordinate with Factor Chairs and unite clean lines, simple geometry, and go-anywhere versatility.</p>
           <h2 className='hero-title'>FACTOR TABLE</h2>
+          <p>Highly configurable Factor Tables coordinate with Factor Chairs and unite clean lines, simple geometry, and go-anywhere versatility.</p>
           <div className='heroTextInner'>
             <ul>
               <li>Stainless steel frames with a durable powdercoat finish</li>
@@ -422,8 +422,8 @@ export default () => (
       >
         <div bigImage={factorChair1} bgColor='#8c4131'>
           <h2 className='hero-title mobile-title'>FACTOR CHAIR</h2>
-          <p>PRODUCT PREVIEW: Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility.</p>
           <h2 className='hero-title'>FACTOR CHAIR</h2>
+          <p>Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility.</p>
           <div className='heroTextInner'>
             <ul>
               <li>Tubular <u>stainless steel</u> frames with a durable powdercoat finish</li>
@@ -440,8 +440,8 @@ export default () => (
         </div>
         <div bigImage={factorChair2} bgColor='#3f4448'>
           <h2 className='hero-title mobile-title'>FACTOR CHAIR</h2>
-          <p>PRODUCT PREVIEW: Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility.</p>
           <h2 className='hero-title'>FACTOR CHAIR</h2>
+          <p>Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility.</p>
           <div className='heroTextInner'>
             <ul>
               <li>Tubular <u>stainless steel</u> frames with a durable powdercoat finish</li>
@@ -458,8 +458,8 @@ export default () => (
         </div>
         <div bigImage={factorChair3} bgColor='#434a3e'>
           <h2 className='hero-title mobile-title'>FACTOR CHAIR</h2>
-          <p>PRODUCT PREVIEW: Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility.</p>
           <h2 className='hero-title'>FACTOR CHAIR</h2>
+          <p>Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility.</p>
           <div className='heroTextInner'>
             <ul>
               <li>Tubular <u>stainless steel</u> frames with a durable powdercoat finish</li>
@@ -481,8 +481,8 @@ export default () => (
       >
         <div bigImage={liniaChair1} bgColor='#c9c4b3'>
           <h2 className='hero-title mobile-title'>LINIA CHAIR</h2>
-          <p>PRODUCT PREVIEW: Linia is a versatile, durable, moveable chair defined by crisp lines, clean geometric forms, and the option to play with material finish combinations.</p>
           <h2 className='hero-title'>LINIA CHAIR</h2>
+          <p>PRODUCT PREVIEW | Linia is a versatile, durable, moveable chair defined by crisp lines, clean geometric forms, and the option to play with material finish combinations.</p>
           <div className='heroTextInner'>
             <ul>
               <li>Solid stainless-steel rod frames with a polished or powdercoat finish</li>
@@ -498,8 +498,8 @@ export default () => (
         </div>
         <div bigImage={liniaChair2} bgColor='#29534f'>
           <h2 className='hero-title mobile-title'>LINIA CHAIR</h2>
-          <p>PRODUCT PREVIEW: Linia is a versatile, durable, moveable chair defined by crisp lines, clean geometric forms, and the option to play with material finish combinations.</p>
           <h2 className='hero-title'>LINIA CHAIR</h2>
+          <p>PRODUCT PREVIEW | Linia is a versatile, durable, moveable chair defined by crisp lines, clean geometric forms, and the option to play with material finish combinations.</p>
           <div className='heroTextInner'>
             <ul>
               <li>Solid stainless-steel rod frames with a polished or powdercoat finish</li>
@@ -515,8 +515,8 @@ export default () => (
         </div>
         <div bigImage={liniaChair3} bgColor='#8c4131'>
           <h2 className='hero-title mobile-title'>LINIA CHAIR</h2>
-          <p>PRODUCT PREVIEW: Linia is a versatile, durable, moveable chair defined by crisp lines, clean geometric forms, and the option to play with material finish combinations.</p>
           <h2 className='hero-title'>LINIA CHAIR</h2>
+          <p>PRODUCT PREVIEW | Linia is a versatile, durable, moveable chair defined by crisp lines, clean geometric forms, and the option to play with material finish combinations.</p>
           <div className='heroTextInner'>
             <ul>
               <li>Solid stainless-steel rod frames with a polished or powdercoat finish</li>
