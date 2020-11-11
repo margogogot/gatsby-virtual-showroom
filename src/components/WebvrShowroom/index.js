@@ -38,7 +38,7 @@ class WebvrShowroom extends Component {
     if(!this.state.overlayVisible){
       overlayVisibleClass = ' hidden'
     }
-    let iframe = <iframe src="/showroom/index.html" id="virtual-showroom" title="Virtual Showroom" />
+    let iframe = <iframe src="https://virtual-showroom.forms-surfaces.net/app1k6/" id="virtual-showroom" title="Virtual Showroom" />
     return (
       <BannerWrapper>
       <div className={'hp-overlay'+overlayVisibleClass}>
