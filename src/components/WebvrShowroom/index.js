@@ -42,50 +42,56 @@ class WebvrShowroom extends Component {
     return (
       <BannerWrapper>
       <div className={'hp-overlay'+overlayVisibleClass}>
-        <h1>Virtual Showroom</h1>
         <img src={fsLogoImg} alt="Forms+Surfaces Inc" className="fs-logo"/>
-        <div className="hp-enter-block">
-          <p>Step inside our 3D showroom to interactively view our newest designs + upcoming new products</p>
-          <div className="hp-enter-buttons">
-            <EmailShareButton
-            url="https://www.forms-surfaces.com/showroom"
-            subject="Forms+Surfaces Virtual Showroom"
-            body="Step inside our 3D showroom to interactively view our newest designs + upcoming new products."
-            target="_PARENT"
-            >
-            <img src={forwardImg} alt="Forward" />
-            </EmailShareButton>
-            <FacebookShareButton
-            url="https://www.forms-surfaces.com/showroom"
-            quote="Step inside our 3D showroom to interactively view our newest designs + upcoming new products.">
-            <img src={facebookImg} alt="Facebook" />
-            </FacebookShareButton>
-            <LinkedinShareButton
-            title="Forms+Surfaces Virtual Showroom"
-            url="https://www.forms-surfaces.com/showroom"
-            source="https://www.forms-surfaces.com"
-            summary="Step inside our 3D showroom to interactively view our newest designs + upcoming new products."
-            >
-            <img src={linkedinImg} alt="LinkedIn" />
-            </LinkedinShareButton>
-            <TwitterShareButton
-            title="Forms+Surfaces Virtual Showroom"
-            url="https://www.forms-surfaces.com/showroom"
-            related={["@forms_surfaces"]}
-            >
-            <img src={twitterImg} alt="Twitter" />
-            </TwitterShareButton>
-            <div className="end-button">
-              <button onClick={this.onEnter} className="hp-enter-button">
-                <img src={enterImg} alt="Enter"/>
-                ENTER
-              </button>
+        <div className="overlay-text-block">
+          <h1>Virtual Showroom</h1>
+
+          <div className="hp-enter-block">
+            <p>Step inside our 3D showroom to interactively view our newest designs + upcoming new products</p>
+            <div className="hp-enter-buttons">
+              <EmailShareButton
+              url="https://www.forms-surfaces.com/showroom"
+              subject="Forms+Surfaces Virtual Showroom"
+              body="Step inside our 3D showroom to interactively view our newest designs + upcoming new products."
+              target="_PARENT"
+              >
+              <img src={forwardImg} alt="Forward" />
+              </EmailShareButton>
+              <FacebookShareButton
+              url="https://www.forms-surfaces.com/showroom"
+              quote="Step inside our 3D showroom to interactively view our newest designs + upcoming new products.">
+              <img src={facebookImg} alt="Facebook" />
+              </FacebookShareButton>
+              <LinkedinShareButton
+              title="Forms+Surfaces Virtual Showroom"
+              url="https://www.forms-surfaces.com/showroom"
+              source="https://www.forms-surfaces.com"
+              summary="Step inside our 3D showroom to interactively view our newest designs + upcoming new products."
+              >
+              <img src={linkedinImg} alt="LinkedIn" />
+              </LinkedinShareButton>
+              <TwitterShareButton
+              title="Forms+Surfaces Virtual Showroom"
+              url="https://www.forms-surfaces.com/showroom"
+              related={["@forms_surfaces"]}
+              >
+              <img src={twitterImg} alt="Twitter" />
+              </TwitterShareButton>
+              <div className="end-button">
+                <button onClick={this.onEnter} className="hp-enter-button">
+                  <img src={enterImg} alt="Enter"/>
+                  ENTER
+                </button>
+              </div>
             </div>
           </div>
         </div>
-        <div className="arIcons" />
+
       </div>
-      <div className={'hp-overlay2'+overlayVisibleClass} />
+      <div className={'hp-overlay2'+overlayVisibleClass}>
+      <div className="arIcons" />
+      </div>
+
         {iframe}
       </BannerWrapper>
     )
@@ -130,9 +136,9 @@ const BannerWrapper = styled.section`
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     width: 100%;
-    padding: 10% 10px; 0;
+    padding: 10% 10% 0;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
   }
   .fs-logo {
     width: 3rem;
@@ -154,7 +160,10 @@ const BannerWrapper = styled.section`
     justify-content: flex-end;
   }
   .end-button button {
-    margin-right: 1.5rem;
+  }
+  .hp-enter-buttons button {
+    display: flex;
+    align-items: center;
   }
   .hp-enter-buttons img{
     width: 1.25rem;
@@ -169,13 +178,13 @@ const BannerWrapper = styled.section`
     display: block;
   }
   .hp-enter-block{
-    padding: 0 10% 20%;
+    padding: 0 10% 0;
   }
   .hp-enter-button{
     border: none;
     background-color: transparent;
     color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     line-height: 2.1rem;
     cursor: pointer;
     outline: none;
@@ -183,14 +192,21 @@ const BannerWrapper = styled.section`
     transition: opacity 0.5s ease;
     font-family: "Helvetica 83 Heavy Extended";
     letter-spacing: 0.1rem;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
   }
   .hp-enter-button:hover{
     opacity: 0.7;
   }
+  .hp-enter-button img{
+    width: 1.20rem;
+    height: 1.20rem;
+  }
   .arIcons{
     position: absolute;
     bottom: 10px;
-    left: 10px;
+    left: calc(50% - 60px);
     width: 120px;
     height: 20px;
     background-color: transparent;
@@ -198,6 +214,9 @@ const BannerWrapper = styled.section`
     background-size: cover;
   }
   @media only screen and (min-width: 600px) {
+    .arIcons{
+      display: none;
+    }
     .hp-overlay {
       position: absolute;
       top: 0px;
@@ -235,12 +254,19 @@ const BannerWrapper = styled.section`
       top: calc(50vh - 1.5rem);
     }
     .hp-overlay h1 {
-      font-size: 3rem;
+      font-size: 3.5rem;
       text-transform: uppercase;
       width: 50%;
       padding: 20% 10% 2rem;
       margin: 0;
       text-align: left;
+    }
+    .overlay-text-block{
+      position: absolute;
+      bottom: calc(50vh - 1.5rem);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
     }
   }
   @media only screen and (min-width: 2000px){
