@@ -3,13 +3,13 @@
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 346488,
+      "count": 339084,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 67550,
+      "count": 66010,
       "max": [
         0.815493941307068,
         0.244516372680664,
@@ -25,13 +25,13 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 67550,
+      "count": 66010,
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 67550,
+      "count": 66010,
       "type": "VEC2"
     }
   ],
@@ -42,31 +42,31 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 1385952,
+      "byteLength": 1356336,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 810600,
-      "byteOffset": 1385952,
+      "byteLength": 792120,
+      "byteOffset": 1356336,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 810600,
-      "byteOffset": 2196552,
+      "byteLength": 792120,
+      "byteOffset": 2148456,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 540400,
-      "byteOffset": 3007152,
+      "byteLength": 528080,
+      "byteOffset": 2940576,
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 3547552,
+      "byteLength": 3468656,
       "uri": "Aptos_Pedestrian_Single_luminaire.bin"
     }
   ],
