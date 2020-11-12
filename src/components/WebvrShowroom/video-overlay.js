@@ -28,6 +28,7 @@ class VideoOverlay extends Component {
     let video = <VideoWrapper>
       <div class={'videoOverlay'}>
         <div className='content-wrapper'>
+
           <div className='col'>
             <h2>WHILE YOU ARE WAITING...</h2>
             <p>...for the application to load, why don’t you take a peak at our video tour of the Virtual Showroom?</p>
@@ -83,6 +84,10 @@ const VideoWrapper = styled.section`
     height: auto;
     max-height: 500px;
     flex-flow: column;
+    font-size: .8rem;
+  }
+  .content-wrapper .col:first-child{
+    padding-bottom: 20px;
   }
   .videoOverlay{
     width: 100%;
@@ -93,6 +98,7 @@ const VideoWrapper = styled.section`
     video {
       height: auto;
       width: 100%;
+      outline: none;
     }
   }
   .close-button{
