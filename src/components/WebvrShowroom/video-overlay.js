@@ -30,6 +30,11 @@ class VideoOverlay extends Component {
         <div className='content-wrapper'>
 
           <div className='col'>
+            <div className='align-right'>
+              <button onClick={this.onEnter} className='close-button'>
+                <img src={closeIcon} />
+              </button>
+            </div>
             <h2>WHILE YOU ARE WAITING...</h2>
             <p>...for the application to load, why don’t you take a peek at our video tour of the Virtual Showroom?</p>
             <p>The F+S Virtual Showroom uses WebGL technology to maximize your interactive experience. Consequently, the loading time for the application might vary depending of your device, web browser and internet speed.</p>
@@ -42,9 +47,6 @@ class VideoOverlay extends Component {
               Sorry, your browser doesn't support embedded videos.
             </video>
           </div>
-          <button onClick={this.onEnter} className='close-button'>
-            <img src={closeIcon} />
-          </button>
         </div>
       </div>
     </VideoWrapper>
@@ -79,15 +81,17 @@ const VideoWrapper = styled.section`
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    width: 50%;
     max-width: 700px;
     height: auto;
     flex-flow: column;
     font-size: .8rem;
-    padding-top: 90px;
+    width: 90%;
   }
   .content-wrapper .col:first-child{
-    padding-bottom: 60px;
+    padding-bottom: 40px;
+  }
+  .content-wrapper .col{
+    position: relative;
   }
   .videoOverlay{
     width: 100%;
@@ -96,16 +100,13 @@ const VideoWrapper = styled.section`
     align-items: center;
     justify-content: center;
     video {
-      padding-top:30px;
       height: auto;
       width: 100%;
       outline: none;
     }
   }
+
   .close-button{
-    position: absolute;
-    top: 0px;
-    right: 0px;
     background: transparent;
     outline: none;
     cursor: pointer;
@@ -115,20 +116,32 @@ const VideoWrapper = styled.section`
     width: 30px;
     height: 30px;
   }
+  .align-right {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: -53px;
+  }
   @media only screen and (min-width: 760px) {
     .content-wrapper{
-      /* flex-flow: row;
-      flex-wrap: wrap; */
+      width: 50%;
+      margin: 60px 0px 20px;
     }
     .content-wrapper .col{
-      /* width: 50%; */
+      height: 50vh;
     }
     .content-wrapper .col:first-child{
-      padding-right: 20px;
+      padding-right: 0px;
       display: flex;
       align-items: flex-start;
       justify-content: flex-end;
       flex-flow: column;
+    }
+    .videoOverlay{
+      video {
+        padding: 30px;
+      }
     }
   }
 `
