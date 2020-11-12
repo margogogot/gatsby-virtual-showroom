@@ -80,14 +80,14 @@ const VideoWrapper = styled.section`
     justify-content: center;
     align-items: flex-start;
     width: 50%;
-    max-width: 1000px;
+    max-width: 600px;
     height: auto;
-    max-height: 500px;
     flex-flow: column;
     font-size: .8rem;
+    padding-top: 90px;
   }
   .content-wrapper .col:first-child{
-    padding-bottom: 20px;
+    padding-bottom: 60px;
   }
   .videoOverlay{
     width: 100%;
@@ -103,7 +103,7 @@ const VideoWrapper = styled.section`
   }
   .close-button{
     position: absolute;
-    top: -40px;
+    top: 0px;
     right: 0px;
     background: transparent;
     outline: none;
@@ -126,6 +126,7 @@ const VideoWrapper = styled.section`
       padding-right: 20px;
       display: flex;
       align-items: flex-start;
+      justify-content: flex-end;
       flex-flow: column;
     }
   }
