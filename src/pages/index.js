@@ -127,7 +127,7 @@ export default () => (
           </div>
           <p><a href="https://www.forms-surfaces.com/aptos-bollard" target="_NEW">LEARN MORE</a></p>
         </div>
-        <div bigImage={aptosBollard2} bgColor='#434a3e'>
+        <div bigImage={aptosBollard2} bgColor='#504B49'>
           <h2 className='hero-title mobile-title'>APTOS BOLLARD</h2>
           <h2 className='hero-title'>APTOS BOLLARD</h2>
           <p>Aptos Bollards unite the best of two worlds with solar-powered and hardwired designs and coordinate beautifully with Aptos Pedestrian Lighting.</p>
