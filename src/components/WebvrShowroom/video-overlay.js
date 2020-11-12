@@ -31,7 +31,7 @@ class VideoOverlay extends Component {
 
           <div className='col'>
             <h2>WHILE YOU ARE WAITING...</h2>
-            <p>...for the application to load, why don’t you take a peak at our video tour of the Virtual Showroom?</p>
+            <p>...for the application to load, why don’t you take a peek at our video tour of the Virtual Showroom?</p>
             <p>The F+S Virtual Showroom uses WebGL technology to maximize your interactive experience. Consequently, the loading time for the application might vary depending of your device, web browser and internet speed.</p>
             <label><input type='checkbox' onChange={this.dontShow}/> Don't show again.</label>
           </div>
@@ -79,8 +79,8 @@ const VideoWrapper = styled.section`
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    width: 80%;
-    max-width: 1200px;
+    width: 50%;
+    max-width: 1000px;
     height: auto;
     max-height: 500px;
     flex-flow: column;
@@ -116,11 +116,11 @@ const VideoWrapper = styled.section`
   }
   @media only screen and (min-width: 760px) {
     .content-wrapper{
-      flex-flow: row;
-      flex-wrap: wrap;
+      /* flex-flow: row;
+      flex-wrap: wrap; */
     }
     .content-wrapper .col{
-      width: 50%;
+      /* width: 50%; */
     }
     .content-wrapper .col:first-child{
       padding-right: 20px;
