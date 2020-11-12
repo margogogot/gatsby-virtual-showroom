@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { useStaticQuery, graphql } from "gatsby"
+import VideoOverlay from './video-overlay'
+import { withCookies, Cookies } from 'react-cookie'
 import styled from "styled-components"
 import enterImg from './img/enter.svg'
 import facebookImg from './img/facebook.svg'
@@ -21,9 +23,12 @@ import {
 class WebvrShowroom extends Component {
   constructor(props) {
     super(props)
-
+    let hideVideo = false
+    const { cookies } = props
+    hideVideo = cookies.get('hideVideo')
     this.state = {
-      overlayVisible: true
+      overlayVisible: true,
+      hideVideo: hideVideo
     }
   }
 
@@ -35,12 +40,17 @@ class WebvrShowroom extends Component {
 
   render() {
     let overlayVisibleClass = ''
+    let videoOverlay = ''
     if(!this.state.overlayVisible){
       overlayVisibleClass = ' hidden'
+      if(!this.state.hideVideo){
+        videoOverlay = <VideoOverlay/>
+      }
     }
     let iframe = <iframe src="https://virtual-showroom.forms-surfaces.net/app1k6/" id="virtual-showroom" title="Virtual Showroom" />
     return (
       <BannerWrapper>
+      {videoOverlay}
       <div className={'hp-overlay'+overlayVisibleClass}>
         <img src={fsLogoImg} alt="Forms+Surfaces Inc" className="fs-logo"/>
         <div className="overlay-text-block">
@@ -290,4 +300,4 @@ const BannerWrapper = styled.section`
   }
 `
 
-export default WebvrShowroom
+export default withCookies(WebvrShowroom)
