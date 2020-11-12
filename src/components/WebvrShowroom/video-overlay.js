@@ -80,7 +80,7 @@ const VideoWrapper = styled.section`
     justify-content: center;
     align-items: flex-start;
     width: 50%;
-    max-width: 600px;
+    max-width: 700px;
     height: auto;
     flex-flow: column;
     font-size: .8rem;
@@ -96,6 +96,7 @@ const VideoWrapper = styled.section`
     align-items: center;
     justify-content: center;
     video {
+      padding-top:30px;
       height: auto;
       width: 100%;
       outline: none;
