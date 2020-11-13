@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { useStaticQuery, graphql } from "gatsby"
 import VideoOverlay from './video-overlay'
 import { withCookies, Cookies } from 'react-cookie'
+import { UserAgent } from 'react-useragent'
 import styled from "styled-components"
 import enterImg from './img/enter.svg'
 import facebookImg from './img/facebook.svg'
@@ -41,13 +42,20 @@ class WebvrShowroom extends Component {
   render() {
     let overlayVisibleClass = ''
     let videoOverlay = ''
+    let iframe = ''
     if(!this.state.overlayVisible){
       overlayVisibleClass = ' hidden'
       if(!this.state.hideVideo){
         videoOverlay = <VideoOverlay/>
       }
+      iframe = 
+      <UserAgent render={({ ua }) => {
+        return (ua.os === "IOS" ?
+        <iframe src="https://virtual-showroom.forms-surfaces.net/pngcomp2/index_2kShadow-ios.html" id="virtual-showroom" title="Virtual Showroom" /> :
+        <iframe src="https://virtual-showroom.forms-surfaces.net/pngcomp2/index_2kShadow.html" id="virtual-showroom" title="Virtual Showroom" />)
+      }} />
     }
-    let iframe = <iframe src="https://virtual-showroom.forms-surfaces.net/pngcomp2/index_2kShadow.html" id="virtual-showroom" title="Virtual Showroom" />
+
     return (
       <BannerWrapper>
       {videoOverlay}
