@@ -51,7 +51,7 @@ class WebvrShowroom extends Component {
       iframe =
       <UserAgent render={({ ua }) => {
         console.log(ua)
-        return (ua.os === "iOS" ?
+        return (ua.mobile ?
         <>
         <iframe src="https://virtual-showroom.forms-surfaces.net/pngcomp3/index_ios_ar_v02-ios.html" id="virtual-showroom" title="Virtual Showroom" /></> :
         <>
