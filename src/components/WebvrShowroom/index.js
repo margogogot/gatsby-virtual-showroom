@@ -47,7 +47,7 @@ class WebvrShowroom extends Component {
         videoOverlay = <VideoOverlay/>
       }
     }
-    let iframe = <iframe src="https://virtual-showroom.forms-surfaces.net/pngcomp2/" id="virtual-showroom" title="Virtual Showroom" />
+    let iframe = <iframe src="https://virtual-showroom.forms-surfaces.net/pngcomp2/index_2kShadow.html" id="virtual-showroom" title="Virtual Showroom" />
     return (
       <BannerWrapper>
       {videoOverlay}
