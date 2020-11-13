@@ -11,7 +11,7 @@
     "clean": "rm -rf functions-build && mkdir functions-build",
     "zip": "cd functions/submission-created && yarn install && zip -r submission-created.zip *",
     "postzip": "mv functions/submission-created/submission-created.zip functions-build",
-    "copy-showroom": "aws s3 cp s3://fs-virtual-showroom/app1k7/ ./static/showroom/ --exclude 'AR/*' --recursive",
+    "copy-showroom": "aws s3 cp s3://fs-virtual-showroom/app1k8/ ./static/showroom/ --exclude 'AR/*' --recursive",
     "develop": "gatsby develop -H 0.0.0.0",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
@@ -45,6 +45,7 @@
     "react-scroll": "^1.8.1",
     "react-share": "^4.3.1",
     "react-sticky": "^6.0.3",
+    "react-useragent": "^1.1.2",
     "react-visibility-sensor": "^5.1.1",
     "styled-components": "^4.4.1",
     "typeface-gothic-a1": "0.0.61"

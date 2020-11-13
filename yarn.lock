@@ -10376,6 +10376,11 @@ mkdirp@^1.0.3, mkdirp@^1.0.4:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
+mobile-detect@^1.3.6:
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/mobile-detect/-/mobile-detect-1.4.4.tgz#686c74e92d3cc06b09a9b3594b7b981494b137f6"
+  integrity sha512-vTgEjKjS89C5yHL5qWPpT6BzKuOVqABp+A3Szpbx34pIy3sngxlGaFpgHhfj6fKze1w0QKeOSDbU7SKu7wDvRQ==
+
 modernizr@^3.11.3:
   version "3.11.3"
   resolved "https://registry.yarnpkg.com/modernizr/-/modernizr-3.11.3.tgz#15be7aa86743cc0081a74ddc9b3a739bed4cc67e"
@@ -12613,6 +12618,13 @@ react-style-singleton@^2.1.0:
     get-nonce "^1.0.0"
     invariant "^2.2.4"
     tslib "^1.0.0"
+
+react-useragent@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/react-useragent/-/react-useragent-1.1.2.tgz#7fcdaf0d0269cac9f8ffc4b728157100c17c2415"
+  integrity sha512-yJK8nb3keAeDtr4TF+seROKMDrrOW+XEMPCVkDPzxROJi211Qj8jVz23R/bqUcPwvwL3TYihfUctMt1vzh/DPw==
+  dependencies:
+    mobile-detect "^1.3.6"
 
 react-visibility-sensor@^5.1.1:
   version "5.1.1"
