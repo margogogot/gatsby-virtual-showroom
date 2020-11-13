@@ -64,7 +64,7 @@ export default () => (
             </div>
             <p><a href="#contact">KEEP ME POSTED</a></p>
           </div>
-          <div bigImage={aptosPedestrian2} bgColor='#918f8a'>
+          <div bigImage={aptosPedestrian2} bgColor='#C9C5B4'>
             <h2 className='hero-title mobile-title'>APTOS PEDESTRIAN <br/>LIGHTING</h2>
             <h2 className='hero-title'>APTOS PEDESTRIAN <br/>LIGHTING</h2>
             <p>PRODUCT PREVIEW | Aptos Pedestrian Lighting blends graceful lines, performance LEDs, and the visual lightness and distinctive design of the coordinating Aptos Bollard.</p>
@@ -83,7 +83,7 @@ export default () => (
             </div>
             <p><a href="#contact">KEEP ME POSTED</a></p>
           </div>
-          <div bigImage={aptosPedestrian3} bgColor='#626d6f'>
+          <div bigImage={aptosPedestrian3} bgColor='#3F4448'>
             <h2 className='hero-title mobile-title'>APTOS PEDESTRIAN <br/>LIGHTING</h2>
             <h2 className='hero-title'>APTOS PEDESTRIAN <br/>LIGHTING</h2>
             <p>PRODUCT PREVIEW | Aptos Pedestrian Lighting blends graceful lines, performance LEDs, and the visual lightness and distinctive design of the coordinating Aptos Bollard.</p>
@@ -107,7 +107,7 @@ export default () => (
       label="APTOS BOLLARD"
       heroId="aptos-bollard"
       >
-        <div bigImage={aptosBollard1} bgColor='#c5c1be'>
+        <div bigImage={aptosBollard1} bgColor='#959498'>
           <h2 className='hero-title mobile-title'>APTOS BOLLARD</h2>
           <h2 className='hero-title'>APTOS BOLLARD</h2>
           <p>Aptos Bollards unite the best of two worlds with solar-powered and hardwired designs and coordinate beautifully with Aptos Pedestrian Lighting.</p>
@@ -272,7 +272,7 @@ export default () => (
           </div>
           <p><a href="https://www.forms-surfaces.com/helio-bollard" target="_NEW">LEARN MORE</a></p>
         </div>
-        <div bigImage={helioBollard3} bgColor='#3f4448'>
+        <div bigImage={helioBollard3} bgColor='#2F2D2B'>
           <h2 className='hero-title mobile-title'>HELIO BOLLARD</h2>
           <h2 className='hero-title'>HELIO BOLLARD</h2>
           <p>Helio Security Bollards offer robust protection for public spaces of all kinds with M30-P1/K4, M40-P1/K8 and M50-P1/K12 impact ratings.</p>
@@ -317,7 +317,7 @@ export default () => (
           </div>
           <p><a href="#contact">KEEP ME POSTED</a></p>
         </div>
-        <div bigImage={tonyoReceptacle2} bgColor='#3f4448'>
+        <div bigImage={tonyoReceptacle2} bgColor='#504B49'>
           <h2 className='hero-title mobile-title'>TONYO RECEPTACLES</h2>
           <h2 className='hero-title'>TONYO RECEPTACLES</h2>
           <p>PRODUCT PREVIEW | Tonyo Litter & Recycling Receptacles are durable, highly configurable, and offer impressive design, size, material, and indoor/outdoor flexibility.</p>
