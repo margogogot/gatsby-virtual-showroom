@@ -122,6 +122,7 @@ const VideoWrapper = styled.section`
     justify-content: flex-end;
     width: 100%;
     margin-bottom: -53px;
+    z-index: 100;
   }
   @media only screen and (min-width: 760px) {
     .content-wrapper{

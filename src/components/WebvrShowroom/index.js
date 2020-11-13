@@ -181,8 +181,9 @@ const BannerWrapper = styled.section`
     margin-right: .5rem;
   }
   iframe {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
+    max-height: 100%;
     border: none;
     margin: 0px;
     display: block;
