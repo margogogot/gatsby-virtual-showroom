@@ -19,6 +19,9 @@ const Layout = ({ children }) => {
 }
 
 const LayoutWrapper = styled.div`
+  body, html{
+    height: 100%;
+  }
   body{
     overflow-x: hidden;
   }
