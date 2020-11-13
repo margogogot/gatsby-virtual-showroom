@@ -32,7 +32,11 @@ html, body{
   height: 100%;
 }
 
-body>div{
+body>div,
+body>div>div,
+body>div>div>div,
+body div.layout,
+body div.layout>section{
   height:100%;
 }
 /**
