@@ -53,9 +53,9 @@ class WebvrShowroom extends Component {
         console.log(ua)
         return (ua.os === "iOS" ?
         <>
-        <iframe src="https://virtual-showroom.forms-surfaces.net/pngcomp2/index_2kShadow-ios.html" id="virtual-showroom" title="Virtual Showroom" /></> :
+        <iframe src="https://virtual-showroom.forms-surfaces.net/pngcomp3/index_ios_ar_v02-ios.html" id="virtual-showroom" title="Virtual Showroom" /></> :
         <>
-        <iframe src="https://virtual-showroom.forms-surfaces.net/pngcomp2/index_2kShadow.html" id="virtual-showroom" title="Virtual Showroom" /></>)
+        <iframe src="https://virtual-showroom.forms-surfaces.net/pngcomp3/index_ios_ar_v02.html" id="virtual-showroom" title="Virtual Showroom" /></>)
       }} />
       // iframe = <iframe src="https://virtual-showroom.forms-surfaces.net/pngcomp2/index_2kShadow.html" id="virtual-showroom" title="Virtual Showroom" />
     }
