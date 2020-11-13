@@ -62,7 +62,7 @@ class WebvrShowroom extends Component {
     }
 
     return (
-      <BannerWrapper>
+      <BannerWrapper id='virtual-showroom'>
       {videoOverlay}
       <div className={'hp-overlay'+overlayVisibleClass}>
         <img src={fsLogoImg} alt="Forms+Surfaces Inc" className="fs-logo"/>
