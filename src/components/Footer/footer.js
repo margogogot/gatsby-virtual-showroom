@@ -127,6 +127,7 @@ const Footer = () => {
 }
 
 const FooterWrapper = styled.footer`
+
   background-color: #fff;
   font-weight: 100;
   font-smooth: always;

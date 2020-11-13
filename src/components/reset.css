@@ -364,3 +364,7 @@ template {
 [hidden] {
   display: none;
 }
+
+#contact {
+  height: auto;
+}
