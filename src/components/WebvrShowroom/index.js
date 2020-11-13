@@ -51,7 +51,7 @@ class WebvrShowroom extends Component {
       iframe =
       <UserAgent render={({ ua }) => {
         console.log(ua)
-        return (ua.os === "IOS" ?
+        return (ua.os === "iOS" ?
         <>
         <p style={{color: '#ccc'}}>{JSON.stringify(ua)}</p>
         <iframe src="https://virtual-showroom.forms-surfaces.net/pngcomp2/index_2kShadow-ios.html" id="virtual-showroom" title="Virtual Showroom" /></> :
