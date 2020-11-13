@@ -48,18 +48,16 @@ class WebvrShowroom extends Component {
       if(!this.state.hideVideo){
         videoOverlay = <VideoOverlay/>
       }
-      // iframe =
-      // <UserAgent render={({ ua }) => {
-      //   console.log(ua)
-      //   return (ua.os === "iOS" ?
-      //   <>
-      //   <p style={{color: '#ccc'}}>{JSON.stringify(ua)}</p>
-      //   <iframe src="https://virtual-showroom.forms-surfaces.net/pngcomp2/index_2kShadow-ios.html" id="virtual-showroom" title="Virtual Showroom" /></> :
-      //   <>
-      //   <p style={{color: '#ccc'}}>{JSON.stringify(ua)}</p>
-      //   <iframe src="https://virtual-showroom.forms-surfaces.net/pngcomp2/index_2kShadow.html" id="virtual-showroom" title="Virtual Showroom" /></>)
-      // }} />
-      iframe = <iframe src="https://virtual-showroom.forms-surfaces.net/pngcomp2/index_2kShadow.html" id="virtual-showroom" title="Virtual Showroom" />
+      iframe =
+      <UserAgent render={({ ua }) => {
+        console.log(ua)
+        return (ua.os === "iOS" ?
+        <>
+        <iframe src="https://virtual-showroom.forms-surfaces.net/pngcomp2/index_2kShadow-ios.html" id="virtual-showroom" title="Virtual Showroom" /></> :
+        <>
+        <iframe src="https://virtual-showroom.forms-surfaces.net/pngcomp2/index_2kShadow.html" id="virtual-showroom" title="Virtual Showroom" /></>)
+      }} />
+      // iframe = <iframe src="https://virtual-showroom.forms-surfaces.net/pngcomp2/index_2kShadow.html" id="virtual-showroom" title="Virtual Showroom" />
     }
 
     return (
