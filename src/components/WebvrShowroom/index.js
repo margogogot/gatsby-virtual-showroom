@@ -48,11 +48,16 @@ class WebvrShowroom extends Component {
       if(!this.state.hideVideo){
         videoOverlay = <VideoOverlay/>
       }
-      iframe = 
+      iframe =
       <UserAgent render={({ ua }) => {
+        console.log(ua)
         return (ua.os === "IOS" ?
-        <iframe src="https://virtual-showroom.forms-surfaces.net/pngcomp2/index_2kShadow-ios.html" id="virtual-showroom" title="Virtual Showroom" /> :
-        <iframe src="https://virtual-showroom.forms-surfaces.net/pngcomp2/index_2kShadow.html" id="virtual-showroom" title="Virtual Showroom" />)
+        <>
+        <p style={{color: '#ccc'}}>{JSON.stringify(ua)}</p>
+        <iframe src="https://virtual-showroom.forms-surfaces.net/pngcomp2/index_2kShadow-ios.html" id="virtual-showroom" title="Virtual Showroom" /></> :
+        <>
+        <p style={{color: '#ccc'}}>{JSON.stringify(ua)}</p>
+        <iframe src="https://virtual-showroom.forms-surfaces.net/pngcomp2/index_2kShadow.html" id="virtual-showroom" title="Virtual Showroom" /></>)
       }} />
     }
 
