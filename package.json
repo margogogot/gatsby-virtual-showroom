@@ -11,7 +11,7 @@
     "clean": "rm -rf functions-build && mkdir functions-build",
     "zip": "cd functions/submission-created && yarn install && zip -r submission-created.zip *",
     "postzip": "mv functions/submission-created/submission-created.zip functions-build",
-    "copy-showroom": "aws s3 cp s3://fs-virtual-showroom/app1k91/ ./static/showroom2/ --exclude 'AR/*' --recursive",
+    "copy-showroom": "aws s3 cp s3://fs-virtual-showroom/app1k91/ ./static/showroom3/ --exclude 'AR/*' --recursive",
     "develop": "gatsby develop -H 0.0.0.0",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",

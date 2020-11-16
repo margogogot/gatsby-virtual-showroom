@@ -1,4 +1,2 @@
-find . -type f -iname "*.png" -exec pngquant --force --skip-if-larger --verbose {} \;
-find . -type f -iname "*.jpg" -exec cjpeg -quality 80 {} \;
 find . -iname "*.png" -type f -exec sh -c 'sips -s format jpeg "$0" --out "${0%.png}.jpg"' {} \;
 find . -type f \( -iname "*.jpg" -o -iname "*.jpeg" \) -exec jpegoptim -f --strip-all {} \;
