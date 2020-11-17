@@ -53,7 +53,7 @@ class WebvrShowroom extends Component {
         console.log(ua)
         let url = 'https://virtual-showroom.forms-surfaces.net/pngcomp4/index.html'
         if(ua.mobile){
-          url = 'https://virtual-showroom.forms-surfaces.net/pngcomp4/index_mobile.html'
+          url = 'https://virtual-showroom.forms-surfaces.net/pngcomp4/index-mobile.html'
         }
         return (<iframe src={url} title="Virtual Showroom" />)
       }} />
