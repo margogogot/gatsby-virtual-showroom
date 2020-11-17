@@ -42,7 +42,7 @@ class VideoOverlay extends Component {
           </div>
           <div className='col'>
             <video controls autoPlay="true">
-              <source src={'https://virtual-showroom.forms-surfaces.net/video/tour.mp4'}
+              <source src={'https://virtual-showroom.forms-surfaces.net/video/tour-2.mp4'}
                       type="video/mp4" />
               Sorry, your browser doesn't support embedded videos.
             </video>
