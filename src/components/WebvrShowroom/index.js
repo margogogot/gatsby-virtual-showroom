@@ -36,9 +36,10 @@ class WebvrShowroom extends Component {
 
   render() {
     let overlayVisibleClass = ''
-    let videoOverlay = <VideoOverlay/>
+    let videoOverlay = ''
     let iframe = ''
     if(!this.state.overlayVisible){
+      videoOverlay = <VideoOverlay/>
       overlayVisibleClass = ' hidden'
       iframe =
       <UserAgent render={({ ua }) => {
