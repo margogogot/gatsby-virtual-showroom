@@ -18,8 +18,8 @@ class ClickAnimation extends Component {
 
   render() {
     let animation = <AnimationWrapper>
-    <div className="click-area" onClick={this.onEnter}>
-      <img src={touchIcon} onClick={this.onEnter} />
+    <div className="click-area" onClick={this.onEnter} onTouchStart={this.onEnter}>
+      <img src={touchIcon} onClick={this.onEnter} onTouchStart={this.onEnter} />
     </div>
     </AnimationWrapper>
     if(!this.state.overlayVisible){
@@ -48,7 +48,7 @@ const AnimationWrapper = styled.section`
     color: #fff;
   }
   img {
-    left: 50%;
+    left: calc(50% - 65px);
     width: 130px;
     bottom: 50%;
     height: 60px;
