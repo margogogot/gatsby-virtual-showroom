@@ -3,12 +3,19 @@ import { useStaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 import { withCookies, Cookies } from 'react-cookie'
 import closeIcon from './img/close-icon.svg'
+import ClickAnimation from './click-animation'
 
 class VideoOverlay extends Component {
   constructor(props) {
     super(props)
+    const { cookies } = props
+    let hideVideo = cookies.get('hideVideo')
+    let overlayVisible = true
+    if(hideVideo){
+      overlayVisible = false
+    }
     this.state = {
-      overlayVisible: true
+      overlayVisible: overlayVisible
     }
   }
 
@@ -20,7 +27,7 @@ class VideoOverlay extends Component {
 
   dontShow = () => {
     const { cookies } = this.props
-    // cookies.set('hideVideo', true, { path: '/' })
+    cookies.set('hideVideo', true, { path: '/' })
     this.onEnter()
   }
 
@@ -51,7 +58,7 @@ class VideoOverlay extends Component {
       </div>
     </VideoWrapper>
     if(!this.state.overlayVisible){
-      video = null
+      video = <ClickAnimation/>
     }
 
     return (
@@ -73,6 +80,7 @@ const VideoWrapper = styled.section`
   align-items: center;
   justify-content: center;
   flex-flow: column;
+  z-index: 3;
   label {
     cursor: pointer;
   }

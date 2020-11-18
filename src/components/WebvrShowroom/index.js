@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { useStaticQuery, graphql } from "gatsby"
 import VideoOverlay from './video-overlay'
-import { withCookies, Cookies } from 'react-cookie'
 import { UserAgent } from 'react-useragent'
 import styled from "styled-components"
 import enterImg from './img/enter.svg'
@@ -24,12 +23,8 @@ import {
 class WebvrShowroom extends Component {
   constructor(props) {
     super(props)
-    let hideVideo = false
-    const { cookies } = props
-    hideVideo = cookies.get('hideVideo')
     this.state = {
-      overlayVisible: true,
-      hideVideo: hideVideo
+      overlayVisible: true
     }
   }
 
@@ -41,13 +36,10 @@ class WebvrShowroom extends Component {
 
   render() {
     let overlayVisibleClass = ''
-    let videoOverlay = ''
+    let videoOverlay = <VideoOverlay/>
     let iframe = ''
     if(!this.state.overlayVisible){
       overlayVisibleClass = ' hidden'
-      if(!this.state.hideVideo){
-        videoOverlay = <VideoOverlay/>
-      }
       iframe =
       <UserAgent render={({ ua }) => {
         console.log(ua)
@@ -114,6 +106,7 @@ class WebvrShowroom extends Component {
       </div>
 
         {iframe}
+
       </BannerWrapper>
     )
   }
@@ -127,7 +120,7 @@ const BannerWrapper = styled.section`
     left: 0px;
     width: 100vw;
     height: 50vh;
-    z-index:1;
+    z-index:3;
     background-image: url(${vaslaHomeRed1});
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -140,6 +133,7 @@ const BannerWrapper = styled.section`
     left: 0px;
     width: 100vw;
     height: 50vh;
+    z-index: 2;
     background-image: url(${vaslaHomeGrey1});
     background-position: top center;
     background-repeat: no-repeat;
@@ -245,7 +239,6 @@ const BannerWrapper = styled.section`
       left: 0px;
       width: 50vw;
       height: 100vh;
-      z-index:1;
       background-image: url(${vaslaHomeRed});
       background-position: center right;
       background-repeat: no-repeat;
@@ -312,4 +305,4 @@ const BannerWrapper = styled.section`
   }
 `
 
-export default withCookies(WebvrShowroom)
+export default WebvrShowroom
