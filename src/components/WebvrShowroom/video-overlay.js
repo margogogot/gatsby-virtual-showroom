@@ -80,7 +80,7 @@ const VideoWrapper = styled.section`
   align-items: center;
   justify-content: center;
   flex-flow: column;
-  z-index: 3;
+  z-index: 2;
   label {
     cursor: pointer;
   }
