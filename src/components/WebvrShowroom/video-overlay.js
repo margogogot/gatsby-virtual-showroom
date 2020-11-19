@@ -27,7 +27,7 @@ class VideoOverlay extends Component {
 
   dontShow = () => {
     const { cookies } = this.props
-    cookies.set('hideVideo', true, { path: '/' })
+    cookies.set('hideVideo', true, { path: '/', domain: 'fs-virtual-showroom.netlify.app', sameSite: 'lax' })
     this.onEnter()
   }
 
