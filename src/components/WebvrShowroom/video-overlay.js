@@ -58,7 +58,7 @@ class VideoOverlay extends Component {
       </div>
     </VideoWrapper>
     if(!this.state.overlayVisible){
-      video = <ClickAnimation/>
+      video = null
     }
 
     return (
