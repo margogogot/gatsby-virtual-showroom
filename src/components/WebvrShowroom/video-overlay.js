@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
-import { withCookies, Cookies } from 'react-cookie'
 import closeIcon from './img/close-icon.svg'
 import ClickAnimation from './click-animation'
 
@@ -9,7 +8,7 @@ class VideoOverlay extends Component {
   constructor(props) {
     super(props)
     const { cookies } = props
-    let hideVideo = cookies.get('hideVideo')
+    let hideVideo = localStorage.getItem('hideVideo');
     let overlayVisible = true
     if(hideVideo){
       overlayVisible = false
@@ -27,7 +26,7 @@ class VideoOverlay extends Component {
 
   dontShow = () => {
     const { cookies } = this.props
-    cookies.set('hideVideo', true, { path: '/', domain: 'fs-virtual-showroom.netlify.app', sameSite: 'lax' })
+    localStorage.setItem('hideVideo', true)
     this.onEnter()
   }
 
@@ -155,4 +154,4 @@ const VideoWrapper = styled.section`
   }
 `
 
-export default withCookies(VideoOverlay)
+export default VideoOverlay
