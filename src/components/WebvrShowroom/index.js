@@ -66,21 +66,21 @@ class WebvrShowroom extends Component {
               <EmailShareButton
               url="https://www.forms-surfaces.com/showroom"
               subject="Forms+Surfaces Virtual Showroom"
-              body="Step inside our 3D showroom to interactively view our newest designs + upcoming new products."
+              body="Explore. Configure. Visualize. ​Step into our virtual showroom to interactively view our newest site furniture and outdoor lighting designs and preview new products launching in the weeks and months ahead."
               target="_PARENT"
               >
               <img src={forwardImg} alt="Forward" />
               </EmailShareButton>
               <FacebookShareButton
               url="https://www.forms-surfaces.com/showroom"
-              quote="Step inside our 3D showroom to interactively view our newest designs + upcoming new products.">
+              quote="Explore. Configure. Visualize. ​Step into our virtual showroom to interactively view our newest site furniture and outdoor lighting designs and preview new products launching in the weeks and months ahead.">
               <img src={facebookImg} alt="Facebook" />
               </FacebookShareButton>
               <LinkedinShareButton
               title="Forms+Surfaces Virtual Showroom"
               url="https://www.forms-surfaces.com/showroom"
               source="https://www.forms-surfaces.com"
-              summary="Step inside our 3D showroom to interactively view our newest designs + upcoming new products."
+              summary="Explore. Configure. Visualize. ​Step into our virtual showroom to interactively view our newest site furniture and outdoor lighting designs and preview new products launching in the weeks and months ahead."
               >
               <img src={linkedinImg} alt="LinkedIn" />
               </LinkedinShareButton>
