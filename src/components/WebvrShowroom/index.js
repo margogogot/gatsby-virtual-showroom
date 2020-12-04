@@ -44,7 +44,7 @@ class WebvrShowroom extends Component {
       iframe =
       <UserAgent render={({ ua }) => {
         console.log(ua)
-        let url = 'https://virtual-showroom.forms-surfaces.net/pngcomp7/index2.html'
+        let url = 'https://virtual-showroom.forms-surfaces.net/pngcomp7/index4.html'
         // if(ua.mobile){
         //   url = 'https://virtual-showroom.forms-surfaces.net/pngcomp4/index-mobile.html'
         // }
