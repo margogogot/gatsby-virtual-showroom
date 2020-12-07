@@ -230,7 +230,7 @@ const BannerWrapper = styled.section`
     background-image: url(${arIcons});
     background-size: cover;
   }
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 900px) {
     .arIcons{
       display: none;
     }
