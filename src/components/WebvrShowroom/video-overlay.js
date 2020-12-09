@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 import closeIcon from './img/close-icon.svg'
+import isBrowser from '../../utils/misc'
 import ClickAnimation from './click-animation'
 
 class VideoOverlay extends Component {
@@ -9,8 +10,10 @@ class VideoOverlay extends Component {
     super(props)
     const { cookies } = props
     let hideVideo = false
-    if(localStorage){
-      localStorage.getItem('hideVideo');
+    if(isBrowser){
+      if (typeof window.localStorage !== 'undefined') {
+        localStorage.getItem('hideVideo');
+      }
     }
     let overlayVisible = true
     if(hideVideo){
@@ -29,8 +32,10 @@ class VideoOverlay extends Component {
 
   dontShow = () => {
     const { cookies } = this.props
-    if(localStorage){
-      localStorage.setItem('hideVideo', true)
+    if(isBrowser){
+      if (typeof window.localStorage !== 'undefined') {
+        localStorage.setItem('hideVideo', true)
+      }  
     }
     this.onEnter()
   }
