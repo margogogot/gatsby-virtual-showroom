@@ -8,7 +8,10 @@ class VideoOverlay extends Component {
   constructor(props) {
     super(props)
     const { cookies } = props
-    let hideVideo = localStorage.getItem('hideVideo');
+    let hideVideo = false
+    if(localStorage){
+      localStorage.getItem('hideVideo');
+    }
     let overlayVisible = true
     if(hideVideo){
       overlayVisible = false
@@ -26,7 +29,9 @@ class VideoOverlay extends Component {
 
   dontShow = () => {
     const { cookies } = this.props
-    localStorage.setItem('hideVideo', true)
+    if(localStorage){
+      localStorage.setItem('hideVideo', true)
+    }
     this.onEnter()
   }
 
