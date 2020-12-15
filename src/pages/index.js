@@ -48,7 +48,7 @@ export default () => (
           <div bigImage={aptosPedestrian1} bgColor='#c5c1be'>
             <h2 className='hero-title mobile-title'>APTOS PEDESTRIAN <br/>LIGHTING</h2>
             <h2 className='hero-title'>APTOS PEDESTRIAN <br/>LIGHTING</h2>
-            <p>PRODUCT PREVIEW | Aptos Pedestrian Lighting blends graceful lines, performance LEDs, and the visual lightness and distinctive design of the coordinating Aptos Bollard.</p>
+            <p>Aptos Pedestrian Lighting blends graceful lines, performance LEDs, and the visual lightness and distinctive design of the coordinating Aptos Bollard.</p>
             <div className='heroTextInner'>
               <ul>
                 <li>Fixtures consist of one or two luminaires on a 4" dia. x 12’ high pole</li>
