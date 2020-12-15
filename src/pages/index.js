@@ -59,15 +59,14 @@ export default () => (
                 <li>Dimmable</li>
                 <li>High recycled content; highly recyclable</li>
                 <li>ETL and C-ETL listed for wet locations</li>
-                <li>Launching in December 2020</li>
               </ul>
             </div>
-            <p><a href="#contact">KEEP ME POSTED</a></p>
+            <p><a href="https://www.forms-surfaces.com/aptos-pedestrian" target="_NEW">LEARN MORE</a></p>
           </div>
           <div bigImage={aptosPedestrian2} bgColor='#C9C5B4'>
             <h2 className='hero-title mobile-title'>APTOS PEDESTRIAN <br/>LIGHTING</h2>
             <h2 className='hero-title'>APTOS PEDESTRIAN <br/>LIGHTING</h2>
-            <p>PRODUCT PREVIEW | Aptos Pedestrian Lighting blends graceful lines, performance LEDs, and the visual lightness and distinctive design of the coordinating Aptos Bollard.</p>
+            <p>Aptos Pedestrian Lighting blends graceful lines, performance LEDs, and the visual lightness and distinctive design of the coordinating Aptos Bollard.</p>
             <div className='heroTextInner'>
               <ul>
                 <li>Fixtures consist of one or two luminaires on a 4" dia. x 12’ high pole</li>
@@ -78,15 +77,14 @@ export default () => (
                 <li>Dimmable</li>
                 <li>High recycled content; highly recyclable</li>
                 <li>ETL and C-ETL listed for wet locations</li>
-                <li>Launching in December 2020</li>
               </ul>
             </div>
-            <p><a href="#contact">KEEP ME POSTED</a></p>
+            <p><a href="https://www.forms-surfaces.com/aptos-pedestrian" target="_NEW">LEARN MORE</a></p>
           </div>
           <div bigImage={aptosPedestrian3} bgColor='#3F4448'>
             <h2 className='hero-title mobile-title'>APTOS PEDESTRIAN <br/>LIGHTING</h2>
             <h2 className='hero-title'>APTOS PEDESTRIAN <br/>LIGHTING</h2>
-            <p>PRODUCT PREVIEW | Aptos Pedestrian Lighting blends graceful lines, performance LEDs, and the visual lightness and distinctive design of the coordinating Aptos Bollard.</p>
+            <p>Aptos Pedestrian Lighting blends graceful lines, performance LEDs, and the visual lightness and distinctive design of the coordinating Aptos Bollard.</p>
             <div className='heroTextInner'>
               <ul>
                 <li>Fixtures consist of one or two luminaires on a 4" dia. x 12’ high pole</li>
@@ -97,10 +95,9 @@ export default () => (
                 <li>Dimmable</li>
                 <li>High recycled content; highly recyclable</li>
                 <li>ETL and C-ETL listed for wet locations</li>
-                <li>Launching in December 2020</li>
               </ul>
             </div>
-            <p><a href="#contact">KEEP ME POSTED</a></p>
+            <p><a href="https://www.forms-surfaces.com/aptos-pedestrian" target="_NEW">LEARN MORE</a></p>
           </div>
       </div>
       <div
