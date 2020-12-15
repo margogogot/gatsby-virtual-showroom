@@ -11,9 +11,7 @@ class VideoOverlay extends Component {
     const { cookies } = props
     let hideVideo = false
     if(isBrowser){
-      if (typeof window.localStorage !== 'undefined') {
-        localStorage.getItem('hideVideo');
-      }
+      localStorage.getItem('hideVideo');
     }
     let overlayVisible = true
     if(hideVideo){
@@ -33,9 +31,7 @@ class VideoOverlay extends Component {
   dontShow = () => {
     const { cookies } = this.props
     if(isBrowser){
-      if (typeof window.localStorage !== 'undefined') {
-        localStorage.setItem('hideVideo', true)
-      }  
+      localStorage.setItem('hideVideo', true)
     }
     this.onEnter()
   }
