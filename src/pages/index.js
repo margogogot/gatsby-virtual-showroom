@@ -296,65 +296,59 @@ export default () => (
         <div bigImage={tonyoReceptacle1} bgColor='#626d6f'>
           <h2 className='hero-title mobile-title'>TONYO RECEPTACLES</h2>
           <h2 className='hero-title'>TONYO RECEPTACLES</h2>
-          <p>PRODUCT PREVIEW | Tonyo Litter & Recycling Receptacles are durable, highly configurable, and offer impressive design, size, material, and indoor/outdoor flexibility.</p>
+          <p>Tonyo Litter & Recycling Receptacles are a beautifully modern solution with impressive customization potential.</p>
           <div className='heroTextInner'>
             <ul>
-              <li>Stainless steel frame</li>
-              <li>Hinged side-opening door with slam latch</li>
-              <li>Doors in stainless steel or with FSC® 100% Cumaru hardwood slats</li>
-              <li>Durable powdercoat finish</li>
-              <li>30G,36G and 60-gallon capacities available</li>
-              <li>Single and dual waste stream options with corresponding liners</li>
-              <li>Configurations with and without rain cover</li>
-              <li>Freestanding, surface mount, or pole mount (30G)</li>
-              <li>Suitable for interior and exterior applications</li>
-              <li>High recycled content; fully recyclable</li>
-              <li>Launching in early 2021</li>
+              <li>Bodies and doors in powdercoated stainless steel or FSC 100% Cumaru hardwood slats</li>
+              <li>Lids, sidebars, bases, and rain hats in powdercoated aluminum</li>
+              <li>30, 36 and 60-gallon capacities, each with its own configurable design options</li>
+              <li>Single and split-stream variations</li>
+              <li>Optional waste stream graphics</li>
+              <li>Opportunities for color-blocking and custom branding & graphics</li>
+              <li>Hinged side-access doors for easy servicing</li>
+              <li>Multiple mounting options</li>
+              <li>Components are recyclable</li>
             </ul>
           </div>
-          <p><a href="#contact">KEEP ME POSTED</a></p>
+          <p><a href="https://www.forms-surfaces.com/tonyo-litter-recycling-receptacle" target="_NEW">LEARN MORE</a></p>
         </div>
         <div bigImage={tonyoReceptacle2} bgColor='#504B49'>
           <h2 className='hero-title mobile-title'>TONYO RECEPTACLES</h2>
           <h2 className='hero-title'>TONYO RECEPTACLES</h2>
-          <p>PRODUCT PREVIEW | Tonyo Litter & Recycling Receptacles are durable, highly configurable, and offer impressive design, size, material, and indoor/outdoor flexibility.</p>
+          <p>Tonyo Litter & Recycling Receptacles are a beautifully modern solution with impressive customization potential.</p>
           <div className='heroTextInner'>
             <ul>
-              <li>Stainless steel frame</li>
-              <li>Hinged side-opening door with slam latch</li>
-              <li>Doors in stainless steel or with FSC® 100% Cumaru hardwood slats</li>
-              <li>Durable powdercoat finish</li>
-              <li>30G,36G and 60-gallon capacities available</li>
-              <li>Single and dual waste stream options with corresponding liners</li>
-              <li>Configurations with and without rain cover</li>
-              <li>Freestanding, surface mount, or pole mount (30G)</li>
-              <li>Suitable for interior and exterior applications</li>
-              <li>High recycled content; fully recyclable</li>
-              <li>Launching in early 2021</li>
+              <li>Bodies and doors in powdercoated stainless steel or FSC 100% Cumaru hardwood slats</li>
+              <li>Lids, sidebars, bases, and rain hats in powdercoated aluminum</li>
+              <li>30, 36 and 60-gallon capacities, each with its own configurable design options</li>
+              <li>Single and split-stream variations</li>
+              <li>Optional waste stream graphics</li>
+              <li>Opportunities for color-blocking and custom branding & graphics</li>
+              <li>Hinged side-access doors for easy servicing</li>
+              <li>Multiple mounting options</li>
+              <li>Components are recyclable</li>
             </ul>
           </div>
-          <p><a href="#contact">KEEP ME POSTED</a></p>
+          <p><a href="https://www.forms-surfaces.com/tonyo-litter-recycling-receptacle" target="_NEW">LEARN MORE</a></p>
         </div>
         <div bigImage={tonyoReceptacle3} bgColor='#3f4448'>
           <h2 className='hero-title mobile-title'>TONYO RECEPTACLES</h2>
           <h2 className='hero-title'>TONYO RECEPTACLES</h2>
-          <p>PRODUCT PREVIEW | Tonyo Litter & Recycling Receptacles are durable, highly configurable, and offer impressive design, size, material, and indoor/outdoor flexibility.</p>
+          <p>Tonyo Litter & Recycling Receptacles are a beautifully modern solution with impressive customization potential.</p>
           <div className='heroTextInner'>
             <ul>
-              <li>Stainless steel frame</li>
-              <li>Hinged side-opening door with slam latch</li>
-              <li>Doors in stainless steel or with FSC® 100% Cumaru hardwood slats</li>
-              <li>Durable powdercoat finish</li>
-              <li>30G,36G and 60-gallon capacities available</li>
-              <li>Single and dual waste stream options with corresponding liners</li>
-              <li>Configurations with and without rain cover</li>
-              <li>Freestanding, surface mount, or pole mount (30G)</li>
-              <li>Suitable for interior and exterior applications</li>
-              <li>High recycled content; fully recyclable</li>
-              <li>Launching in early 2021</li>
+              <li>Bodies and doors in powdercoated stainless steel or FSC 100% Cumaru hardwood slats</li>
+              <li>Lids, sidebars, bases, and rain hats in powdercoated aluminum</li>
+              <li>30, 36 and 60-gallon capacities, each with its own configurable design options</li>
+              <li>Single and split-stream variations</li>
+              <li>Optional waste stream graphics</li>
+              <li>Opportunities for color-blocking and custom branding & graphics</li>
+              <li>Hinged side-access doors for easy servicing</li>
+              <li>Multiple mounting options</li>
+              <li>Components are recyclable</li>
             </ul>
           </div>
-          <p><a href="#contact">KEEP ME POSTED</a></p>
+          <p><a href="https://www.forms-surfaces.com/tonyo-litter-recycling-receptacle" target="_NEW">LEARN MORE</a></p>
         </div>
       </div>
       <div
