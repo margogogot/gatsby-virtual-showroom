@@ -484,7 +484,7 @@ export default () => (
               <li>Suitable for interior and exterior applications</li>
             </ul>
           </div>
-          <p><a href="#contact">KEEP ME POSTED</a></p>
+          <p><a href="https://www.forms-surfaces.com/linia-caf-chair-and-side-table" target="_NEW">LEARN MORE</a></p>
         </div>
         <div bigImage={liniaChair2} bgColor='#29534f'>
           <h2 className='hero-title mobile-title'>LINIA CHAIR</h2>
@@ -500,7 +500,7 @@ export default () => (
               <li>Suitable for interior and exterior applications</li>
             </ul>
           </div>
-          <p><a href="#contact">KEEP ME POSTED</a></p>
+          <p><a href="https://www.forms-surfaces.com/linia-caf-chair-and-side-table" target="_NEW">LEARN MORE</a></p>
         </div>
         <div bigImage={liniaChair3} bgColor='#8c4131'>
           <h2 className='hero-title mobile-title'>LINIA CHAIR</h2>
@@ -516,7 +516,7 @@ export default () => (
               <li>Suitable for interior and exterior applications</li>
             </ul>
           </div>
-          <p><a href="#contact">KEEP ME POSTED</a></p>
+          <p><a href="https://www.forms-surfaces.com/linia-caf-chair-and-side-table" target="_NEW">LEARN MORE</a></p>
         </div>
       </div>
       </Heroes>
