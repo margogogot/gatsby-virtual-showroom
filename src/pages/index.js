@@ -473,16 +473,15 @@ export default () => (
         <div bigImage={liniaChair1} bgColor='#c9c4b3'>
           <h2 className='hero-title mobile-title'>LINIA CHAIR</h2>
           <h2 className='hero-title'>LINIA CHAIR</h2>
-          <p>PRODUCT PREVIEW | Linia is a versatile, durable, moveable chair defined by crisp lines, clean geometric forms, and the option to play with material finish combinations.</p>
+          <p>Linia is a versatile, durable, moveable chair defined by crisp lines, clean geometric forms, and the option to play with material finish combinations.</p>
           <div className='heroTextInner'>
             <ul>
-              <li>Solid stainless-steel rod frames with a polished or powdercoat finish</li>
-              <li>Seats and backs of powdercoated formed stainless steel with or without perforations</li>
-              <li>Generally stackable to four high; black nylon stacking bumpers protect seats and backs</li>
-              <li>Freestanding; black nylon glides on chair feet</li>
+              <li>Solid stainless-steel rod frames with electropolished or powdercoat finish</li>
+              <li>Seats and backs of powdercoated formed stainless steel; seats with or without perforations</li>
+              <li>Generally stackable to four high; grey nylon stacking bumpers protect seats and backs</li>
+              <li>Freestanding; grey nylon glides on chair feet</li>
               <li>High recycled content; highly recyclable</li>
               <li>Suitable for interior and exterior applications</li>
-              <li>Launching in early 2021</li>
             </ul>
           </div>
           <p><a href="#contact">KEEP ME POSTED</a></p>
@@ -490,16 +489,15 @@ export default () => (
         <div bigImage={liniaChair2} bgColor='#29534f'>
           <h2 className='hero-title mobile-title'>LINIA CHAIR</h2>
           <h2 className='hero-title'>LINIA CHAIR</h2>
-          <p>PRODUCT PREVIEW | Linia is a versatile, durable, moveable chair defined by crisp lines, clean geometric forms, and the option to play with material finish combinations.</p>
+          <p>Linia is a versatile, durable, moveable chair defined by crisp lines, clean geometric forms, and the option to play with material finish combinations.</p>
           <div className='heroTextInner'>
             <ul>
-              <li>Solid stainless-steel rod frames with a polished or powdercoat finish</li>
-              <li>Seats and backs of powdercoated formed stainless steel with or without perforations</li>
-              <li>Generally stackable to four high; black nylon stacking bumpers protect seats and backs</li>
-              <li>Freestanding; black nylon glides on chair feet</li>
+              <li>Solid stainless-steel rod frames with electropolished or powdercoat finish</li>
+              <li>Seats and backs of powdercoated formed stainless steel; seats with or without perforations</li>
+              <li>Generally stackable to four high; grey nylon stacking bumpers protect seats and backs</li>
+              <li>Freestanding; grey nylon glides on chair feet</li>
               <li>High recycled content; highly recyclable</li>
               <li>Suitable for interior and exterior applications</li>
-              <li>Launching in early 2021</li>
             </ul>
           </div>
           <p><a href="#contact">KEEP ME POSTED</a></p>
@@ -507,16 +505,15 @@ export default () => (
         <div bigImage={liniaChair3} bgColor='#8c4131'>
           <h2 className='hero-title mobile-title'>LINIA CHAIR</h2>
           <h2 className='hero-title'>LINIA CHAIR</h2>
-          <p>PRODUCT PREVIEW | Linia is a versatile, durable, moveable chair defined by crisp lines, clean geometric forms, and the option to play with material finish combinations.</p>
+          <p>Linia is a versatile, durable, moveable chair defined by crisp lines, clean geometric forms, and the option to play with material finish combinations.</p>
           <div className='heroTextInner'>
             <ul>
-              <li>Solid stainless-steel rod frames with a polished or powdercoat finish</li>
-              <li>Seats and backs of powdercoated formed stainless steel with or without perforations</li>
-              <li>Generally stackable to four high; black nylon stacking bumpers protect seats and backs</li>
-              <li>Freestanding; black nylon glides on chair feet</li>
+              <li>Solid stainless-steel rod frames with electropolished or powdercoat finish</li>
+              <li>Seats and backs of powdercoated formed stainless steel; seats with or without perforations</li>
+              <li>Generally stackable to four high; grey nylon stacking bumpers protect seats and backs</li>
+              <li>Freestanding; grey nylon glides on chair feet</li>
               <li>High recycled content; highly recyclable</li>
               <li>Suitable for interior and exterior applications</li>
-              <li>Launching in early 2021</li>
             </ul>
           </div>
           <p><a href="#contact">KEEP ME POSTED</a></p>
