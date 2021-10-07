@@ -20,7 +20,7 @@ export default [
   },
   {
     icon: <FaPinterest />,
-    url: "http://pinterest.com/FormsSurfaces/",
+    url: "http://pinterest.com/forms_surfaces/",
     name: "Pinterest",
   },
   {
