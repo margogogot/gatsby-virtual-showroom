@@ -11,33 +11,27 @@ import { Link, animateScroll as scroll } from 'react-scroll'
 
 import heroImage1 from "../images/hero-images/5.2.20_factor_chair_settings_Factor.457_09242020.jpg"
 import heroImage2 from "../images/hero-images/5.2.20_factor_table_studio_Factor.TA1_.408_09242020.jpg"
-import factorChair1 from '../images/hero-images/factor-chair-1.png'
-import factorChair2 from '../images/hero-images/factor-chair-2.png'
-import factorChair3 from '../images/hero-images/factor-chair-3.png'
 import aptosPedestrian1 from '../images/hero-images/aptos-pedestrian-1.png'
 import aptosPedestrian2 from '../images/hero-images/aptos-pedestrian-2.png'
 import aptosPedestrian3 from '../images/hero-images/aptos-pedestrian-3.png'
-import aptosBollard1 from '../images/hero-images/aptos-bollard-1.png'
-import aptosBollard2 from '../images/hero-images/aptos-bollard-2.png'
-import aptosBollard3 from '../images/hero-images/aptos-bollard-3.png'
-import radiaBollard1 from '../images/hero-images/radia-bollard-1.png'
-import radiaBollard2 from '../images/hero-images/radia-bollard-2.png'
-import radiaBollard3 from '../images/hero-images/radia-bollard-3.png'
+import aptosBollard1 from '../images/hero-images/aptos-bollard/ASLA_AptosBollard_1.png'
+import aptosBollard2 from '../images/hero-images/aptos-bollard/ASLA_AptosBollard_2.png'
+import aptosBollard3 from '../images/hero-images/aptos-bollard/ASLA_AptosBollard_3.png'
 import helioBollard1 from '../images/hero-images/helio-security-bollard/ASLA_Helio_1.png'
 import helioBollard2 from '../images/hero-images/helio-security-bollard/ASLA_Helio_2.png'
 import helioBollard3 from '../images/hero-images/helio-security-bollard/ASLA_Helio_3.png'
 import tonyoReceptacle1 from '../images/hero-images/tonyo-receptacle-1.png'
 import tonyoReceptacle2 from '../images/hero-images/tonyo-receptacle/ASLA_Tonyo_2.png'
 import tonyoReceptacle3 from '../images/hero-images/tonyo-receptacle/ASLA_Tonyo_3.png'
-import factorTable1 from '../images/hero-images/factor-table-1.png'
-import factorTable2 from '../images/hero-images/factor-table-2.png'
-import factorTable3 from '../images/hero-images/factor-table-3.png'
 import liniaChair1 from '../images/hero-images/linia-chair/ASLA_Linia_1.png'
 import liniaChair2 from '../images/hero-images/linia-chair/ASLA_Linia_2.png'
 import liniaChair3 from '../images/hero-images/linia-chair/ASLA_Linia_3.png'
 import tenza1 from '../images/hero-images/tenza-charging-solution/ASLA_Tenza_1a.png'
 import tenza2 from '../images/hero-images/tenza-charging-solution/ASLA_Tenza_2a.png'
 import tenza3 from '../images/hero-images/tenza-charging-solution/ASLA_Tenza_3.png'
+import radia1 from '../images/hero-images/radia-bollard/ASLA_Radia_1.png'
+import radia2 from '../images/hero-images/radia-bollard/ASLA_Radia_2.png'
+import radia3 from '../images/hero-images/radia-bollard/ASLA_Radia_3a.png'
 
 export default () => (
   <>
@@ -315,8 +309,8 @@ export default () => (
       heroId="helio-security-bollard"
       >
         <div bigImage={helioBollard1} bgColor='#c5c1be'>
-          <h2 className='hero-title mobile-title'>HELIO BOLLARD</h2>
-          <h2 className='hero-title'>HELIO BOLLARD</h2>
+          <h2 className='hero-title mobile-title'>HELIO SECURITY BOLLARD</h2>
+          <h2 className='hero-title'>HELIO SECURITY BOLLARD</h2>
           <p>Helio Security Bollards offer robust protection for public spaces of all kinds with fixtures in multiple sizes and security core variations.</p>
           <div className='heroTextInner'>
             <ul>
@@ -335,8 +329,8 @@ export default () => (
           <p><a href="https://www.forms-surfaces.com/security-bollards" target="_NEW">LEARN MORE</a></p>
         </div>
         <div bigImage={helioBollard2} bgColor='#c9c4b3'>
-          <h2 className='hero-title mobile-title'>HELIO BOLLARD</h2>
-          <h2 className='hero-title'>HELIO BOLLARD</h2>
+          <h2 className='hero-title mobile-title'>HELIO SECURITY BOLLARD</h2>
+          <h2 className='hero-title'>HELIO SECURITY BOLLARD</h2>
           <p>Helio Security Bollards offer robust protection for public spaces of all kinds with fixtures in multiple sizes and security core variations.</p>
           <div className='heroTextInner'>
             <ul>
@@ -355,8 +349,8 @@ export default () => (
           <p><a href="https://www.forms-surfaces.com/security-bollards" target="_NEW">LEARN MORE</a></p>
         </div>
         <div bigImage={helioBollard3} bgColor='#2F2D2B'>
-          <h2 className='hero-title mobile-title'>HELIO BOLLARD</h2>
-          <h2 className='hero-title'>HELIO BOLLARD</h2>
+          <h2 className='hero-title mobile-title'>HELIO SECURITY BOLLARD</h2>
+          <h2 className='hero-title'>HELIO SECURITY BOLLARD</h2>
           <p>Helio Security Bollards offer robust protection for public spaces of all kinds with fixtures in multiple sizes and security core variations.</p>
           <div className='heroTextInner'>
             <ul>
@@ -376,128 +370,143 @@ export default () => (
         </div>
       </div>
       <div
-      label="TONYO RECEPTACLES"
-      heroId="tonyo-receptacle"
+      label="RADIA BOLLARD"
+      heroId="solar-bollard"
       >
-        <div bigImage={tonyoReceptacle1} bgColor='#626d6f'>
-          <h2 className='hero-title mobile-title'>TONYO RECEPTACLES</h2>
-          <h2 className='hero-title'>TONYO RECEPTACLES</h2>
-          <p>Tonyo Litter & Recycling Receptacles are a beautifully modern solution with impressive customization potential.</p>
+        <div bigImage={radia1} bgColor='#3f4448'>
+          <h2 className='hero-title mobile-title'>RADIA BOLLARD</h2>
+          <h2 className='hero-title'>RADIA BOLLARD</h2>
+          <p>PRODUCT PREVIEW | The Radia Family is defined by a cove form, faceted exterior, and 180° light distribution. Three bollard styles comprise the line.</p>
           <div className='heroTextInner'>
             <ul>
-              <li>Bodies and doors in powdercoated stainless steel or FSC 100% Cumaru hardwood slats</li>
-              <li>Lids, sidebars, bases, and rain hats in powdercoated aluminum</li>
-              <li>30, 36 and 60-gallon capacities, each with its own configurable design options</li>
-              <li>Single and split-stream variations</li>
-              <li>Optional waste stream graphics</li>
-              <li>Opportunities for color-blocking and custom branding & graphics</li>
-              <li>Hinged side-access doors for easy servicing</li>
-              <li>Multiple mounting options</li>
-              <li>Components are recyclable</li>
+              <li>Fixtures consist of corrosion-resistant cast aluminum, aluminum extrusion, and acrylic lens</li>
+            	<li>Durable powdercoat finish</li>
+            	<li>Solar-powered bollard is 36" high x 6.5" diameter</li>
+            	<li>AC bollard is 27.5" high x 4.25" diameter</li>
+            	<li>AC pathway bollard is 10" high x 4.25" diameter</li>
+            	<li>Performance LEDs in 3000K warm white and 4000K neutral white with individual mounted optics</li>
+            	<li>Solar module has high-efficiency monocrystalline cells encapsulated in high-impact UV-resistant polyurethane</li>
+            	<li>180° light distribution</li>
+            	<li>ETL and C-ETL listed for wet locations</li>
+            	<li>High recycled content; highly recyclable</li>
+            	<li>Launching early 2022</li>
             </ul>
           </div>
-          <p><a href="https://www.forms-surfaces.com/tonyo-litter-recycling-receptacle" target="_NEW">LEARN MORE</a></p>
+          <p><a href="#contact">KEEP ME POSTED</a></p>
         </div>
-        <div bigImage={tonyoReceptacle2} bgColor='#504B49'>
-          <h2 className='hero-title mobile-title'>TONYO RECEPTACLES</h2>
-          <h2 className='hero-title'>TONYO RECEPTACLES</h2>
-          <p>Tonyo Litter & Recycling Receptacles are a beautifully modern solution with impressive customization potential.</p>
+        <div bigImage={radia2} bgColor='#29534f'>
+          <h2 className='hero-title mobile-title'>RADIA BOLLARD</h2>
+          <h2 className='hero-title'>RADIA BOLLARD</h2>
+          <p>PRODUCT PREVIEW | The Radia Family is defined by a cove form, faceted exterior, and 180° light distribution. Three bollard styles comprise the line.</p>
           <div className='heroTextInner'>
             <ul>
-              <li>Bodies and doors in powdercoated stainless steel or FSC 100% Cumaru hardwood slats</li>
-              <li>Lids, sidebars, bases, and rain hats in powdercoated aluminum</li>
-              <li>30, 36 and 60-gallon capacities, each with its own configurable design options</li>
-              <li>Single and split-stream variations</li>
-              <li>Optional waste stream graphics</li>
-              <li>Opportunities for color-blocking and custom branding & graphics</li>
-              <li>Hinged side-access doors for easy servicing</li>
-              <li>Multiple mounting options</li>
-              <li>Components are recyclable</li>
+              <li>Fixtures consist of corrosion-resistant cast aluminum, aluminum extrusion, and acrylic lens</li>
+              <li>Durable powdercoat finish</li>
+              <li>Solar-powered bollard is 36" high x 6.5" diameter</li>
+              <li>AC bollard is 27.5" high x 4.25" diameter</li>
+              <li>AC pathway bollard is 10" high x 4.25" diameter</li>
+              <li>Performance LEDs in 3000K warm white and 4000K neutral white with individual mounted optics</li>
+              <li>Solar module has high-efficiency monocrystalline cells encapsulated in high-impact UV-resistant polyurethane</li>
+              <li>180° light distribution</li>
+              <li>ETL and C-ETL listed for wet locations</li>
+              <li>High recycled content; highly recyclable</li>
+              <li>Launching early 2022</li>
             </ul>
           </div>
-          <p><a href="https://www.forms-surfaces.com/tonyo-litter-recycling-receptacle" target="_NEW">LEARN MORE</a></p>
+          <p><a href="#contact">KEEP ME POSTED</a></p>
         </div>
-        <div bigImage={tonyoReceptacle3} bgColor='#3f4448'>
-          <h2 className='hero-title mobile-title'>TONYO RECEPTACLES</h2>
-          <h2 className='hero-title'>TONYO RECEPTACLES</h2>
-          <p>Tonyo Litter & Recycling Receptacles are a beautifully modern solution with impressive customization potential.</p>
+        <div bigImage={radia3} bgColor='#877e75'>
+          <h2 className='hero-title mobile-title'>RADIA BOLLARD</h2>
+          <h2 className='hero-title'>RADIA BOLLARD</h2>
+          <p>PRODUCT PREVIEW | The Radia Family is defined by a cove form, faceted exterior, and 180° light distribution. Three bollard styles comprise the line.</p>
           <div className='heroTextInner'>
             <ul>
-              <li>Bodies and doors in powdercoated stainless steel or FSC 100% Cumaru hardwood slats</li>
-              <li>Lids, sidebars, bases, and rain hats in powdercoated aluminum</li>
-              <li>30, 36 and 60-gallon capacities, each with its own configurable design options</li>
-              <li>Single and split-stream variations</li>
-              <li>Optional waste stream graphics</li>
-              <li>Opportunities for color-blocking and custom branding & graphics</li>
-              <li>Hinged side-access doors for easy servicing</li>
-              <li>Multiple mounting options</li>
-              <li>Components are recyclable</li>
+              <li>Fixtures consist of corrosion-resistant cast aluminum, aluminum extrusion, and acrylic lens</li>
+              <li>Durable powdercoat finish</li>
+              <li>Solar-powered bollard is 36" high x 6.5" diameter</li>
+              <li>AC bollard is 27.5" high x 4.25" diameter</li>
+              <li>AC pathway bollard is 10" high x 4.25" diameter</li>
+              <li>Performance LEDs in 3000K warm white and 4000K neutral white with individual mounted optics</li>
+              <li>Solar module has high-efficiency monocrystalline cells encapsulated in high-impact UV-resistant polyurethane</li>
+              <li>180° light distribution</li>
+              <li>ETL and C-ETL listed for wet locations</li>
+              <li>High recycled content; highly recyclable</li>
+              <li>Launching early 2022</li>
             </ul>
           </div>
-          <p><a href="https://www.forms-surfaces.com/tonyo-litter-recycling-receptacle" target="_NEW">LEARN MORE</a></p>
+          <p><a href="#contact">KEEP ME POSTED</a></p>
         </div>
       </div>
       <div
-      label="FACTOR TABLE"
-      heroId="factor-table"
+      label="APTOS BOLLARD"
+      heroId="aptos-bollard"
       >
-        <div bigImage={factorTable1} bgColor='#434a3e'>
-          <h2 className='hero-title mobile-title'>FACTOR TABLE</h2>
-          <h2 className='hero-title'>FACTOR TABLE</h2>
-          <p>Highly configurable Factor Tables coordinate with Factor Chairs and unite clean lines, simple geometry, and go-anywhere versatility.</p>
+        <div bigImage={aptosBollard1} bgColor='#97969b'>
+          <h2 className='hero-title mobile-title'>APTOS BOLLARD</h2>
+          <h2 className='hero-title'>APTOS BOLLARD</h2>
+          <p>Aptos Bollards unite the best of two worlds with solar-powered and hardwired designs that coordinate beautifully with Aptos Pedestrian Lighting.</p>
           <div className='heroTextInner'>
             <ul>
-              <li>Stainless steel frames with a durable powdercoat finish</li>
-              <li>Tops of FSC® 100% Cumaru or FSC® 100% Teak hardwood slats or powdercoated aluminum with or without perforations</li>
-              <li>Standard table size is 42" square</li>
-              <li>Freestanding with adjustable levelers or surface mount</li>
-              <li>Optional umbrella hole</li>
-              <li>Highly recyclable</li>
-              <li>Suitable for interior and exterior applications</li>
+              <li>Powdercoated cast aluminum body</li>
+            	<li>36" high x 6.5" diameter</li>
+            	<li>120° or 360° light distribution</li>
+            	<li>Cree® LEDs in 3000K warm white + 4000K neutral white with individual mounted optics</li>
+            	<li>Self-contained solar-powered bollard predictively adapts to surroundings</li>
+            	<li>Self-learning Solar Lighting Controller with intelligent day/night detection</li>
+            	<li>Solar module has high-efficiency monocrystalline cells encapsulated in high-impact UV-resistant polyurethane</li>
+            	<li>Solar bollard has a high-performance lithium ion phosphate battery</li>
+            	<li>Hardwired bollards have a 40W LED driver, are dimmable and ETL and C-ETL listed</li>
+            	<li>High recycled content; highly recyclable</li>
             </ul>
           </div>
-          <p><a href="https://www.forms-surfaces.com/factor-table" target="_NEW">LEARN MORE</a></p>
+          <p><a href="https://www.forms-surfaces.com/aptos-bollard" target="_NEW">LEARN MORE</a></p>
         </div>
-        <div bigImage={factorTable2} bgColor='#626d6f' classOverride='anchorLeft'>
-          <h2 className='hero-title mobile-title'>FACTOR TABLE</h2>
-          <h2 className='hero-title'>FACTOR TABLE</h2>
-          <p>Highly configurable Factor Tables coordinate with Factor Chairs and unite clean lines, simple geometry, and go-anywhere versatility.</p>
+        <div bigImage={aptosBollard2} bgColor='#504b48'>
+          <h2 className='hero-title mobile-title'>APTOS BOLLARD</h2>
+          <h2 className='hero-title'>APTOS BOLLARD</h2>
+          <p>Aptos Bollards unite the best of two worlds with solar-powered and hardwired designs that coordinate beautifully with Aptos Pedestrian Lighting.</p>
           <div className='heroTextInner'>
             <ul>
-              <li>Stainless steel frames with a durable powdercoat finish</li>
-              <li>Tops of FSC® 100% Cumaru or FSC® 100% Teak hardwood slats or powdercoated aluminum with or without perforations</li>
-              <li>Standard table size is 42" square</li>
-              <li>Freestanding with adjustable levelers or surface mount</li>
-              <li>Optional umbrella hole</li>
-              <li>Highly recyclable</li>
-              <li>Suitable for interior and exterior applications</li>
+              <li>Powdercoated cast aluminum body</li>
+            	<li>36" high x 6.5" diameter</li>
+            	<li>120° or 360° light distribution</li>
+            	<li>Cree® LEDs in 3000K warm white + 4000K neutral white with individual mounted optics</li>
+            	<li>Self-contained solar-powered bollard predictively adapts to surroundings</li>
+            	<li>Self-learning Solar Lighting Controller with intelligent day/night detection</li>
+            	<li>Solar module has high-efficiency monocrystalline cells encapsulated in high-impact UV-resistant polyurethane</li>
+            	<li>Solar bollard has a high-performance lithium ion phosphate battery</li>
+            	<li>Hardwired bollards have a 40W LED driver, are dimmable and ETL and C-ETL listed</li>
+            	<li>High recycled content; highly recyclable</li>
             </ul>
           </div>
-          <p><a href="https://www.forms-surfaces.com/factor-table" target="_NEW">LEARN MORE</a></p>
+          <p><a href="https://www.forms-surfaces.com/aptos-bollard" target="_NEW">LEARN MORE</a></p>
         </div>
-        <div bigImage={factorTable3} bgColor='#3f4448'>
-          <h2 className='hero-title mobile-title'>FACTOR TABLE</h2>
-          <h2 className='hero-title'>FACTOR TABLE</h2>
-          <p>Highly configurable Factor Tables coordinate with Factor Chairs and unite clean lines, simple geometry, and go-anywhere versatility.</p>
+        <div bigImage={aptosBollard3} bgColor='#626d6f'>
+          <h2 className='hero-title mobile-title'>APTOS BOLLARD</h2>
+          <h2 className='hero-title'>APTOS BOLLARD</h2>
+          <p>Aptos Bollards unite the best of two worlds with solar-powered and hardwired designs that coordinate beautifully with Aptos Pedestrian Lighting.</p>
           <div className='heroTextInner'>
             <ul>
-              <li>Stainless steel frames with a durable powdercoat finish</li>
-              <li>Tops of FSC® 100% Cumaru or FSC® 100% Teak hardwood slats or powdercoated aluminum with or without perforations</li>
-              <li>Standard table size is 42" square</li>
-              <li>Freestanding with adjustable levelers or surface mount</li>
-              <li>Optional umbrella hole</li>
-              <li>Highly recyclable</li>
-              <li>Suitable for interior and exterior applications</li>
+              <li>Powdercoated cast aluminum body</li>
+              <li>36" high x 6.5" diameter</li>
+              <li>120° or 360° light distribution</li>
+              <li>Cree® LEDs in 3000K warm white + 4000K neutral white with individual mounted optics</li>
+              <li>Self-contained solar-powered bollard predictively adapts to surroundings</li>
+              <li>Self-learning Solar Lighting Controller with intelligent day/night detection</li>
+              <li>Solar module has high-efficiency monocrystalline cells encapsulated in high-impact UV-resistant polyurethane</li>
+              <li>Solar bollard has a high-performance lithium ion phosphate battery</li>
+              <li>Hardwired bollards have a 40W LED driver, are dimmable and ETL and C-ETL listed</li>
+              <li>High recycled content; highly recyclable</li>
             </ul>
           </div>
-          <p><a href="https://www.forms-surfaces.com/factor-table" target="_NEW">LEARN MORE</a></p>
+          <p><a href="https://www.forms-surfaces.com/aptos-bollard" target="_NEW">LEARN MORE</a></p>
         </div>
       </div>
       <div
-      label="FACTOR CHAIR"
-      heroId="factor-chair"
+      label="APTOS PEDESTRIAN LIGHTING"
+      heroId="aptos-pedestrian"
       >
-        <div bigImage={factorChair1} bgColor='#8c4131'>
+        <div bigImage={aptosPedestrian1} bgColor='#8c4131'>
           <h2 className='hero-title mobile-title'>FACTOR CHAIR</h2>
           <h2 className='hero-title'>FACTOR CHAIR</h2>
           <p>Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility.</p>
@@ -515,7 +524,7 @@ export default () => (
           </div>
           <p><a href="https://www.forms-surfaces.com/factor-chair" target="_NEW">LEARN MORE</a></p>
         </div>
-        <div bigImage={factorChair2} bgColor='#3f4448'>
+        <div bigImage={aptosPedestrian2} bgColor='#3f4448'>
           <h2 className='hero-title mobile-title'>FACTOR CHAIR</h2>
           <h2 className='hero-title'>FACTOR CHAIR</h2>
           <p>Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility.</p>
@@ -533,7 +542,7 @@ export default () => (
           </div>
           <p><a href="https://www.forms-surfaces.com/factor-chair" target="_NEW">LEARN MORE</a></p>
         </div>
-        <div bigImage={factorChair3} bgColor='#434a3e'>
+        <div bigImage={aptosPedestrian3} bgColor='#434a3e'>
           <h2 className='hero-title mobile-title'>FACTOR CHAIR</h2>
           <h2 className='hero-title'>FACTOR CHAIR</h2>
           <p>Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility.</p>
