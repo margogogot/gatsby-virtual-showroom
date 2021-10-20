@@ -1,8 +1,6 @@
 import React from "react"
 import styled from "styled-components"
 import "typeface-gothic-a1"
-import "./reset.css"
-import './global.css'
 import Navbar from "../components/Navbar/navbar"
 import Footer from "../components/Footer/footer"
 import SEO from "../components/Seo/seo"

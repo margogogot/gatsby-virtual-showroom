@@ -1,4 +1,7 @@
+@import "reset.scss";
+@import "global.scss";
 @import "~react-responsive-carousel/lib/styles/carousel.min.css";
+@import "slider.scss";
 
 .carousel-root {
   height: calc(100vh - 40px);

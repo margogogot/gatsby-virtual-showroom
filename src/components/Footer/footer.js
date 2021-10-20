@@ -166,7 +166,7 @@ const FooterWrapper = styled.footer`
       text-transform: none;
       padding: 5px 0;
       margin: 0;
-      font-family: 'Helvetica Neue Medium';
+      font-family: 'Moderat Medium';
     }
     a{
       text-decoration: none;

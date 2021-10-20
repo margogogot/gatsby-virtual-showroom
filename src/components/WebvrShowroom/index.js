@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { useStaticQuery, graphql } from "gatsby"
 import VideoOverlay from './video-overlay'
+import Lightbox from './lightbox'
 import { UserAgent } from 'react-useragent'
 import styled from "styled-components"
 import enterImg from './img/enter.svg'
@@ -9,10 +10,12 @@ import forwardImg from './img/forward-page.svg'
 import linkedinImg from './img/linkedin.svg'
 import twitterImg from './img/twitter.svg'
 import fsLogoImg from './img/fs-logo-white.svg'
-import vaslaHomeRed from './img/vasla-home-red-left.jpg'
-import vaslaHomeGrey from './img/vasla-home-grey-right.jpg'
-import vaslaHomeGrey1 from './img/vasla-home-grey-1-bottom.jpg'
-import vaslaHomeRed1 from './img/vasla-home-red-1-top.jpg'
+import virtualBoothBG from './img/virtual-booth-bg-01.jpg'
+import virtualBoothBGMobile from './img/virtual-booth-bg-mobile.jpg'
+import lineUpLogo from './img/line-up-logo-01-01.svg'
+import lineUpLogoMobile from './img/line-up-logo-01-mobile.svg'
+import redGradient from './img/red-gradient.svg'
+import lightboxButton from './img/lightbox-button.svg'
 import arIcons from './img/ar-ar-core-01.svg'
 import {
   EmailShareButton,
@@ -24,7 +27,8 @@ class WebvrShowroom extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      overlayVisible: true
+      overlayVisible: true,
+      lightboxVisible: false
     }
   }
 
@@ -36,76 +40,71 @@ class WebvrShowroom extends Component {
 
   render() {
     let overlayVisibleClass = ''
-    let videoOverlay = ''
+    let lightbox = ''
     let iframe = ''
     if(!this.state.overlayVisible){
-      videoOverlay = <VideoOverlay/>
+      lightbox = <Lightbox onClose={(e)=>{this.setState({
+        lightboxVisible: false
+      })}} overlayVisible={this.state.lightboxVisible}/>
       overlayVisibleClass = ' hidden'
       iframe =
       <UserAgent render={({ ua }) => {
-        console.log(ua)
-        let url = 'https://virtual-showroom.forms-surfaces.net/app1k15/index5.html'
-        // if(ua.mobile){
-        //   url = 'https://virtual-showroom.forms-surfaces.net/pngcomp4/index-mobile.html'
-        // }
-        return (<iframe src={url} title="Virtual Showroom" />)
+        let url = 'https://eaxperts-virtual-showroom-optimized.netlify.app/'
+        return (<div className='iframe-wrapper'>
+          <iframe src={url} title="Virtual Showroom" />
+          <div className='lightbox-button-linia' onClick={(e)=>{
+            this.setState({
+              lightboxVisible: true
+            })
+          }} />
+        </div>)
       }} />
     }
 
     return (
       <BannerWrapper id='virtual-showroom'>
-      {videoOverlay}
+      {lightbox}
       <div className={'hp-overlay'+overlayVisibleClass}>
-        <img src={fsLogoImg} alt="Forms+Surfaces Inc" className="fs-logo"/>
-        <div className="overlay-text-block">
-          <h1>Virtual Showroom</h1>
-
-          <div className="hp-enter-block">
-            <p>Step inside our 3D showroom to interactively view our newest designs + upcoming new products</p>
-            <div className="hp-enter-buttons">
-              <EmailShareButton
-              url="https://www.forms-surfaces.com/showroom"
-              subject="Forms+Surfaces Virtual Showroom"
-              body="Explore. Configure. Visualize. ​Step into our virtual showroom to interactively view our newest site furniture and outdoor lighting designs and preview new products launching in the weeks and months ahead."
-              target="_PARENT"
-              >
-              <img src={forwardImg} alt="Forward" />
-              </EmailShareButton>
-              <FacebookShareButton
-              url="https://www.forms-surfaces.com/showroom"
-              quote="Explore. Configure. Visualize. ​Step into our virtual showroom to interactively view our newest site furniture and outdoor lighting designs and preview new products launching in the weeks and months ahead.">
-              <img src={facebookImg} alt="Facebook" />
-              </FacebookShareButton>
-              <LinkedinShareButton
-              title="Forms+Surfaces Virtual Showroom"
-              url="https://www.forms-surfaces.com/showroom"
-              source="https://www.forms-surfaces.com"
-              summary="Explore. Configure. Visualize. ​Step into our virtual showroom to interactively view our newest site furniture and outdoor lighting designs and preview new products launching in the weeks and months ahead."
-              >
-              <img src={linkedinImg} alt="LinkedIn" />
-              </LinkedinShareButton>
-              <TwitterShareButton
-              title="Forms+Surfaces Virtual Showroom"
-              url="https://www.forms-surfaces.com/showroom"
-              related={["@forms_surfaces"]}
-              >
-              <img src={twitterImg} alt="Twitter" />
-              </TwitterShareButton>
-              <div className="end-button">
-                <button onClick={this.onEnter} className="hp-enter-button">
-                  <img src={enterImg} alt="Enter"/>
-                  ENTER
-                </button>
-              </div>
-            </div>
+        <div className='line-up-logo' />
+        <div className='enter-block'>
+          <div className="end-button">
+            <button onClick={this.onEnter} className="hp-enter-button">
+              ENTER
+            </button>
           </div>
         </div>
-
+        <div className="hp-enter-buttons">
+          <EmailShareButton
+          url="https://www.forms-surfaces.com/showroom"
+          subject="Forms+Surfaces Virtual Showroom"
+          body="Explore. Configure. Visualize. ​Step into our virtual showroom to interactively view our newest site furniture and outdoor lighting designs and preview new products launching in the weeks and months ahead."
+          target="_PARENT"
+          >
+            <img src={forwardImg} alt="Forward" />
+          </EmailShareButton>
+          <FacebookShareButton
+          url="https://www.forms-surfaces.com/showroom"
+          quote="Explore. Configure. Visualize. ​Step into our virtual showroom to interactively view our newest site furniture and outdoor lighting designs and preview new products launching in the weeks and months ahead.">
+            <img src={facebookImg} alt="Facebook" />
+          </FacebookShareButton>
+          <LinkedinShareButton
+          title="Forms+Surfaces Virtual Showroom"
+          url="https://www.forms-surfaces.com/showroom"
+          source="https://www.forms-surfaces.com"
+          summary="Explore. Configure. Visualize. ​Step into our virtual showroom to interactively view our newest site furniture and outdoor lighting designs and preview new products launching in the weeks and months ahead."
+          >
+            <img src={linkedinImg} alt="LinkedIn" />
+          </LinkedinShareButton>
+          <TwitterShareButton
+          title="Forms+Surfaces Virtual Showroom"
+          url="https://www.forms-surfaces.com/showroom"
+          related={["@forms_surfaces"]}
+          >
+            <img src={twitterImg} alt="Twitter" />
+          </TwitterShareButton>
+        </div>
+        <div className="arIcons" />
       </div>
-      <div className={'hp-overlay2'+overlayVisibleClass}>
-      <div className="arIcons" />
-      </div>
-
         {iframe}
 
       </BannerWrapper>
@@ -115,37 +114,43 @@ class WebvrShowroom extends Component {
 
 const BannerWrapper = styled.section`
   position: relative;
+  .iframe-wrapper {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    border: none;
+    margin: 0px;
+    display: block;
+  }
+  .lightbox-button-linia {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    z-index: 0;
+    background-image: url(${lightboxButton});
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 9rem;
+    height: 3rem;
+    cursor: pointer;
+  }
   .hp-overlay {
     position: absolute;
     top: 0px;
     left: 0px;
     width: 100vw;
-    height: 50vh;
+    height: 100vh;
     z-index:3;
-    background-image: url(${vaslaHomeRed1});
-    background-position: bottom center;
+    background-image: url(${virtualBoothBGMobile});
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-color: #585858;
     transition: left 2s linear, top 1s linear;
-  }
-  .hp-overlay2 {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: 100vw;
-    height: 50vh;
-    z-index: 2;
-    background-image: url(${vaslaHomeGrey1});
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: right 2s linear, bottom 1s linear;
   }
   .hp-overlay.hidden{
     top: -200vh;
-  }
-  .hp-overlay2.hidden{
-    bottom: -200vh;
   }
   .hp-overlay h1 {
     font-size: 2rem;
@@ -156,6 +161,30 @@ const BannerWrapper = styled.section`
     margin: 0 auto;
     text-align: left;
   }
+  .line-up-logo {
+    background-image: url(${lineUpLogoMobile});
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+  }
+  .enter-block {
+    background-image: url(${redGradient});
+    background-position: center center;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    height: 8vh;
+    width: 48vw;
+    position: absolute;
+    top: 49vh;
+    right: 0px;
+    z-index: 4;
+  }
   .fs-logo {
     width: 3rem;
     height: 3rem;
@@ -164,8 +193,13 @@ const BannerWrapper = styled.section`
     top: calc(50vh - 1.5rem);
   }
   .hp-enter-buttons{
-    border-top: solid 3px #fff;
     padding-top: .5rem;
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    width: 29vh;
+    min-width: 100px;
+    justify-content: space-between;
   }
   .end-button,
   .hp-enter-buttons {
@@ -173,6 +207,7 @@ const BannerWrapper = styled.section`
   }
   .end-button {
     width: 100%;
+    height: 100%;
     justify-content: flex-end;
   }
   .end-button button {
@@ -207,10 +242,12 @@ const BannerWrapper = styled.section`
     outline: none;
     opacity: 1;
     transition: opacity 0.5s ease;
-    font-family: "Helvetica 83 Heavy Extended";
+    font-family: "Moderat Condensed Light";
     letter-spacing: 0.1rem;
     padding-right: 0px;
     display: flex;
+    height: 100%;
+    padding-right: 2rem;
     align-items: center;
   }
   .hp-enter-button:hover{
@@ -222,8 +259,8 @@ const BannerWrapper = styled.section`
   }
   .arIcons{
     position: absolute;
-    bottom: 10px;
-    left: calc(50% - 60px);
+    bottom: 2rem;
+    left: 2rem;
     width: 120px;
     height: 20px;
     background-color: transparent;
@@ -231,31 +268,14 @@ const BannerWrapper = styled.section`
     background-size: cover;
   }
   @media only screen and (min-width: 900px) {
-    .arIcons{
-      display: none;
-    }
     .hp-overlay {
       position: absolute;
       top: 0px;
       left: 0px;
-      width: 50vw;
+      width: 100vw;
       height: 100vh;
-      background-image: url(${vaslaHomeRed});
-      background-position: center right;
+      background-image: url(${virtualBoothBG});
       background-repeat: no-repeat;
-      background-size: cover;
-    }
-    .hp-overlay2 {
-      position: absolute;
-      bottom: 0px;
-      right: 0px;
-      left: auto;
-      width: 50vw;
-      height: 100vh;
-      background-image: url(${vaslaHomeGrey});
-      background-position: center left;
-      background-repeat: no-repeat;
-      background-size: cover;
     }
     .hp-overlay.hidden{
       left: -200vw;
@@ -283,6 +303,12 @@ const BannerWrapper = styled.section`
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
+    }
+    .hp-enter-buttons{
+      right: 50vw;
+    }
+    .line-up-logo {
+      background-image: url(${lineUpLogo});
     }
   }
   @media only screen and (min-width: 2000px){

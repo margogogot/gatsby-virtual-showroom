@@ -44,6 +44,7 @@
     "react-responsive-carousel": "^3.2.10",
     "react-scroll": "^1.8.1",
     "react-share": "^4.3.1",
+    "react-slick": "^0.28.1",
     "react-sticky": "^6.0.3",
     "react-useragent": "^1.1.2",
     "react-visibility-sensor": "^5.1.1",

@@ -42,6 +42,64 @@ export default () => (
       <WebvrShowroom/>
       <Heroes>
         <div
+        label="LINIA CAFÉ CHAIRS & SIDE TABLE"
+        heroId="linia-chair"
+        >
+          <div bigImage={liniaChair1} bgColor='#c9c4b3'>
+            <h2 className='hero-title mobile-title'>LINIA CHAIR</h2>
+            <h2 className='hero-title'>LINIA CHAIR</h2>
+            <p>Linia is a versatile, durable, moveable chair defined by crisp lines, clean geometric forms, and the option to play with material finish combinations.</p>
+            <div className='heroTextInner'>
+              <ul>
+                <li>Solid stainless-steel rod frames with electropolished or powdercoat finish</li>
+                <li>Seats and backs of powdercoated formed stainless steel; seats with or without perforations</li>
+                <li>Generally stackable to four high; grey nylon stacking bumpers protect seats and backs</li>
+                <li>Freestanding; grey nylon glides on chair feet</li>
+                <li>High recycled content; highly recyclable</li>
+                <li>Suitable for interior and exterior applications</li>
+              </ul>
+            </div>
+            <p><a href="https://www.forms-surfaces.com/linia-caf-chair-and-side-table" target="_NEW">LEARN MORE</a></p>
+          </div>
+          <div bigImage={liniaChair2} bgColor='#29534f'>
+            <h2 className='hero-title mobile-title'>LINIA CAFÉ CHAIRS & SIDE TABLE</h2>
+            <h2 className='hero-title'>LINIA CAFÉ CHAIRS & SIDE TABLE</h2>
+            <p>Linia Café Chairs, Lounge Chairs & Side Tables invite easy customization and offer the exceptional performance of stainless steel.</p>
+            <div className='heroTextInner'>
+              <ul>
+                <li>Stainless steel rod frames have an electropolished or powdercoat finish</li>
+                <li>Stainless steel chair seats & backs and table tops have a powdercoat finish</li>
+                <li>Powdercoat colors can be mixed or matched on individual chairs/tables</li>
+                <li>Chair seats and table tops are available with or without perforations</li>
+                <li>Chairs stack up to 4 high</li>
+                <li>Café Chairs have an upright form for use with café tables</li>
+                <li>Lounge Chairs have a wider, more relaxed profile</li>
+                <li>Side Table is nom. 18” high with 17” dia. top</li>
+                <li>Freestanding; nylon glides on chair and table feet</li>
+                <li>High recycled content; highly recyclable</li>
+                <li>For interior and exterior use</li>
+              </ul>
+            </div>
+            <p><a href="https://www.forms-surfaces.com/linia-chairs-and-tables" target="_NEW">LEARN MORE</a></p>
+          </div>
+          <div bigImage={liniaChair3} bgColor='#8c4131'>
+            <h2 className='hero-title mobile-title'>LINIA CHAIR</h2>
+            <h2 className='hero-title'>LINIA CHAIR</h2>
+            <p>Linia is a versatile, durable, moveable chair defined by crisp lines, clean geometric forms, and the option to play with material finish combinations.</p>
+            <div className='heroTextInner'>
+              <ul>
+                <li>Solid stainless-steel rod frames with electropolished or powdercoat finish</li>
+                <li>Seats and backs of powdercoated formed stainless steel; seats with or without perforations</li>
+                <li>Generally stackable to four high; grey nylon stacking bumpers protect seats and backs</li>
+                <li>Freestanding; grey nylon glides on chair feet</li>
+                <li>High recycled content; highly recyclable</li>
+                <li>Suitable for interior and exterior applications</li>
+              </ul>
+            </div>
+            <p><a href="https://www.forms-surfaces.com/linia-caf-chair-and-side-table" target="_NEW">LEARN MORE</a></p>
+          </div>
+        </div>
+        <div
         label="APTOS PEDESTRIAN LIGHTING"
         heroId="aptos-pedestrian"
         >
@@ -464,59 +522,6 @@ export default () => (
             </ul>
           </div>
           <p><a href="https://www.forms-surfaces.com/factor-chair" target="_NEW">LEARN MORE</a></p>
-        </div>
-      </div>
-      <div
-      label="LINIA CHAIR"
-      heroId="linia-chair"
-      >
-        <div bigImage={liniaChair1} bgColor='#c9c4b3'>
-          <h2 className='hero-title mobile-title'>LINIA CHAIR</h2>
-          <h2 className='hero-title'>LINIA CHAIR</h2>
-          <p>Linia is a versatile, durable, moveable chair defined by crisp lines, clean geometric forms, and the option to play with material finish combinations.</p>
-          <div className='heroTextInner'>
-            <ul>
-              <li>Solid stainless-steel rod frames with electropolished or powdercoat finish</li>
-              <li>Seats and backs of powdercoated formed stainless steel; seats with or without perforations</li>
-              <li>Generally stackable to four high; grey nylon stacking bumpers protect seats and backs</li>
-              <li>Freestanding; grey nylon glides on chair feet</li>
-              <li>High recycled content; highly recyclable</li>
-              <li>Suitable for interior and exterior applications</li>
-            </ul>
-          </div>
-          <p><a href="https://www.forms-surfaces.com/linia-caf-chair-and-side-table" target="_NEW">LEARN MORE</a></p>
-        </div>
-        <div bigImage={liniaChair2} bgColor='#29534f'>
-          <h2 className='hero-title mobile-title'>LINIA CHAIR</h2>
-          <h2 className='hero-title'>LINIA CHAIR</h2>
-          <p>Linia is a versatile, durable, moveable chair defined by crisp lines, clean geometric forms, and the option to play with material finish combinations.</p>
-          <div className='heroTextInner'>
-            <ul>
-              <li>Solid stainless-steel rod frames with electropolished or powdercoat finish</li>
-              <li>Seats and backs of powdercoated formed stainless steel; seats with or without perforations</li>
-              <li>Generally stackable to four high; grey nylon stacking bumpers protect seats and backs</li>
-              <li>Freestanding; grey nylon glides on chair feet</li>
-              <li>High recycled content; highly recyclable</li>
-              <li>Suitable for interior and exterior applications</li>
-            </ul>
-          </div>
-          <p><a href="https://www.forms-surfaces.com/linia-caf-chair-and-side-table" target="_NEW">LEARN MORE</a></p>
-        </div>
-        <div bigImage={liniaChair3} bgColor='#8c4131'>
-          <h2 className='hero-title mobile-title'>LINIA CHAIR</h2>
-          <h2 className='hero-title'>LINIA CHAIR</h2>
-          <p>Linia is a versatile, durable, moveable chair defined by crisp lines, clean geometric forms, and the option to play with material finish combinations.</p>
-          <div className='heroTextInner'>
-            <ul>
-              <li>Solid stainless-steel rod frames with electropolished or powdercoat finish</li>
-              <li>Seats and backs of powdercoated formed stainless steel; seats with or without perforations</li>
-              <li>Generally stackable to four high; grey nylon stacking bumpers protect seats and backs</li>
-              <li>Freestanding; grey nylon glides on chair feet</li>
-              <li>High recycled content; highly recyclable</li>
-              <li>Suitable for interior and exterior applications</li>
-            </ul>
-          </div>
-          <p><a href="https://www.forms-surfaces.com/linia-caf-chair-and-side-table" target="_NEW">LEARN MORE</a></p>
         </div>
       </div>
       </Heroes>
