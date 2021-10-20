@@ -32,9 +32,9 @@ import tonyoReceptacle3 from '../images/hero-images/tonyo-receptacle-3.png'
 import factorTable1 from '../images/hero-images/factor-table-1.png'
 import factorTable2 from '../images/hero-images/factor-table-2.png'
 import factorTable3 from '../images/hero-images/factor-table-3.png'
-import liniaChair1 from '../images/hero-images/linia-chair-1.png'
-import liniaChair2 from '../images/hero-images/linia-chair-2.png'
-import liniaChair3 from '../images/hero-images/linia-chair-3.png'
+import liniaChair1 from '../images/hero-images/linia-chair/ASLA_Linia_1.png'
+import liniaChair2 from '../images/hero-images/linia-chair/ASLA_Linia_2.png'
+import liniaChair3 from '../images/hero-images/linia-chair/ASLA_Linia_3.png'
 
 export default () => (
   <>
