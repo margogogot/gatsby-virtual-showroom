@@ -35,11 +35,8 @@ import factorTable3 from '../images/hero-images/factor-table-3.png'
 import liniaChair1 from '../images/hero-images/linia-chair/ASLA_Linia_1.png'
 import liniaChair2 from '../images/hero-images/linia-chair/ASLA_Linia_2.png'
 import liniaChair3 from '../images/hero-images/linia-chair/ASLA_Linia_3.png'
-import tenza1 from '../images/hero-images/tenza-charging-solution/ASLA_Tenza_1.png'
-import tenza1a from '../images/hero-images/tenza-charging-solution/ASLA_Tenza_1a.png'
-import tenza2 from '../images/hero-images/tenza-charging-solution/ASLA_Tenza_2.png'
-import tenza2a from '../images/hero-images/tenza-charging-solution/ASLA_Tenza_2a.png'
-import tenza2b from '../images/hero-images/tenza-charging-solution/ASLA_Tenza_2b.png'
+import tenza1 from '../images/hero-images/tenza-charging-solution/ASLA_Tenza_1a.png'
+import tenza2 from '../images/hero-images/tenza-charging-solution/ASLA_Tenza_2a.png'
 import tenza3 from '../images/hero-images/tenza-charging-solution/ASLA_Tenza_3.png'
 
 export default () => (
@@ -271,48 +268,6 @@ export default () => (
           <p><a href="#contact">KEEP ME POSTED</a></p>
         </div>
         <div bigImage={tenza2} bgColor='#626d6f'>
-          <h2 className='hero-title mobile-title'>TENZA CHARGING SOLUTION</h2>
-          <h2 className='hero-title'>TENZA CHARGING SOLUTION</h2>
-          <p>PRODUCT PREVIEW | The Tenza Charging Solution offers power in any space, indoor or outdoor, in an eye-catching, inviting form.</p>
-          <div className='heroTextInner'>
-            <ul>
-              <li>Constructed of corrosion-resistant cast aluminum and stainless steel</li>
-              <li>Durable powdercoat finish</li>
-              <li>36.5" or 53" tall, for seated or standing-height applications</li>
-              <li>Convenient, optional shelves</li>
-              <li>Self-closing, easy to use, safe outlet housing</li>
-              <li>Distinctive wedge-shaped enclosure is inviting and easy to identify in a space</li>
-              <li>LED illuminated outlet housing for ease of use</li>
-              <li>Standard GFCI outlets</li>
-              <li>Meets NEMA 3R and ETL listed for wet locations</li>
-              <li>High recycled content; highly recyclable</li>
-              <li>Launching in 2022</li>
-            </ul>
-          </div>
-          <p><a href="#contact">KEEP ME POSTED</a></p>
-        </div>
-        <div bigImage={tenza2a} bgColor='#626d6f'>
-          <h2 className='hero-title mobile-title'>TENZA CHARGING SOLUTION</h2>
-          <h2 className='hero-title'>TENZA CHARGING SOLUTION</h2>
-          <p>PRODUCT PREVIEW | The Tenza Charging Solution offers power in any space, indoor or outdoor, in an eye-catching, inviting form.</p>
-          <div className='heroTextInner'>
-            <ul>
-              <li>Constructed of corrosion-resistant cast aluminum and stainless steel</li>
-              <li>Durable powdercoat finish</li>
-              <li>36.5" or 53" tall, for seated or standing-height applications</li>
-              <li>Convenient, optional shelves</li>
-              <li>Self-closing, easy to use, safe outlet housing</li>
-              <li>Distinctive wedge-shaped enclosure is inviting and easy to identify in a space</li>
-              <li>LED illuminated outlet housing for ease of use</li>
-              <li>Standard GFCI outlets</li>
-              <li>Meets NEMA 3R and ETL listed for wet locations</li>
-              <li>High recycled content; highly recyclable</li>
-              <li>Launching in 2022</li>
-            </ul>
-          </div>
-          <p><a href="#contact">KEEP ME POSTED</a></p>
-        </div>
-        <div bigImage={tenza2b} bgColor='#626d6f'>
           <h2 className='hero-title mobile-title'>TENZA CHARGING SOLUTION</h2>
           <h2 className='hero-title'>TENZA CHARGING SOLUTION</h2>
           <p>PRODUCT PREVIEW | The Tenza Charging Solution offers power in any space, indoor or outdoor, in an eye-catching, inviting form.</p>
