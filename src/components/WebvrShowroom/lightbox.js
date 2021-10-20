@@ -103,7 +103,7 @@ const LightboxWrapper = styled.section`
   height: 100%;
   top: 0px;
   left: 0px;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.8);
   display: flex;
   align-items: center;
   justify-content: center;
