@@ -229,7 +229,7 @@ class Contact extends Component {
                 checked={updates}
                 onChange={this.handleChange}
               />
-              <label for="updates">Notify me when new Forms+Surfaces products are launching.</label>
+              <label htmlFor="updates">Notify me when new Forms+Surfaces products are launching.</label>
             </div>
             </div>
             <div className="contact-column">

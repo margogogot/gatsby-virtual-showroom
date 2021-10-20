@@ -5,6 +5,7 @@ import isBrowser from '../../utils/misc'
 import ClickAnimation from './click-animation'
 import Slider from 'react-slick'
 import liniaLightboxTitle from './img/linia-lightbox-title.svg'
+import liniaLightboxTitleMobile from './img/linia-lightbox-title-mobile.svg'
 import liniaStep1 from './img/linia-step-1.svg'
 import liniaStep2 from './img/linia-step-2.svg'
 import liniaStep3 from './img/linia-step-3.svg'
@@ -42,23 +43,23 @@ class Lightbox extends Component {
         <div className='content-wrapper'>
 
           <div className='col'>
-            <img src={liniaLightboxTitle} />
+            <div className='lightbox-title' />
             <h2>HOW TO ENTER?</h2>
             <p>Find yourself in line to win a Linia Side Table and two Linia Cafe Chairs just by posting on <a href='http://instagram.com/forms_surfaces' target='_blank'>Instagram.</a> It's that easy!</p>
             <Slider {...settings} >
               <div>
                 <img src={liniaStep1} />
-                <h2>CREATE</h2>
+                <h2>CREATE | 1 of 3</h2>
                 <p>Explore our <span className='red underline'>Virtual Booth</span>. Have fun browsing through the variousislands and customizing F+S products.</p>
               </div>
               <div>
                 <img src={liniaStep2} />
-                <h2>CAPTURE</h2>
+                <h2>CAPTURE | 2 of 3</h2>
                 <p>Pick 2 of your favorite products and use the <span className='red'>AR feature</span> to take a photo of your favs in a creative background of your choice (go wild!).</p>
               </div>
               <div>
                 <img src={liniaStep3} />
-                <h2>SHARE</h2>
+                <h2>SHARE | 3 of 3</h2>
                 <p>Follow <a href='http://instagram.com/forms_surfaces' target='_blank'>@forms_surfaces</a> on <a href='http://instagram.com/forms_surfaces' target='_blank'>Instagram</a> and post your product 'lineup' to your story or feed with the hashtag <a href='https://www.instagram.com/explore/tags/lineupforlinia/' target='_blank'>#LINEupforLinia</a>. Don't forget to tag us and a friend in your posts to complete your entry!</p>
               </div>
             </Slider>
@@ -108,11 +109,19 @@ const LightboxWrapper = styled.section`
   justify-content: center;
   flex-flow: column;
   z-index: 2;
+  .lightbox-title {
+    background-image: url(${liniaLightboxTitleMobile});
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 5rem;
+    background-position: center center;
+  }
   label {
     cursor: pointer;
   }
   h2 {
-    font-family: 'Moderat Black'
+    font-family: 'Moderat Black';
+    text-transform: none !important;
   }
   a,
   .red {
@@ -141,7 +150,7 @@ const LightboxWrapper = styled.section`
     font-weight: bold;
     text-decoration: none;
     align-items: flex-end;
-    justify-content: center;
+    justify-content: flex-start;
     img {
       width: 3rem;
       height: 3rem;
@@ -233,6 +242,9 @@ const LightboxWrapper = styled.section`
     }
     .share-to-win {
       font-size: 1.7rem;
+    }
+    .lightbox-title {
+      background-image: url(${liniaLightboxTitle});
     }
   }
 `

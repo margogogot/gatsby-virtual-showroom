@@ -28,7 +28,7 @@ class WebvrShowroom extends Component {
     super(props)
     this.state = {
       overlayVisible: true,
-      lightboxVisible: false
+      lightboxVisible: true
     }
   }
 

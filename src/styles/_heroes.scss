@@ -17,12 +17,13 @@ ul li{
   top:0px;
   right: 0px;
   display: block;
-  background-image: url('./img/background-shapes-3-01.svg');
+  background-image: url('./img/background-shapes-VB21.svg');
+  opacity: 0.25;
   background-size: cover;
   background-position: 0px 0px;
   background-repeat: repeat-y;
   z-index: 0;
-  width: 80vw;
+  width: 100vw;
   height: 100%;
 }
 .heroesList {
@@ -56,6 +57,8 @@ ul li{
   line-height: 1.1rem;
   transition: opacity .5s ease;
   opacity: 0.6;
+  font-family: 'Moderat Bold';
+  font-weight: bold;
 }
 .heroesList .heroesListInner a:before{
   content: '';
@@ -174,6 +177,7 @@ ul li{
 }
 .slideTextInner p{
   font-size: .9rem;
+  font-family: 'Moderat Medium';
 }
 .slideTextInner ul{
   padding-left: 1rem;

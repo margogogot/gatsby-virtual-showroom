@@ -27,16 +27,16 @@ const Footer = () => {
           	<p>Join our mailing list to receive the latest news and updates from F+S.</p>
           </div>
           <div id="mc_embed_signup">
-          	<form action="//forms-surfaces.us1.list-manage.com/subscribe/post?u=deed5374c301844ccef9b55ac&amp;id=44315d1845" class="validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+          	<form action="//forms-surfaces.us1.list-manage.com/subscribe/post?u=deed5374c301844ccef9b55ac&amp;id=44315d1845" className="validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" noValidate="" target="_blank">
           		<div id="mc_embed_signup_scroll">
-          			<input class="email" id="mce-EMAIL" name="EMAIL" placeholder="email address" required="" type="email" />
+          			<input className="email" id="mce-EMAIL" name="EMAIL" placeholder="email address" required="" type="email" />
           			<div aria-hidden="true" style={{position: 'absolute', left: '-50000px'}}>
-          				<input name="b_deed5374c301844ccef9b55ac_3e2c17d270" tabindex="-1" type="text" value="" />
+          				<input name="b_deed5374c301844ccef9b55ac_3e2c17d270" tabIndex="-1" type="text" value="" />
           				<input type="checkbox" value="2" name="group[21][2]" id="mce-group[21]-21-0" checked="checked" />
           				<input type="checkbox" value="1" name="group[21][1]" id="mce-group[21]-21-1" checked="checked" />
           			</div>
-          			<div class="clear">
-          				<input class="button" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Subscribe" />
+          			<div className="clear">
+          				<input className="button" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Subscribe" />
                 </div>
           		</div>
           	</form>
@@ -44,10 +44,10 @@ const Footer = () => {
         </div>
 
         <div>
-          <h2 class="title">Links</h2>
-          <div class="menu-block- menu-name-secondary-links parent-mlid-37235 menu-level-1">
-            <ul class="menu">
-            <li class="leaf first last menu-mlid-97981">
+          <h2 className="title">Links</h2>
+          <div className="menu-block- menu-name-secondary-links parent-mlid-37235 menu-level-1">
+            <ul className="menu">
+            <li className="leaf first last menu-mlid-97981">
             <a href="https://www.forms-surfaces.com/continuing-education">Continuing Education</a>
             </li>
             </ul>
@@ -55,38 +55,38 @@ const Footer = () => {
         </div>
 
         <div>
-          <h2 class="title">Design Tools</h2>
-          <div class="menu-block- menu-name-secondary-links parent-mlid-68382 menu-level-1">
-            <ul class="menu">
-            <li class="leaf first menu-mlid-116712">
+          <h2 className="title">Design Tools</h2>
+          <div className="menu-block- menu-name-secondary-links parent-mlid-68382 menu-level-1">
+            <ul className="menu">
+            <li className="leaf first menu-mlid-116712">
             <a href="https://www.forms-surfaces.com/vektr-digital-canvas" target="_blank">VEKTR Digital Canvas</a></li>
-            <li class="leaf menu-mlid-68383">
+            <li className="leaf menu-mlid-68383">
             <a href="https://www.forms-surfaces.com/augmented-reality">Augmented Reality</a></li>
-            <li class="leaf menu-mlid-68385">
+            <li className="leaf menu-mlid-68385">
             <a href="https://www.forms-surfaces.com/elevator-design-studio">Elevator Design Studio</a></li>
-            <li class="leaf menu-mlid-91318">
+            <li className="leaf menu-mlid-91318">
             <a href="https://www.forms-surfaces.com/zoom-digital-darkroom">Zoom Digital Darkroom</a></li>
-            <li class="leaf last menu-mlid-68386">
+            <li className="leaf last menu-mlid-68386">
             <a href="https://www.forms-surfaces.com/virtual-quarry">Virtual Quarry</a></li>
             </ul>
           </div>
         </div>
 
         <div>
-          <h2 class="title">Company</h2>
-          <div class="menu-block- menu-name-secondary-links parent-mlid-37241 menu-level-0">
-          <ul class="menu">
-          <li class="leaf first menu-mlid-37242">
+          <h2 className="title">Company</h2>
+          <div className="menu-block- menu-name-secondary-links parent-mlid-37241 menu-level-0">
+          <ul className="menu">
+          <li className="leaf first menu-mlid-37242">
           <a href="https://www.forms-surfaces.com/about-us">About Us</a></li>
-          <li class="leaf menu-mlid-79389 has-children">
+          <li className="leaf menu-mlid-79389 has-children">
           <a href="https://www.forms-surfaces.com/projects">Projects</a></li>
-          <li class="leaf menu-mlid-37243">
+          <li className="leaf menu-mlid-37243">
           <a href="https://www.forms-surfaces.com/news">News</a></li>
-          <li class="leaf menu-mlid-45636 has-children">
+          <li className="leaf menu-mlid-45636 has-children">
           <a href="https://www.forms-surfaces.com/environmental-sustainability" title="Environmental Sustainability">Environmental Sustainability</a></li>
-          <li class="leaf menu-mlid-45635">
+          <li className="leaf menu-mlid-45635">
           <a href="https://www.forms-surfaces.com/design-studio" title="Designers">Designers</a></li>
-          <li class="leaf last menu-mlid-45629 has-children">
+          <li className="leaf last menu-mlid-45629 has-children">
           <a href="https://www.forms-surfaces.com/careers" title="Careers">Careers</a></li>
           </ul></div>
         </div>
@@ -94,16 +94,16 @@ const Footer = () => {
         <div>
 
 
-        <h2 class="title">Contact</h2>
-        <div class="menu-block- menu-name-secondary-links parent-mlid-37247 menu-level-1">
-          <ul class="menu">
-            <li class="leaf first menu-mlid-79379">
+        <h2 className="title">Contact</h2>
+        <div className="menu-block- menu-name-secondary-links parent-mlid-37247 menu-level-1">
+          <ul className="menu">
+            <li className="leaf first menu-mlid-79379">
             <a href="https://www.forms-surfaces.com/contact/general-inquiries" title="Contact Us">General Inquiries</a></li>
-            <li class="leaf menu-mlid-46061">
-            <a href="https://www.forms-surfaces.com/txmas-contract" title="TXMAS Contract" class="hidden">TXMAS Contract</a></li>
-            <li class="leaf menu-mlid-37249">
+            <li className="leaf menu-mlid-46061">
+            <a href="https://www.forms-surfaces.com/txmas-contract" title="TXMAS Contract" className="hidden">TXMAS Contract</a></li>
+            <li className="leaf menu-mlid-37249">
             <a href="https://www.forms-surfaces.com/locations">Locations</a></li>
-            <li class="leaf last menu-mlid-37238 has-children">
+            <li className="leaf last menu-mlid-37238 has-children">
             <a href="https://www.forms-surfaces.com/cornelius-signage">Cornelius Signage</a></li>
           </ul>
         </div>
@@ -112,7 +112,7 @@ const Footer = () => {
 
       </div>
       <div className="footer-lower">
-        <div class="footer-inner">
+        <div className="footer-inner">
           <a href="https://www.forms-surfaces.com/terms-use">Terms of Use</a>
           &nbsp; | &nbsp;
           <a href="https://www.forms-surfaces.com/privacy-policy">Privacy Policy</a>
