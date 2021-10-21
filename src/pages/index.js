@@ -155,7 +155,7 @@ export default () => (
             </div>
             <p><a href="https://www.forms-surfaces.com/linia-chairs-and-tables" target="_NEW">LEARN MORE</a></p>
           </div>
-          <div bigImage={liniaLounge3} bgColor='#8d4131'>
+          <div bigImage={liniaLounge3} bgColor='#3f4448'>
             <h2 className='hero-title mobile-title'>LINIA LOUNGE CHAIRS & SIDE TABLES</h2>
             <h2 className='hero-title'>LINIA LOUNGE CHAIRS & SIDE TABLES</h2>
             <p>Linia Café Chairs, Lounge Chairs & Side Tables invite easy customization and offer the exceptional performance of stainless steel.</p>
