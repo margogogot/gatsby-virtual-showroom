@@ -20,7 +20,7 @@ import aptosBollard3 from '../images/hero-images/aptos-bollard/ASLA_AptosBollard
 import helioBollard1 from '../images/hero-images/helio-security-bollard/ASLA_Helio_1.png'
 import helioBollard2 from '../images/hero-images/helio-security-bollard/ASLA_Helio_2.png'
 import helioBollard3 from '../images/hero-images/helio-security-bollard/ASLA_Helio_3.png'
-import tonyoReceptacle1 from '../images/hero-images/tonyo-receptacle-1.png'
+import tonyoReceptacle1 from '../images/hero-images/tonyo-receptacle/ASLA_Tonyo_1.png'
 import tonyoReceptacle2 from '../images/hero-images/tonyo-receptacle/ASLA_Tonyo_2.png'
 import tonyoReceptacle3 from '../images/hero-images/tonyo-receptacle/ASLA_Tonyo_3.png'
 import liniaChair1 from '../images/hero-images/linia-chair/ASLA_Linia_1.png'
@@ -32,6 +32,9 @@ import tenza3 from '../images/hero-images/tenza-charging-solution/ASLA_Tenza_3.p
 import radia1 from '../images/hero-images/radia-bollard/ASLA_Radia_1.png'
 import radia2 from '../images/hero-images/radia-bollard/ASLA_Radia_2.png'
 import radia3 from '../images/hero-images/radia-bollard/ASLA_Radia_3a.png'
+import liniaLounge1 from '../images/hero-images/linia-lounge/ASLA_LiniaLounge_1.png'
+import liniaLounge2 from '../images/hero-images/linia-lounge/ASLA_LiniaLounge_2.png'
+import liniaLounge3 from '../images/hero-images/linia-lounge/ASLA_LiniaLounge_3.png'
 
 export default () => (
   <>
@@ -110,7 +113,7 @@ export default () => (
         label="LINIA LOUNGE CHAIRS & SIDE TABLES"
         heroId="linia-lounge"
         >
-          <div bigImage={aptosPedestrian1} bgColor='#c5c1be'>
+          <div bigImage={liniaLounge1} bgColor='#cac4b4'>
             <h2 className='hero-title mobile-title'>LINIA LOUNGE CHAIRS & SIDE TABLES</h2>
             <h2 className='hero-title'>LINIA LOUNGE CHAIRS & SIDE TABLES</h2>
             <p>Linia Café Chairs, Lounge Chairs & Side Tables invite easy customization and offer the exceptional performance of stainless steel.</p>
@@ -131,7 +134,7 @@ export default () => (
             </div>
             <p><a href="https://www.forms-surfaces.com/linia-chairs-and-tables" target="_NEW">LEARN MORE</a></p>
           </div>
-          <div bigImage={aptosPedestrian2} bgColor='#C9C5B4'>
+          <div bigImage={liniaLounge2} bgColor='#626d6f'>
             <h2 className='hero-title mobile-title'>LINIA LOUNGE CHAIRS & SIDE TABLES</h2>
             <h2 className='hero-title'>LINIA LOUNGE CHAIRS & SIDE TABLES</h2>
             <p>Linia Café Chairs, Lounge Chairs & Side Tables invite easy customization and offer the exceptional performance of stainless steel.</p>
@@ -152,7 +155,7 @@ export default () => (
             </div>
             <p><a href="https://www.forms-surfaces.com/linia-chairs-and-tables" target="_NEW">LEARN MORE</a></p>
           </div>
-          <div bigImage={aptosPedestrian3} bgColor='#3F4448'>
+          <div bigImage={liniaLounge3} bgColor='#8d4131'>
             <h2 className='hero-title mobile-title'>LINIA LOUNGE CHAIRS & SIDE TABLES</h2>
             <h2 className='hero-title'>LINIA LOUNGE CHAIRS & SIDE TABLES</h2>
             <p>Linia Café Chairs, Lounge Chairs & Side Tables invite easy customization and offer the exceptional performance of stainless steel.</p>
@@ -506,59 +509,68 @@ export default () => (
       label="APTOS PEDESTRIAN LIGHTING"
       heroId="aptos-pedestrian"
       >
-        <div bigImage={aptosPedestrian1} bgColor='#8c4131'>
-          <h2 className='hero-title mobile-title'>FACTOR CHAIR</h2>
-          <h2 className='hero-title'>FACTOR CHAIR</h2>
-          <p>Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility.</p>
+        <div bigImage={aptosPedestrian1} bgColor='#c5c1be'>
+          <h2 className='hero-title mobile-title'>APTOS PEDESTRIAN LIGHTING</h2>
+          <h2 className='hero-title'>APTOS PEDESTRIAN LIGHTING</h2>
+          <p>Aptos Pedestrian Lighting blends graceful lines, performance LEDs, and the visual lightness and distinctive design of the coordinating Aptos Bollard.</p>
           <div className='heroTextInner'>
             <ul>
-              <li>Tubular <u>stainless steel</u> frames with a durable powdercoat finish</li>
-              <li>Seats and backs of powdercoated formed aluminum with or without perforations; or seats of FSC® 100% Cumaru or FSC® 100% Teak hardwood slats with backs of powdercoated cast aluminum</li>
-              <li>Optional armrests</li>
-              <li>Generally stackable to four high</li>
-              <li>Chairs with and without arms can be stacked together</li>
-              <li>Freestanding; black nylon glides on chair feet</li>
-              <li>High recycled content; highly recyclable</li>
-              <li>Suitable for interior and exterior applications</li>
+              <li>Fixtures consist of one or two luminaires on a pole 4" dia. x 12' high</li>
+            	<li>Pole and luminaire(s) are a single unit</li>
+            	<li>Pole is powdercoated aluminum</li>
+            	<li>Luminaire head is cast aluminum, with optic and a frosted acrylic lens</li>
+            	<li>Base is cast aluminum</li>
+            	<li>Durable powdercoat finish</li>
+            	<li>Performance Cree® LEDs in 3000K warm white and 4000K neutral white</li>
+            	<li>Downward facing illumination for reduced light pollution and glare</li>
+            	<li>Dimmable</li>
+            	<li>High recycled content; highly recyclable</li>
+            	<li>ETL and C-ETL listed for wet locations</li>
             </ul>
           </div>
-          <p><a href="https://www.forms-surfaces.com/factor-chair" target="_NEW">LEARN MORE</a></p>
+          <p><a href="https://www.forms-surfaces.com/aptos-pedestrian" target="_NEW">LEARN MORE</a></p>
         </div>
-        <div bigImage={aptosPedestrian2} bgColor='#3f4448'>
-          <h2 className='hero-title mobile-title'>FACTOR CHAIR</h2>
-          <h2 className='hero-title'>FACTOR CHAIR</h2>
-          <p>Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility.</p>
+        <div bigImage={aptosPedestrian2} bgColor='#C9C5B4'>
+          <h2 className='hero-title mobile-title'>APTOS PEDESTRIAN LIGHTING</h2>
+          <h2 className='hero-title'>APTOS PEDESTRIAN LIGHTING</h2>
+          <p>Aptos Pedestrian Lighting blends graceful lines, performance LEDs, and the visual lightness and distinctive design of the coordinating Aptos Bollard.</p>
           <div className='heroTextInner'>
             <ul>
-              <li>Tubular <u>stainless steel</u> frames with a durable powdercoat finish</li>
-              <li>Seats and backs of powdercoated formed aluminum with or without perforations; or seats of FSC® 100% Cumaru or FSC® 100% Teak hardwood slats with backs of powdercoated cast aluminum</li>
-              <li>Optional armrests</li>
-              <li>Generally stackable to four high</li>
-              <li>Chairs with and without arms can be stacked together</li>
-              <li>Freestanding; black nylon glides on chair feet</li>
+              <li>Fixtures consist of one or two luminaires on a pole 4" dia. x 12' high</li>
+              <li>Pole and luminaire(s) are a single unit</li>
+              <li>Pole is powdercoated aluminum</li>
+              <li>Luminaire head is cast aluminum, with optic and a frosted acrylic lens</li>
+              <li>Base is cast aluminum</li>
+              <li>Durable powdercoat finish</li>
+              <li>Performance Cree® LEDs in 3000K warm white and 4000K neutral white</li>
+              <li>Downward facing illumination for reduced light pollution and glare</li>
+              <li>Dimmable</li>
               <li>High recycled content; highly recyclable</li>
-              <li>Suitable for interior and exterior applications</li>
+              <li>ETL and C-ETL listed for wet locations</li>
             </ul>
           </div>
-          <p><a href="https://www.forms-surfaces.com/factor-chair" target="_NEW">LEARN MORE</a></p>
+          <p><a href="https://www.forms-surfaces.com/aptos-pedestrian" target="_NEW">LEARN MORE</a></p>
         </div>
-        <div bigImage={aptosPedestrian3} bgColor='#434a3e'>
-          <h2 className='hero-title mobile-title'>FACTOR CHAIR</h2>
-          <h2 className='hero-title'>FACTOR CHAIR</h2>
-          <p>Highly configurable Factor Chairs coordinate with Factor Tables and unite clean lines, simple geometry, and go-anywhere versatility.</p>
+        <div bigImage={aptosPedestrian3} bgColor='#3F4448'>
+        <h2 className='hero-title mobile-title'>APTOS PEDESTRIAN LIGHTING</h2>
+          <h2 className='hero-title'>APTOS PEDESTRIAN LIGHTING</h2>
+          <p>Aptos Pedestrian Lighting blends graceful lines, performance LEDs, and the visual lightness and distinctive design of the coordinating Aptos Bollard.</p>
           <div className='heroTextInner'>
             <ul>
-              <li>Tubular <u>stainless steel</u> frames with a durable powdercoat finish</li>
-              <li>Seats and backs of powdercoated formed aluminum with or without perforations; or seats of FSC® 100% Cumaru or FSC® 100% Teak hardwood slats with backs of powdercoated cast aluminum</li>
-              <li>Optional armrests</li>
-              <li>Generally stackable to four high</li>
-              <li>Chairs with and without arms can be stacked together</li>
-              <li>Freestanding; black nylon glides on chair feet</li>
+              <li>Fixtures consist of one or two luminaires on a pole 4" dia. x 12' high</li>
+              <li>Pole and luminaire(s) are a single unit</li>
+              <li>Pole is powdercoated aluminum</li>
+              <li>Luminaire head is cast aluminum, with optic and a frosted acrylic lens</li>
+              <li>Base is cast aluminum</li>
+              <li>Durable powdercoat finish</li>
+              <li>Performance Cree® LEDs in 3000K warm white and 4000K neutral white</li>
+              <li>Downward facing illumination for reduced light pollution and glare</li>
+              <li>Dimmable</li>
               <li>High recycled content; highly recyclable</li>
-              <li>Suitable for interior and exterior applications</li>
+              <li>ETL and C-ETL listed for wet locations</li>
             </ul>
           </div>
-          <p><a href="https://www.forms-surfaces.com/factor-chair" target="_NEW">LEARN MORE</a></p>
+          <p><a href="https://www.forms-surfaces.com/aptos-pedestrian" target="_NEW">LEARN MORE</a></p>
         </div>
       </div>
       </Heroes>

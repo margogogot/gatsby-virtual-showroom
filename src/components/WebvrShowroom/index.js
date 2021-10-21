@@ -15,7 +15,7 @@ import virtualBoothBGMobile from './img/virtual-booth-bg-mobile.jpg'
 import lineUpLogo from './img/line-up-logo-01-01.svg'
 import lineUpLogoMobile from './img/line-up-logo-01-mobile.svg'
 import redGradient from './img/red-gradient.svg'
-import lightboxButton from './img/lightbox-button.svg'
+import lightboxButton from './img/lightbox-button-1.svg'
 import arIcons from './img/ar-ar-core-01.svg'
 import {
   EmailShareButton,
