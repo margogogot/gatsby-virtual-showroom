@@ -23,7 +23,7 @@ import helioBollard3 from '../images/hero-images/helio-security-bollard/ASLA_Hel
 import tonyoReceptacle1 from '../images/hero-images/tonyo-receptacle/ASLA_Tonyo_1.png'
 import tonyoReceptacle2 from '../images/hero-images/tonyo-receptacle/ASLA_Tonyo_2.png'
 import tonyoReceptacle3 from '../images/hero-images/tonyo-receptacle/ASLA_Tonyo_3.png'
-import liniaChair1 from '../images/hero-images/linia-chair/ASLA_Linia_1.png'
+import liniaChair1 from '../images/hero-images/linia-chair/ASLA_Linia_1a.png'
 import liniaChair2 from '../images/hero-images/linia-chair/ASLA_Linia_2.png'
 import liniaChair3 from '../images/hero-images/linia-chair/ASLA_Linia_3.png'
 import tenza1 from '../images/hero-images/tenza-charging-solution/ASLA_Tenza_1a.png'
@@ -32,9 +32,9 @@ import tenza3 from '../images/hero-images/tenza-charging-solution/ASLA_Tenza_3.p
 import radia1 from '../images/hero-images/radia-bollard/ASLA_Radia_1.png'
 import radia2 from '../images/hero-images/radia-bollard/ASLA_Radia_2.png'
 import radia3 from '../images/hero-images/radia-bollard/ASLA_Radia_3a.png'
-import liniaLounge1 from '../images/hero-images/linia-lounge/ASLA_Linia_1a.png'
-import liniaLounge2 from '../images/hero-images/linia-lounge/ASLA_LiniaLounge_2.png'
-import liniaLounge3 from '../images/hero-images/linia-lounge/ASLA_Linia_3.png'
+import liniaLounge1 from '../images/hero-images/linia-lounge/ASLA_LiniaLounge_2.png'
+import liniaLounge2 from '../images/hero-images/linia-lounge/ASLA_LiniaLounge_1.png'
+import liniaLounge3 from '../images/hero-images/linia-lounge/ASLA_LiniaLounge_3.png'
 
 export default () => (
   <>
@@ -87,7 +87,7 @@ export default () => (
             </div>
             <p><a href="https://www.forms-surfaces.com/linia-chairs-and-tables" target="_NEW">LEARN MORE</a></p>
           </div>
-          <div bigImage={liniaChair3} bgColor='#8c4131'>
+          <div bigImage={liniaChair3} bgColor='#3f4448'>
             <h2 className='hero-title mobile-title'>LINIA CAFÉ CHAIRS & SIDE TABLE</h2>
             <h2 className='hero-title'>LINIA CAFÉ CHAIRS & SIDE TABLE</h2>
             <p>Linia Café Chairs, Lounge Chairs & Side Tables invite easy customization and offer the exceptional performance of stainless steel.</p>
@@ -113,7 +113,7 @@ export default () => (
         label="LINIA LOUNGE CHAIRS & SIDE TABLES"
         heroId="linia-lounge"
         >
-          <div bigImage={liniaLounge2} bgColor='#626d6f'>
+          <div bigImage={liniaLounge1} bgColor='#626d6f'>
             <h2 className='hero-title mobile-title'>LINIA LOUNGE CHAIRS & SIDE TABLES</h2>
             <h2 className='hero-title'>LINIA LOUNGE CHAIRS & SIDE TABLES</h2>
             <p>Linia Café Chairs, Lounge Chairs & Side Tables invite easy customization and offer the exceptional performance of stainless steel.</p>
@@ -134,7 +134,7 @@ export default () => (
             </div>
             <p><a href="https://www.forms-surfaces.com/linia-chairs-and-tables" target="_NEW">LEARN MORE</a></p>
           </div>
-          <div bigImage={liniaLounge1} bgColor='#cac4b4'>
+          <div bigImage={liniaLounge2} bgColor='#cac4b4'>
             <h2 className='hero-title mobile-title'>LINIA LOUNGE CHAIRS & SIDE TABLES</h2>
             <h2 className='hero-title'>LINIA LOUNGE CHAIRS & SIDE TABLES</h2>
             <p>Linia Café Chairs, Lounge Chairs & Side Tables invite easy customization and offer the exceptional performance of stainless steel.</p>
@@ -155,7 +155,7 @@ export default () => (
             </div>
             <p><a href="https://www.forms-surfaces.com/linia-chairs-and-tables" target="_NEW">LEARN MORE</a></p>
           </div>
-          <div bigImage={liniaLounge3} bgColor='#3f4448'>
+          <div bigImage={liniaLounge3} bgColor='#8d4131'>
             <h2 className='hero-title mobile-title'>LINIA LOUNGE CHAIRS & SIDE TABLES</h2>
             <h2 className='hero-title'>LINIA LOUNGE CHAIRS & SIDE TABLES</h2>
             <p>Linia Café Chairs, Lounge Chairs & Side Tables invite easy customization and offer the exceptional performance of stainless steel.</p>

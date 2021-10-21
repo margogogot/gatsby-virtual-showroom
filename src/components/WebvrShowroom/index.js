@@ -199,6 +199,7 @@ const BannerWrapper = styled.section`
     right: 2rem;
     width: 29vh;
     min-width: 100px;
+    z-index: 10;
     justify-content: space-between;
   }
   .end-button,
