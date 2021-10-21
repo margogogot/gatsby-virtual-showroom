@@ -67,12 +67,12 @@ class Lightbox extends Component {
               <div className='step'>
                 <img src={liniaStep1} />
                 <h2>CREATE</h2>
-                <p>Explore our <span className='red underline'>Virtual Booth</span>. Have fun browsing through the variousislands and customizing F+S products.</p>
+                <p>Explore our <span className='red'>Virtual Booth</span>. Have fun browsing through the variousislands and customizing F+S products.</p>
               </div>
               <div className='step'>
                 <img src={liniaStep2} />
                 <h2>CAPTURE</h2>
-                <p>Pick 2 of your favorite products and use the <span className='red'>AR feature</span> to take a photo of your favs in a creative background of your choice (go wild!).</p>
+                <p>Click on your favorite products and use the <span className='red'>AR feature</span> to take a photo of your 2 favs in a creative background of your choice (go wild!).</p>
               </div>
               <div className='step'>
                 <img src={liniaStep3} />
