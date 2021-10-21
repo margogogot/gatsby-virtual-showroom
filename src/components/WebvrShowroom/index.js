@@ -49,7 +49,7 @@ class WebvrShowroom extends Component {
       overlayVisibleClass = ' hidden'
       iframe =
       <UserAgent render={({ ua }) => {
-        let url = 'https://eaxperts-virtual-showroom-optimized.netlify.app/'
+        let url = 'https://fs-virtual-showroom.s3.amazonaws.com/app1k16/index.html'
         return (<div className='iframe-wrapper'>
           <iframe src={url} title="Virtual Showroom" />
           <div className='lightbox-button-linia' onClick={(e)=>{
