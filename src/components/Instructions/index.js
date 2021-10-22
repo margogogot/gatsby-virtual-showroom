@@ -8,6 +8,7 @@ import verticalLine from './img/vertical-line.svg'
 import liniaStep1 from '../WebvrShowroom/img/linia-step-1.svg'
 import liniaStep2 from '../WebvrShowroom/img/linia-step-2.svg'
 import liniaStep3 from '../WebvrShowroom/img/linia-step-3.svg'
+import redInsta from '../WebvrShowroom/img/red-insta.svg'
 import InstagramEmbed from 'react-instagram-embed'
 
 class Instructions extends Component {
@@ -65,6 +66,9 @@ class Instructions extends Component {
             <p>Posts will need to be available on a public Instagram account in order to be entered in the giveaway.</p>
             <p>Giveaway ends 11/21. Winner will be notified on 11/23.</p>
             <p>Download contest rules here</p>
+            <h2 style={{display: 'flex', alignItems: 'baseline', gap: '.75rem', letterSpacing: '0.001rem', marginTop: '4rem'}}>
+            <img src={redInsta} style={{width: '2.5rem', display: 'inline-block'}} /> <span>SHARE YOUR <span className='red' style={{fontFamily: 'Moderat Black'}}>LINEUP</span> AND GET IN LINE TO WIN!</span>
+            </h2>
             <div id="curator-feed-new-feed-layout">
               <a href="https://curator.io" target="_blank" className="crt-logo crt-tag">Powered by Curator.io</a>
             </div>
