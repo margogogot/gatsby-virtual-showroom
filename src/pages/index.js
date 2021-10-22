@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import WebvrShowroom from '../components/WebvrShowroom'
+import Instructions from '../components/Instructions'
 import Heroes from '../components/Heroes/'
 import Banner from "../components/Banner/banner"
 import TextBlock from "../components/TextBlock/textBlock"
@@ -40,6 +41,7 @@ export default () => (
   <>
     <Layout>
       <WebvrShowroom/>
+      <Instructions/>
       <Heroes>
         <div
         label="LINIA CAFÉ CHAIRS & SIDE TABLE"

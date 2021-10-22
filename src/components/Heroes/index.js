@@ -53,7 +53,7 @@ class Heroes extends Component {
           offset={0}
           duration={500}
           key={99}
-      >Virtual Showroom</Link>
+      >Virtual Booth</Link>
     )
     return (
 
