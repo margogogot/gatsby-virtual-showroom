@@ -41,7 +41,7 @@ class Instructions extends Component {
               <div className='step'>
                 <img src={liniaStep1} />
                 <h2>CREATE</h2>
-                <p>Explore our <span className='red'>Virtual Booth</span>. Have fun browsing through the variousislands and customizing F+S products.</p>
+                <p>Explore our <span className='red'>Virtual Booth</span>. Have fun browsing through the various islands and customizing F+S products.</p>
               </div>
               <div className='step'>
                 <img src={liniaStep2} />
