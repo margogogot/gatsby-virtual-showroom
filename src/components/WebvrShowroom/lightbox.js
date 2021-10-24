@@ -10,6 +10,7 @@ import liniaStep1 from './img/linia-step-1.svg'
 import liniaStep2 from './img/linia-step-2.svg'
 import liniaStep3 from './img/linia-step-3.svg'
 import redInsta from './img/red-insta.svg'
+import ProgressBar from './progress-bar'
 
 class Lightbox extends Component {
   constructor(props) {
@@ -22,6 +23,10 @@ class Lightbox extends Component {
 
   onEnter = () => {
     this.props.onClose()
+  }
+
+  componentDidUpdate = (prevProps) => {
+    console.log(this.props)
   }
 
   render() {
@@ -43,6 +48,7 @@ class Lightbox extends Component {
         <div className='content-wrapper'>
 
           <div className='col'>
+            <ProgressBar progress={this.props.progress} />
             <div className='lightbox-title' />
             <h2>HOW TO ENTER?</h2>
             <p>Find yourself in line to win a Linia Side Table and two Linia Cafe Chairs just by posting on <a href='http://instagram.com/forms_surfaces' target='_blank'>Instagram.</a> It's that easy!</p>

@@ -28,8 +28,26 @@ class WebvrShowroom extends Component {
     super(props)
     this.state = {
       overlayVisible: true,
-      lightboxVisible: true
+      lightboxVisible: true,
+      progress: 0
     }
+  }
+
+
+  componentDidMount = () => {
+    window.addEventListener("message", function(event){
+      let data = JSON.parse(event.data)
+      if(data.message === 'loadComplete'){
+        window.removeEventListener("message", function(){})
+        this.setState({
+          lightboxVisible: false
+        })
+      }else if(data.message === 'progress'){
+        this.setState({
+          progress: data.value
+        })
+      }
+    }.bind(this))
   }
 
   onEnter = () => {
@@ -42,10 +60,15 @@ class WebvrShowroom extends Component {
     let overlayVisibleClass = ''
     let lightbox = ''
     let iframe = ''
+
+
     if(!this.state.overlayVisible){
+      console.log(this.state.progress)
       lightbox = <Lightbox onClose={(e)=>{this.setState({
         lightboxVisible: false
-      })}} overlayVisible={this.state.lightboxVisible}/>
+      })}}
+      overlayVisible={this.state.lightboxVisible}
+      progress={this.state.progress} />
       overlayVisibleClass = ' hidden'
       iframe =
       <UserAgent render={({ ua }) => {
