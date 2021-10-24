@@ -16,7 +16,7 @@ class ProgressBar extends Component {
         <div className="progress-bar">
           <span className="progress-bar-fill" style={{
             width: this.props.progress + '%'
-          }}></span>
+          }}>{parseInt(this.props.progress)+' %'}</span>
         </div>
       </div>
       </ProgressWrapper>
@@ -42,7 +42,8 @@ const ProgressWrapper = styled.section`
     height: 15px;
     background-color: #fff;
     border-radius: 0px;
-
+    color: #666;
+    overflow: hidden;
     transition: width 500ms ease-in-out;
   }
 `
