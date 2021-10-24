@@ -243,7 +243,7 @@ export default () => (
       </div>
       <div
       label="TENZA CHARGING SOLUTION"
-      heroId="tenza-charging-station"
+      heroId="tenza"
       >
         <div bigImage={tenza1} bgColor='#444a3e'>
           <h2 className='hero-title mobile-title'>TENZA CHARGING SOLUTION</h2>
