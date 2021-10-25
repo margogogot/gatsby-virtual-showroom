@@ -66,7 +66,7 @@ const Banner = () => {
 
 const BannerWrapper = styled.section`
   .gatsby-image-wrapper {
-    height: 100vh;
+    height: 100%;
     color: #fff;
     }
 

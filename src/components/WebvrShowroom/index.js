@@ -180,8 +180,8 @@ const BannerWrapper = styled.section`
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     z-index:3;
     background-image: url(${virtualBoothBGMobile});
     background-position: center center;
@@ -207,8 +207,8 @@ const BannerWrapper = styled.section`
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -315,7 +315,7 @@ const BannerWrapper = styled.section`
       top: 0px;
       left: 0px;
       width: 100vw;
-      height: 100vh;
+      height: 100%;
       background-image: url(${virtualBoothBG});
       background-repeat: no-repeat;
     }
