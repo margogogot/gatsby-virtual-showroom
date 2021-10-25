@@ -9,7 +9,7 @@ import liniaStep1 from '../WebvrShowroom/img/linia-step-1.svg'
 import liniaStep2 from '../WebvrShowroom/img/linia-step-2.svg'
 import liniaStep3 from '../WebvrShowroom/img/linia-step-3.svg'
 import redInsta from '../WebvrShowroom/img/red-insta.svg'
-import InstagramEmbed from 'react-instagram-embed'
+import { Link, animateScroll as scroll } from 'react-scroll'
 
 class Instructions extends Component {
   constructor(props) {
@@ -41,7 +41,15 @@ class Instructions extends Component {
               <div className='step'>
                 <img src={liniaStep1} />
                 <h2>CREATE</h2>
-                <p>Explore our <span className='red'>Virtual Booth</span>. Have fun browsing through the various islands and customizing F+S products.</p>
+                <p>Explore our <Link
+                          activeClass="active"
+                          to={'virtual-showroom'}
+                          spy={true}
+                          smooth={true}
+                          offset={0}
+                          duration={500}
+                          key={99}
+                      >Virtual Booth</Link>. Have fun browsing through the various islands and customizing F+S products.</p>
               </div>
               <div className='step'>
                 <img src={liniaStep2} />
@@ -84,7 +92,9 @@ const InstructionsWrapper = styled.section`
   padding: 4rem 2rem;
   color: #666666;
   height: auto !important;
-
+  a {
+    cursor: pointer;
+  }
   .instructions-title {
     background-image: url(${instructionTitle});
     background-repeat: no-repeat;
