@@ -23,14 +23,20 @@ import {
   LinkedinShareButton,
   TwitterShareButton,
 } from 'react-share'
+const isBrowser = typeof window !== `undefined`
+
 class WebvrShowroom extends Component {
   constructor(props) {
     super(props)
-    const ua = navigator.userAgent
+
     let iOSWarning = false
-    if(ua.includes('OS 15_0_2')){
-      iOSWarning = true
+    if(isBrowser){
+      const ua = navigator.userAgent
+      if(ua.includes('OS 15_0_2')){
+        iOSWarning = true
+      }
     }
+
     this.state = {
       overlayVisible: true,
       lightboxVisible: true,
