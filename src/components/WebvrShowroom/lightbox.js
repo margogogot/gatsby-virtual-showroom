@@ -48,8 +48,8 @@ class Lightbox extends Component {
         <div className='content-wrapper'>
 
           <div className='col'>
-            <ProgressBar progress={this.props.progress} />
             <div className='lightbox-title' />
+            <ProgressBar progress={this.props.progress} />
             <h2>HOW TO ENTER?</h2>
             <p>Find yourself in line to win a Linia Side Table and two Linia Cafe Chairs just by posting on <a href='http://instagram.com/forms_surfaces' target='_blank'>Instagram.</a> It's that easy!</p>
             <Slider {...settings} >
