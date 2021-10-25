@@ -36,7 +36,7 @@ class WebvrShowroom extends Component {
       lightboxVisible: true,
       progress: 0,
       agent: ua,
-      showiOSWarning: true
+      showiOSWarning: iOSWarning
     }
   }
 
