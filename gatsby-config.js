@@ -25,43 +25,15 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-favicon`,
+      resolve: "gatsby-plugin-manifest",
       options: {
-        logo: "./static/fs-favicon-144.png",
-
-        // WebApp Manifest Configuration
-        appName: 'Forms+Surfaces Virtual Showroom', // Inferred with your package.json
-        appDescription: 'Forms+Surfaces Virtual Showroom',
-        developerName: null,
-        developerURL: null,
-        dir: 'auto',
-        lang: 'en-US',
-        background: '#fff',
-        theme_color: '#fff',
-        display: 'standalone',
-        orientation: 'any',
-        start_url: '/?homescreen=1',
-        version: '1.0',
-
-        icons: {
-          android: true,
-          appleIcon: true,
-          appleStartup: true,
-          coast: false,
-          favicons: true,
-          firefox: true,
-          opengraph: false,
-          twitter: false,
-          yandex: false,
-          windows: false
-        }
-      }
+        icon: "./static/fs-favicon-144.png",
+      },
     },
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sitemap`,
     `gatsby-plugin-sass`,
   ],
 }

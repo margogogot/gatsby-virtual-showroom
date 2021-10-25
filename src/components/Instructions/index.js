@@ -44,6 +44,7 @@ class Instructions extends Component {
                 <p>Explore our <Link
                           activeClass="active"
                           to={'virtual-showroom'}
+                          className='underline'
                           spy={true}
                           smooth={true}
                           offset={0}
@@ -94,6 +95,9 @@ const InstructionsWrapper = styled.section`
   height: auto !important;
   a {
     cursor: pointer;
+    &.underline {
+      text-decoration: underline;
+    }
   }
   .instructions-title {
     background-image: url(${instructionTitle});

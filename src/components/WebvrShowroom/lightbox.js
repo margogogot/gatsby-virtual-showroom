@@ -56,7 +56,9 @@ class Lightbox extends Component {
               <div>
                 <img src={liniaStep1} />
                 <h2>CREATE | 1 of 3</h2>
-                <p>Explore our <a className='red' onClick={this.onEnter}>Virtual Booth</a>. Have fun browsing through the various islands and customizing F+S products.</p>
+                <p>Explore our <a className='red' onClick={this.onEnter} style={{
+                  textDecoration: 'underline'
+                }}>Virtual Booth</a>. Have fun browsing through the various islands and customizing F+S products.</p>
               </div>
               <div>
                 <img src={liniaStep2} />
@@ -86,7 +88,6 @@ class Lightbox extends Component {
                 <p>Follow <a href='http://instagram.com/forms_surfaces' target='_blank'>@forms_surfaces</a> on <a href='http://instagram.com/forms_surfaces' target='_blank'>Instagram</a> and post your product 'lineup' to your story or feed with the hashtag <a href='https://www.instagram.com/explore/tags/lineupforlinia/' target='_blank'>#LINEupforLinia</a>. Don't forget to tag us and a friend in your posts to complete your entry!</p>
               </div>
             </div>
-            <div className='share-to-win'><img src={redInsta} /> <div>SHARE YOUR <span className='red'>LINEUP</span> AND GET IN LINE TO WIN!</div></div>
           </div>
         </div>
       </div>

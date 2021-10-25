@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { useStaticQuery, graphql } from "gatsby"
 import VideoOverlay from './video-overlay'
+import IOSWarning from '../iOSWarning'
 import Lightbox from './lightbox'
-import { UserAgent } from 'react-useragent'
 import styled from "styled-components"
 import enterImg from './img/enter.svg'
 import facebookImg from './img/facebook.svg'
@@ -26,13 +26,19 @@ import {
 class WebvrShowroom extends Component {
   constructor(props) {
     super(props)
+    const ua = navigator.userAgent
+    let iOSWarning = false
+    if(ua.includes('OS 15_0_2')){
+      iOSWarning = true
+    }
     this.state = {
       overlayVisible: true,
       lightboxVisible: true,
-      progress: 0
+      progress: 0,
+      agent: ua,
+      showiOSWarning: true
     }
   }
-
 
   componentDidMount = () => {
     window.addEventListener("message", function(event){
@@ -60,9 +66,18 @@ class WebvrShowroom extends Component {
     let overlayVisibleClass = ''
     let lightbox = ''
     let iframe = ''
+    let iOSWarning = null
+    if(this.state.showiOSWarning && !this.state.overlayVisible){
+      // overlayVisibleClass = ' hidden'
+      iOSWarning = <IOSWarning onClose={(e)=>{
+        this.setState({
+          showiOSWarning: false,
+          overlayVisible: true
+        })
+      }} />
+    }
 
-
-    if(!this.state.overlayVisible){
+    if(!this.state.overlayVisible && !this.state.showiOSWarning){
       console.log(this.state.progress)
       lightbox = <Lightbox onClose={(e)=>{this.setState({
         lightboxVisible: false
@@ -70,22 +85,20 @@ class WebvrShowroom extends Component {
       overlayVisible={this.state.lightboxVisible}
       progress={this.state.progress} />
       overlayVisibleClass = ' hidden'
-      iframe =
-      <UserAgent render={({ ua }) => {
-        let url = 'https://fs-virtual-showroom.s3.amazonaws.com/app1k16/index.html'
-        return (<div className='iframe-wrapper'>
-          <iframe src={url} title="Virtual Showroom" />
-          <div className='lightbox-button-linia' onClick={(e)=>{
-            this.setState({
-              lightboxVisible: true
-            })
-          }} />
-        </div>)
-      }} />
+      let url = 'https://fs-virtual-showroom.s3.amazonaws.com/app1k16/index.html'
+      iframe = <div className='iframe-wrapper'>
+        <iframe src={url} title="Virtual Showroom" />
+        <div className='lightbox-button-linia' onClick={(e)=>{
+          this.setState({
+            lightboxVisible: true
+          })
+        }} />
+      </div>
     }
 
     return (
       <BannerWrapper id='virtual-showroom'>
+      {iOSWarning}
       {lightbox}
       <div className={'hp-overlay'+overlayVisibleClass}>
         <div className='line-up-logo' />

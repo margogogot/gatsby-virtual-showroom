@@ -127,11 +127,13 @@ ul li{
   opacity: 1;
   z-index: 4;
   transition: left 1s ease;
+  overflow-y: auto;
 }
 .slideText .hero-title{
   width: 100%;
   transition: left 1s ease;
   display: none;
+  color: #ffffff;
 }
 .slideText .mobile-title{
   width: 100%;
@@ -162,7 +164,7 @@ ul li{
   bottom: 0px;
   border-top: solid 5px #ffffff;
   background: rgb(2,0,36);
-  background: linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(255,255,255,0) 100%, rgba(255,255,255,0) 100%);
+  background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(255,255,255,0) 100%, rgba(255,255,255,0) 100%);
   transition: opacity .5s ease, left 1s ease;
   opacity: 1;
   z-index: -1;
@@ -263,6 +265,9 @@ a.hero-home{
 .hero.hideText .text-toggle-button{
   transform: rotate(180deg);
 }
+.heroTextInner {
+  line-height: .9;
+}
 
 @media only screen and (min-width: 550px) {
   // .slideImage{
@@ -348,35 +353,4 @@ a.hero-home{
 @media only screen and (min-width: 1000px) {
 
 
-}
-@media only screen and (min-width: 2000px) {
-  p {
-    font-size: 2rem;
-    line-height: 2.4rem;
-  }
-  .slideText{
-    font-size: 2rem;
-    line-height: 3rem;
-    max-width: 100%;
-    p {
-      font-size: 2.2rem;
-      line-height: 3rem;
-    }
-  }
-  ul li {
-    line-height: 3rem;
-  }
-  .hero .hero-title{
-    font-size: 4rem;
-    line-height: 5rem;
-  }
-  .heroesList .heroesListInner a{
-    font-size: 1.8rem;
-    line-height: 2rem;
-    padding-left: 3rem;
-  }
-  .heroesList .heroesListInner a:before{
-    width: 2rem;
-    height: 2rem;
-  }
 }

@@ -23,10 +23,12 @@ class ProgressBar extends Component {
 
       .progress-bar-fill {
         display: block;
-        height: 15px;
+        height: 18px;
         border-radius: 0px;
-        color: #666;
+        color: #fff;
         overflow: hidden;
+        padding: 2px;
+
         transition: width 500ms ease-in-out;
         background: rgb(206,14,45);
         background: linear-gradient(90deg, rgba(206,14,45,1) 0%, rgba(255,255,255,0) ${this.props.progress}%, rgba(255,255,255,0) 100%);
@@ -36,7 +38,7 @@ class ProgressBar extends Component {
       <ProgressWrapper>
       <div className="progress-wrapper">
         <div className="progress-bar">
-          <span className="progress-bar-fill"></span>
+          <span className="progress-bar-fill">Progress: {parseInt(this.props.progress) + '%'}</span>
         </div>
       </div>
       </ProgressWrapper>
