@@ -159,6 +159,7 @@ const BannerWrapper = styled.section`
     width: 100%;
     height: calc(100vh - 80px);
     max-height: 100%;
+    min-height: 100%;
     border: none;
     margin: 0px;
     display: block;
