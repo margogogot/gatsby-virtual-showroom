@@ -90,7 +90,7 @@ class WebvrShowroom extends Component {
       overlayVisible={this.state.lightboxVisible}
       progress={this.state.progress} />
       overlayVisibleClass = ' hidden'
-      let url = 'https://fs-virtual-showroom.s3.amazonaws.com/app1k16/index.html'
+      let url = 'https://virtual-showroom.forms-surfaces.net/app1k16/index.html'
       iframe = <div className='iframe-wrapper'>
         <iframe src={url} title="Virtual Showroom" />
         <div className='lightbox-button-linia' onClick={(e)=>{
@@ -157,7 +157,7 @@ const BannerWrapper = styled.section`
   position: relative;
   .iframe-wrapper {
     width: 100%;
-    height: 100%;
+    height: calc(100vh - 80px);
     max-height: 100%;
     border: none;
     margin: 0px;
