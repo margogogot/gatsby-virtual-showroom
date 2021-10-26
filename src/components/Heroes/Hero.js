@@ -85,7 +85,7 @@ class Hero extends Component {
       }
     }
     if(sliderChildren.length > 0){
-      sliderChildren = <Carousel showArrows={false} autoPlay={false} infiniteLoop={true} showThumbs={false} showStatus={false} dynamicHeight={false}>
+      sliderChildren = <Carousel swipeable={false} showArrows={false} autoPlay={false} infiniteLoop={true} showThumbs={false} showStatus={false} dynamicHeight={false}>
           {sliderChildren}
         </Carousel>
     }

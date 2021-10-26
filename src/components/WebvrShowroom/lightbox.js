@@ -26,7 +26,7 @@ class Lightbox extends Component {
   }
 
   componentDidUpdate = (prevProps) => {
-    console.log(this.props)
+
   }
 
   render() {
@@ -110,7 +110,7 @@ const LightboxWrapper = styled.section`
   height: 100%;
   top: 0px;
   left: 0px;
-  background: rgba(0,0,0,0.8);
+  background: rgba(0,0,0,0.7);
   display: flex;
   align-items: center;
   justify-content: center;

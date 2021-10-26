@@ -57,6 +57,10 @@ class WebvrShowroom extends Component {
         this.setState({
           progress: data.value
         })
+      }else if(data.message === 'openLightbox'){
+        this.setState({
+          lightboxVisible: true
+        })
       }
     }.bind(this))
   }
@@ -83,7 +87,6 @@ class WebvrShowroom extends Component {
     }
 
     if(!this.state.overlayVisible && !this.state.showiOSWarning){
-      console.log(this.state.progress)
       lightbox = <Lightbox onClose={(e)=>{this.setState({
         lightboxVisible: false
       })}}
@@ -157,12 +160,15 @@ const BannerWrapper = styled.section`
   position: relative;
   .iframe-wrapper {
     width: 100%;
-    height: calc(100vh - 80px);
+    /* height: calc(100vh - 80px); */
     max-height: 100%;
-    min-height: 100%;
+    /* min-height: 100%; */
     border: none;
     margin: 0px;
     display: block;
+    position: absolute;
+    top:0px;
+    bottom: 0px;
   }
   .lightbox-button-linia {
     position: absolute;
