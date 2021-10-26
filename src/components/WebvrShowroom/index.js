@@ -160,7 +160,7 @@ const BannerWrapper = styled.section`
   position: relative;
   .iframe-wrapper {
     width: 100%;
-    height: calc(100vh - 76px);
+    height: calc(100vh - 72px);
     max-height: 100%;
     /* min-height: 100%; */
     border: none;
