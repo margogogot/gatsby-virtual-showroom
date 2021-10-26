@@ -160,7 +160,7 @@ const BannerWrapper = styled.section`
   position: relative;
   .iframe-wrapper {
     width: 100%;
-    /* height: calc(100vh - 80px); */
+    height: calc(100vh - 76px);
     max-height: 100%;
     /* min-height: 100%; */
     border: none;
@@ -317,6 +317,9 @@ const BannerWrapper = styled.section`
     background-size: cover;
   }
   @media only screen and (min-width: 900px) {
+    .iframe-wrapper {
+      height: 100%;
+    }
     .hp-overlay {
       position: absolute;
       top: 0px;
