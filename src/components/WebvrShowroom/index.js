@@ -160,7 +160,7 @@ const BannerWrapper = styled.section`
   position: relative;
   .iframe-wrapper {
     width: 100%;
-    height: calc(100vh - 70px);
+    height: 100%;
     max-height: 100%;
     /* min-height: 100%; */
     border: none;
@@ -188,7 +188,7 @@ const BannerWrapper = styled.section`
     top: 0px;
     left: 0px;
     width: 100%;
-    height: calc(100vh - 70px);
+    height: 100%;
     z-index:3;
     background-image: url(${virtualBoothBGMobile});
     background-position: center center;
