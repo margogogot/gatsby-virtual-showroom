@@ -38,7 +38,7 @@ class ProgressBar extends Component {
       <ProgressWrapper>
       <div className="progress-wrapper">
         <div className="progress-bar">
-          <span className="progress-bar-fill">Progress: {parseInt(this.props.progress) + '%'}</span>
+          <span className="progress-bar-fill">Loading: {parseInt(this.props.progress) + '%'}</span>
         </div>
       </div>
       </ProgressWrapper>
