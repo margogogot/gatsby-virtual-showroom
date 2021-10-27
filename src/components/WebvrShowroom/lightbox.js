@@ -228,6 +228,12 @@ const LightboxWrapper = styled.section`
     .slick-arrow {
       top: calc(35% - 50px);
     }
+    h2 {
+      font-size: 1rem;
+    }
+    p {
+      font-size: .8rem;
+    }
   }
   @media only screen and (min-width: 760px) {
     .slick-slider {
