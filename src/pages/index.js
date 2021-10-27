@@ -323,7 +323,7 @@ export default () => (
               <li>Satin finish with protective Ceramiloc treatment</li>
               <li>Durable powdercoat finish also available</li>
               <li>All bollards are 40" high</li>
-              <li>Column diameter is 6" for SC40-P1; 9.25" for M30-P1/K4; and 11.5" for M40-P1/K8 and M50-P1/K12 security cores</li>
+              <li>Column diameter is 6" for SC30-P1; 9.25" for M30-P1/K4; and 11.5" for M40-P1/K8 and M50-P1/K12 security cores</li>
               <li>Custom LED light engine with Cree® LEDs in 3000K warm white and 4000K neutral white</li>
               <li>180° or 360° light distribution options</li>
               <li>Non-illuminated versions also available</li>
@@ -343,7 +343,7 @@ export default () => (
               <li>Satin finish with protective Ceramiloc treatment</li>
               <li>Durable powdercoat finish also available</li>
               <li>All bollards are 40" high</li>
-              <li>Column diameter is 6" for SC40-P1; 9.25" for M30-P1/K4; and 11.5" for M40-P1/K8 and M50-P1/K12 security cores</li>
+              <li>Column diameter is 6" for SC30-P1; 9.25" for M30-P1/K4; and 11.5" for M40-P1/K8 and M50-P1/K12 security cores</li>
               <li>Custom LED light engine with Cree® LEDs in 3000K warm white and 4000K neutral white</li>
               <li>180° or 360° light distribution options</li>
               <li>Non-illuminated versions also available</li>
@@ -363,7 +363,7 @@ export default () => (
               <li>Satin finish with protective Ceramiloc treatment</li>
               <li>Durable powdercoat finish also available</li>
               <li>All bollards are 40" high</li>
-              <li>Column diameter is 6" for SC40-P1; 9.25" for M30-P1/K4; and 11.5" for M40-P1/K8 and M50-P1/K12 security cores</li>
+              <li>Column diameter is 6" for SC30-P1; 9.25" for M30-P1/K4; and 11.5" for M40-P1/K8 and M50-P1/K12 security cores</li>
               <li>Custom LED light engine with Cree® LEDs in 3000K warm white and 4000K neutral white</li>
               <li>180° or 360° light distribution options</li>
               <li>Non-illuminated versions also available</li>
