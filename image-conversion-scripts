@@ -1,2 +1,4 @@
 find . -iname "*.png" -type f -exec sh -c 'sips -s format jpeg "$0" --out "${0%.png}.jpg"' {} \;
-find . -type f \( -iname "*.jpg" -o -iname "*.jpeg" \) -exec jpegoptim -f --strip-all {} \;
+find . -type f \( -iname "*.jpg" -o -iname "*.jpeg" \) -exec sh -c 'mogrify -resize 512x512 "$0"' {} \;
+find . -type f \( -iname "*.jpg" -o -iname "*.jpeg" \) -exec jpegoptim -m 70 -f --strip-all {} \;
+find . -iname "*.png" -type f -exec sh -c 'rm "$0"' {} \;
