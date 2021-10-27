@@ -221,7 +221,7 @@ const LightboxWrapper = styled.section`
     right: 15px;
   }
   .slick-slider .slick-list .slick-slide img {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
   }
   .slick-slider {
