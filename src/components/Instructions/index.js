@@ -74,7 +74,7 @@ class Instructions extends Component {
             <p>Line up by ASLA <span className='red'>Booth #1501</span> and experience Linia for yourself.</p>
             <p>Posts will need to be available on a public Instagram account in order to be entered in the giveaway.</p>
             <p>Giveaway ends 11/21. Winner will be notified on 11/23.</p>
-            <p>Download contest rules here</p>
+            <p><a href="/pdf/Rules_ASLA_2021_LINEup.pdf" download>Download contest rules here</a></p>
             <h2 style={{display: 'flex', alignItems: 'baseline', gap: '.75rem', letterSpacing: '0.001rem', marginTop: '4rem'}}>
             <img src={redInsta} style={{width: '2.5rem', display: 'inline-block'}} /> <span>SHARE YOUR <span className='red' style={{fontFamily: 'Moderat Black'}}>LINEUP</span> AND GET IN LINE TO WIN!</span>
             </h2>
