@@ -110,10 +110,20 @@ class WebvrShowroom extends Component {
       {lightbox}
       <div className={'hp-overlay'+overlayVisibleClass}>
         <div className='line-up-logo' />
+        <div className='left-text'>
+          <div>
+          Get in line to win<br />a Linia Side Table<br/>& two Linia Café Chairs
+          </div>
+        </div>
         <div className='enter-block'>
+          <div className='middle-text'>
+            <div>
+            Get in line to win a Linia Side Table<br/>& two Linia Café Chairs
+            </div>
+          </div>
           <div className="end-button">
             <button onClick={this.onEnter} className="hp-enter-button">
-              ENTER
+              ENTER<br/>CONTEST
             </button>
           </div>
         </div>
@@ -259,6 +269,31 @@ const BannerWrapper = styled.section`
     height: 100%;
     justify-content: flex-end;
   }
+  .middle-text {
+    position: absolute;
+    top: 1px;
+    width: calc(100% - 15px);
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    div {
+      text-align: left;
+    }
+  }
+  .left-text {
+    position: absolute;
+    left: 0px;
+    width: 50vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100%;
+    div {
+      width: 30.5vh;
+      margin-top: -22vh;
+    }
+  }
   .end-button button {
   }
   .hp-enter-buttons button {
@@ -298,6 +333,7 @@ const BannerWrapper = styled.section`
     height: 100%;
     padding-right: 2rem;
     align-items: center;
+    line-height: 1.15;
   }
   .hp-enter-button:hover{
     opacity: 0.7;
@@ -361,6 +397,17 @@ const BannerWrapper = styled.section`
     }
     .line-up-logo {
       background-image: url(${lineUpLogo});
+    }
+    .left-text div {
+      margin-top: 4.5vh;
+    }
+  }
+  @media only screen and (min-width: 1600px) {
+    .middle-text {
+      display: flex;
+    }
+    .left-text {
+      display: none;
     }
   }
   @media only screen and (min-width: 2000px){
