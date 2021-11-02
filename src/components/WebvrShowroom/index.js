@@ -115,14 +115,14 @@ class WebvrShowroom extends Component {
           Get in line to win<br />a Linia Side Table<br/>& two Linia Café Chairs
           </div>
         </div>
-        <div className='enter-block'>
+        <div className='enter-block' onClick={this.onEnter}>
           <div className='middle-text'>
             <div>
             Get in line to win a Linia Side Table<br/>& two Linia Café Chairs
             </div>
           </div>
           <div className="end-button">
-            <button onClick={this.onEnter} className="hp-enter-button">
+            <button className="hp-enter-button">
               ENTER<br/>CONTEST
             </button>
           </div>
