@@ -242,6 +242,7 @@ const BannerWrapper = styled.section`
     top: 49vh;
     right: 0px;
     z-index: 4;
+    cursor: pointer;
   }
   .fs-logo {
     width: 3rem;
