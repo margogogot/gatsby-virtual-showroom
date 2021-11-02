@@ -37,6 +37,15 @@ class Lightbox extends Component {
       slidesToShow: 1,
       slidesToScroll: 1
     }
+
+    let step1Text = <p>Explore our <a className='red' onClick={this.onEnter} style={{
+      textDecoration: 'underline'
+    }}>Virtual Booth</a>. Have fun browsing through the various islands and customizing F+S products.</p>
+
+    let step2Text = <p>Click on your favorite product and use the <span className='red'>AR feature</span> to take a photo of your fav in a creative background of your choice (go wild!).</p>
+
+    let step3Text = <p>Follow <a href='http://instagram.com/forms_surfaces' target='_blank'>@forms_surfaces</a> on <a href='http://instagram.com/forms_surfaces' target='_blank'>Instagram</a> and post your product 'lineup' to your story or feed with the hashtag <a href='https://www.instagram.com/explore/tags/lineupforlinia/' target='_blank'>#LINEupforLinia</a>. Don't forget to tag us in your post to complete your entry!</p>
+
     let lightbox = <LightboxWrapper>
       <div className={'lightboxOverlay'}>
         <div className='close-overlay' onClick={this.onEnter} />
@@ -56,36 +65,34 @@ class Lightbox extends Component {
               <div>
                 <img src={liniaStep1} />
                 <h2>CREATE | 1 of 3</h2>
-                <p>Explore our <a className='red' onClick={this.onEnter} style={{
-                  textDecoration: 'underline'
-                }}>Virtual Booth</a>. Have fun browsing through the various islands and customizing F+S products.</p>
+                {step1Text}
               </div>
               <div>
                 <img src={liniaStep2} />
                 <h2>CAPTURE | 2 of 3</h2>
-                <p>Click on your favorite product and use the <span className='red'>AR feature</span> to take a photo of your fav in a creative background of your choice (go wild!).</p>
+                {step2Text}
               </div>
               <div>
                 <img src={liniaStep3} />
                 <h2>SHARE | 3 of 3</h2>
-                <p>Follow <a href='http://instagram.com/forms_surfaces' target='_blank'>@forms_surfaces</a> on <a href='http://instagram.com/forms_surfaces' target='_blank'>Instagram</a> and post your product 'lineup' to your story or feed with the hashtag <a href='https://www.instagram.com/explore/tags/lineupforlinia/' target='_blank'>#LINEupforLinia</a>. Don't forget to tag us in your post to complete your entry!</p>
+                {step3Text}
               </div>
             </Slider>
             <div className='step-row'>
               <div className='step'>
                 <img src={liniaStep1} />
                 <h2>CREATE</h2>
-                <p>Explore our <a className='red' onClick={this.onEnter} style={{cursor: 'pointer'}}>Virtual Booth</a>. Have fun browsing through the various islands and customizing F+S products.</p>
+                {step1Text}
               </div>
               <div className='step'>
                 <img src={liniaStep2} />
                 <h2>CAPTURE</h2>
-                <p>Click on your favorite products and use the <span className='red'>AR feature</span> to take a photo of your 2 favs in a creative background of your choice (go wild!).</p>
+                {step2Text}
               </div>
               <div className='step'>
                 <img src={liniaStep3} />
                 <h2>SHARE</h2>
-                <p>Follow <a href='http://instagram.com/forms_surfaces' target='_blank'>@forms_surfaces</a> on <a href='http://instagram.com/forms_surfaces' target='_blank'>Instagram</a> and post your product 'lineup' to your story or feed with the hashtag <a href='https://www.instagram.com/explore/tags/lineupforlinia/' target='_blank'>#LINEupforLinia</a>. Don't forget to tag us and a friend in your posts to complete your entry!</p>
+                {step3Text}
               </div>
             </div>
           </div>
