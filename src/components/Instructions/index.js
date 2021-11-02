@@ -55,17 +55,17 @@ class Instructions extends Component {
               <div className='step'>
                 <img src={liniaStep2} />
                 <h2>CAPTURE</h2>
-                <p>Click on your favorite products and use the <span className='red'>AR feature</span> to take a photo of your 2 favs in a creative background of your choice (go wild!).</p>
+                <p>Click on your favorite product and use the <span className='red'>AR feature</span> to take a photo of your fav in a creative background of your choice (go wild!).</p>
               </div>
               <div className='step'>
                 <img src={liniaStep3} />
                 <h2>SHARE</h2>
-                <p>Follow <a href='http://instagram.com/forms_surfaces' target='_blank'>@forms_surfaces</a> on <a href='http://instagram.com/forms_surfaces' target='_blank'>Instagram</a> and post your product 'lineup' to your story or feed with the hashtag <a href='https://www.instagram.com/explore/tags/lineupforlinia/' target='_blank'>#LINEupforLinia</a>. Don't forget to tag us and a friend in your posts to complete your entry!</p>
+                <p>Follow <a href='http://instagram.com/forms_surfaces' target='_blank'>@forms_surfaces</a> on <a href='http://instagram.com/forms_surfaces' target='_blank'>Instagram</a> and post your product 'lineup' to your story or feed with the hashtag <a href='https://www.instagram.com/explore/tags/lineupforlinia/' target='_blank'>#LINEupforLinia</a>. Don't forget to tag us in your post to complete your entry!</p>
               </div>
             </div>
             <p>Start with exploring new F+S product lines in our <span className='red'>Virtual Booth</span>. Have fun mixing & matching material and product options!</p>
             <p>Use our <span className='red'>augmented reality</span> feature and snap photos of your perfect lineup in an ideal setting… Don’t hesitate to give it your most creative shot.</p>
-            <p>Share your <span className='red'>lineup</span> featuring 2 products on Instagram: Follow <a href="http://instagram.com/forms_surfaces" target="_blank">@forms_surfaces</a> and post your product ‘lineup’ to your story or feed with the hashtag <a href='https://www.instagram.com/explore/tags/lineupforlinia/' target='_blank'>#LINEupforLinia</a>. Don’t forget to tag us and a friend in your posts to complete your entry!</p>
+            <p>Share your <span className='red'>lineup</span> featuring your favorite product on Instagram: Follow <a href="http://instagram.com/forms_surfaces" target="_blank">@forms_surfaces</a> and post your product ‘lineup’ to your story or feed with the hashtag <a href='https://www.instagram.com/explore/tags/lineupforlinia/' target='_blank'>#LINEupforLinia</a>. Don’t forget to tag us in your posts to complete your entry!</p>
             <p>Once your Instagram post is published, you will be entered for a chance to win your very own pair of Linia Café Chairs and a Linia Side Table.</p>
             <p>Oh, and the bonus? We will donate $1 per entry to <a href='http://instagram.com/directrelief' target='_blank'>@directrelief</a> towards international frontline healthcare workers!</p>
           </div>

@@ -63,12 +63,12 @@ class Lightbox extends Component {
               <div>
                 <img src={liniaStep2} />
                 <h2>CAPTURE | 2 of 3</h2>
-                <p>Click on your favorite products and use the <span className='red'>AR feature</span> to take a photo of your 2 favs in a creative background of your choice (go wild!).</p>
+                <p>Click on your favorite product and use the <span className='red'>AR feature</span> to take a photo of your fav in a creative background of your choice (go wild!).</p>
               </div>
               <div>
                 <img src={liniaStep3} />
                 <h2>SHARE | 3 of 3</h2>
-                <p>Follow <a href='http://instagram.com/forms_surfaces' target='_blank'>@forms_surfaces</a> on <a href='http://instagram.com/forms_surfaces' target='_blank'>Instagram</a> and post your product 'lineup' to your story or feed with the hashtag <a href='https://www.instagram.com/explore/tags/lineupforlinia/' target='_blank'>#LINEupforLinia</a>. Don't forget to tag us and a friend in your posts to complete your entry!</p>
+                <p>Follow <a href='http://instagram.com/forms_surfaces' target='_blank'>@forms_surfaces</a> on <a href='http://instagram.com/forms_surfaces' target='_blank'>Instagram</a> and post your product 'lineup' to your story or feed with the hashtag <a href='https://www.instagram.com/explore/tags/lineupforlinia/' target='_blank'>#LINEupforLinia</a>. Don't forget to tag us in your post to complete your entry!</p>
               </div>
             </Slider>
             <div className='step-row'>
