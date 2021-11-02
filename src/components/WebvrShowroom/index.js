@@ -203,7 +203,7 @@ const BannerWrapper = styled.section`
     background-image: url(${virtualBoothBGMobile});
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-color: #585858;
     transition: left 2s linear, top 1s linear;
   }
@@ -364,6 +364,7 @@ const BannerWrapper = styled.section`
       height: 100%;
       background-image: url(${virtualBoothBG});
       background-repeat: no-repeat;
+      background-size: contain;
     }
     .hp-overlay.hidden{
       left: -200vw;
