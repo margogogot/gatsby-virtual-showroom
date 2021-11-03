@@ -10,8 +10,8 @@ import forwardImg from './img/forward-page.svg'
 import linkedinImg from './img/linkedin.svg'
 import twitterImg from './img/twitter.svg'
 import fsLogoImg from './img/fs-logo-white.svg'
-import virtualBoothBG from './img/virtual-booth-bg-01.jpg'
-import virtualBoothBGMobile from './img/virtual-booth-bg-mobile.jpg'
+import virtualBoothBG from './img/virtual-booth-bg-1.png'
+import virtualBoothBGMobile from './img/virtual-booth-bg-1.jpg'
 import lineUpLogo from './img/line-up-logo-01-01.svg'
 import lineUpLogoMobile from './img/line-up-logo-01-mobile.svg'
 import redGradient from './img/red-gradient.svg'
@@ -109,21 +109,11 @@ class WebvrShowroom extends Component {
       {iOSWarning}
       {lightbox}
       <div className={'hp-overlay'+overlayVisibleClass}>
-        <div className='line-up-logo' />
-        <div className='left-text'>
-          <div>
-          Get in line to win<br />a Linia Side Table<br/>& two Linia Café Chairs
-          </div>
-        </div>
+        <div className='line-up-logo' onClick={this.onEnter} />
         <div className='enter-block' onClick={this.onEnter}>
-          <div className='middle-text'>
-            <div>
-            Get in line to win a Linia Side Table<br/>& two Linia Café Chairs
-            </div>
-          </div>
           <div className="end-button">
             <button className="hp-enter-button">
-              ENTER<br/>CONTEST
+              ENTER CONTEST
             </button>
           </div>
         </div>
@@ -200,12 +190,22 @@ const BannerWrapper = styled.section`
     width: 100%;
     height: 100%;
     z-index:3;
-    background-image: url(${virtualBoothBGMobile});
-    background-position: center center;
+    background: #92a4b2;
+    transition: left 2s linear, top 1s linear;
+  }
+  .hp-overlay:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    overflow: visible;
+    height: 80vh;
+    background-image: url(${virtualBoothBG});
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #585858;
-    transition: left 2s linear, top 1s linear;
+    background-position: center center;
   }
   .hp-overlay.hidden{
     top: -200vh;
@@ -221,28 +221,38 @@ const BannerWrapper = styled.section`
   }
   .line-up-logo {
     background-image: url(${lineUpLogoMobile});
-    background-position: center center;
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100%;
-    width: 100%;
+    height: 40vh;
+    width: calc(100% - 2rem);
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 1rem;
+    left: 1rem;
     z-index: 4;
   }
   .enter-block {
+    height: 8vh;
+    width: 48vw;
+    position: absolute;
+    top: 10vh;
+    right: 0px;
+    z-index: 4;
+    cursor: pointer;
+  }
+  .enter-block:before {
+    content: '';
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
     background-image: url(${redGradient});
     background-position: center center;
     background-repeat: repeat-y;
     background-size: 100%;
-    height: 8vh;
-    width: 48vw;
-    position: absolute;
-    top: 49vh;
-    right: 0px;
-    z-index: 4;
-    cursor: pointer;
+    z-index: -1;
   }
   .fs-logo {
     width: 3rem;
@@ -269,31 +279,6 @@ const BannerWrapper = styled.section`
     width: 100%;
     height: 100%;
     justify-content: flex-end;
-  }
-  .middle-text {
-    position: absolute;
-    top: 1px;
-    width: calc(100% - 15px);
-    height: 100%;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    div {
-      text-align: left;
-    }
-  }
-  .left-text {
-    position: absolute;
-    left: 0px;
-    width: 50vw;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    height: 100%;
-    div {
-      width: 30.5vh;
-      margin-top: -22vh;
-    }
   }
   .end-button button {
   }
@@ -353,7 +338,7 @@ const BannerWrapper = styled.section`
     background-image: url(${arIcons});
     background-size: cover;
   }
-  @media only screen and (min-width: 900px) {
+  @media only screen and (min-width: 1400px) {
     .iframe-wrapper {
       height: 100%;
     }
@@ -363,9 +348,22 @@ const BannerWrapper = styled.section`
       left: 0px;
       width: 100vw;
       height: 100%;
+      background: #92a4b2;
+    }
+    .hp-overlay:before{
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0px;
+      left: 0;
+      width: 80vw;
+      overflow: visible;
+      height: 100%;
       background-image: url(${virtualBoothBG});
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: cover;
+      background-position: center center;
+      margin-left: -12vw;
     }
     .hp-overlay.hidden{
       left: -200vw;
@@ -395,22 +393,49 @@ const BannerWrapper = styled.section`
       justify-content: flex-end;
     }
     .hp-enter-buttons{
-      right: 50vw;
+      right: unset;
+      left: calc(50vw + 38vh);
     }
     .line-up-logo {
       background-image: url(${lineUpLogo});
+      background-position: left center;
+      width: 50vw;
+      left: unset;
+      right: 0;
+      top: 0px;
+      height: 100%;
     }
-    .left-text div {
-      margin-top: 4.5vh;
+    .arIcons {
+      left: 50vw;
+    }
+    .hp-enter-buttons {
+
+    }
+    .enter-block {
+      height: 8vh;
+      width: 48vw;
+      top: 49vh;
+      right: 0px;
+      z-index: 4;
+      cursor: pointer;
+    }
+    .enter-block:before {
+      content: '';
+      display: block;
+      width: 50%;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      height: 100%;
+      background-image: url(${redGradient});
+      background-position: center center;
+      background-repeat: repeat-y;
+      background-size: 100%;
+      z-index: -1;
     }
   }
   @media only screen and (min-width: 1600px) {
-    .middle-text {
-      display: flex;
-    }
-    .left-text {
-      display: none;
-    }
+
   }
   @media only screen and (min-width: 2000px){
     .hp-overlay h1 {
