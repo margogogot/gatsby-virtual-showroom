@@ -450,8 +450,8 @@ const BannerWrapper = styled.section`
       right: -3rem;
     }
     .hp-enter-buttons img {
-      height: 3rem;
-      width: 3rem;
+      height: 20px;
+      width: 20px;
     }
     .hp-enter-button {
       font-size: 3rem;
