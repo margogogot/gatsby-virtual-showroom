@@ -201,10 +201,10 @@ const BannerWrapper = styled.section`
     left: 0;
     width: 100%;
     overflow: visible;
-    height: 80vh;
+    height: 75vh;
     background-image: url(${virtualBoothBG});
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
   }
   .hp-overlay.hidden{
@@ -306,7 +306,7 @@ const BannerWrapper = styled.section`
     border: none;
     background-color: transparent;
     color: #ffffff;
-    font-size: 1.1rem;
+    font-size: .8rem;
     line-height: 2.1rem;
     cursor: pointer;
     outline: none;
@@ -435,7 +435,9 @@ const BannerWrapper = styled.section`
     }
   }
   @media only screen and (min-width: 1600px) {
-
+    .hp-enter-button{
+      font-size: 1.1rem;
+    }
   }
   @media only screen and (min-width: 2000px){
     .hp-overlay h1 {
