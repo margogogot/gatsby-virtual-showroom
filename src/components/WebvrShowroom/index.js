@@ -189,6 +189,7 @@ const BannerWrapper = styled.section`
     left: 0px;
     width: 100%;
     height: 100%;
+    min-width: 500px;
     z-index:3;
     background: #92a4b2;
     transition: left 2s linear, top 1s linear;
@@ -225,6 +226,7 @@ const BannerWrapper = styled.section`
     background-repeat: no-repeat;
     background-size: contain;
     height: 40vh;
+    min-height: 300px;
     width: calc(100% - 2rem);
     position: absolute;
     top: 1rem;
