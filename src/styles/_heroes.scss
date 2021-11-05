@@ -248,7 +248,7 @@ a.hero-home{
   top: 30px;
   left: 19px;
   z-index: 10;
-  color: #ffffff;
+  color: #ffffff !important;
   cursor: pointer;
   display: block;
   width: 30px;
@@ -256,7 +256,7 @@ a.hero-home{
   padding: 3px;
   overflow: hidden;
   text-indent: -9999px;
-  background: url('img/arrow-left-01.svg');
+  background: url('img/arrow-left-01.png');
   background-size: cover;
   border: none;
   outline: none;
