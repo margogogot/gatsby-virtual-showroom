@@ -38,13 +38,13 @@ class Lightbox extends Component {
       slidesToScroll: 1
     }
 
-    let step1Text = <p>Explore our <a className='red' onClick={this.onEnter} style={{
+    let step1Text = <p>Create your ideal F+S product 'lineup' using our <a className='red' onClick={this.onEnter} style={{
       textDecoration: 'underline'
-    }}>Virtual Booth</a>. Have fun browsing through the various islands and customizing F+S products.</p>
+    }}>Virtual Booth</a>. Customize away!</p>
 
-    let step2Text = <p>Click on your favorite product and use the <span className='red'>AR feature</span> to take a photo of your fav in a creative background of your choice (go wild!).</p>
+    let step2Text = <p>Capture an image of your favorite F+S product using the <span className='red'>AR feature</span> in a creative background of your choice.</p>
 
-    let step3Text = <p>Follow <a href='http://instagram.com/forms_surfaces' target='_blank'>@forms_surfaces</a> on <a href='http://instagram.com/forms_surfaces' target='_blank'>Instagram</a> and post your product 'lineup' to your story or feed with the hashtag <a href='https://www.instagram.com/explore/tags/lineupforlinia/' target='_blank'>#LINEupforLinia</a>. Don't forget to tag us in your post to complete your entry!</p>
+    let step3Text = <p>Share your F+S ‘lineup’ to your Instagram story or feed with the hashtag <a href='https://www.instagram.com/explore/tags/lineupforlinia/' target='_blank'>#LINEupforLinia</a>. Don’t forget to follow <a href='http://instagram.com/forms_surfaces' target='_blank'>@forms_surfaces</a> and tag us to complete your entry!</p>
 
     let lightbox = <LightboxWrapper>
       <div className={'lightboxOverlay'}>

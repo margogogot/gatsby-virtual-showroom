@@ -41,7 +41,7 @@ class Instructions extends Component {
               <div className='step'>
                 <img src={liniaStep1} />
                 <h2>CREATE</h2>
-                <p>Explore our <Link
+                <p>Create your ideal F+S product 'lineup' using our <Link
                           activeClass="active"
                           to={'virtual-showroom'}
                           className='underline'
@@ -50,17 +50,17 @@ class Instructions extends Component {
                           offset={0}
                           duration={500}
                           key={99}
-                      >Virtual Booth</Link>. Have fun browsing through the various islands and customizing F+S products.</p>
+                      >Virtual Booth</Link>. Customize away!</p>
               </div>
               <div className='step'>
                 <img src={liniaStep2} />
                 <h2>CAPTURE</h2>
-                <p>Click on your favorite product and use the <span className='red'>AR feature</span> to take a photo of your fav in a creative background of your choice (go wild!).</p>
+                <p>Capture an image of your favorite F+S product using the <span className='red'>AR feature</span> in a creative background of your choice.</p>
               </div>
               <div className='step'>
                 <img src={liniaStep3} />
                 <h2>SHARE</h2>
-                <p>Follow <a href='http://instagram.com/forms_surfaces' target='_blank'>@forms_surfaces</a> on <a href='http://instagram.com/forms_surfaces' target='_blank'>Instagram</a> and post your product 'lineup' to your story or feed with the hashtag <a href='https://www.instagram.com/explore/tags/lineupforlinia/' target='_blank'>#LINEupforLinia</a>. Don't forget to tag us in your post to complete your entry!</p>
+                <p>Share your F+S ‘lineup’ to your Instagram story or feed with the hashtag <a href='https://www.instagram.com/explore/tags/lineupforlinia/' target='_blank'>#LINEupforLinia</a>. Don’t forget to follow <a href='http://instagram.com/forms_surfaces' target='_blank'>@forms_surfaces</a> and tag us to complete your entry!</p>
               </div>
             </div>
             <p>Start with exploring new F+S product lines in our <span className='red'>Virtual Booth</span>. Have fun mixing & matching material and product options!</p>
