@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { useStaticQuery, graphql } from "gatsby"
-import VideoOverlay from './video-overlay'
+import { useStaticQuery, graphql } from 'gatsby'
 import IOSWarning from '../iOSWarning'
 import Lightbox from './lightbox'
 import styled from "styled-components"
@@ -96,11 +95,6 @@ class WebvrShowroom extends Component {
       let url = 'https://virtual-showroom.forms-surfaces.net/app1k16/index.html'
       iframe = <div className='iframe-wrapper'>
         <iframe src={url} title="Virtual Showroom" />
-        <div className='lightbox-button-linia' onClick={(e)=>{
-          this.setState({
-            lightboxVisible: true
-          })
-        }} />
       </div>
     }
 
@@ -113,7 +107,7 @@ class WebvrShowroom extends Component {
         <div className='enter-block' onClick={this.onEnter}>
           <div className="end-button">
             <button className="hp-enter-button">
-              ENTER CONTEST
+              ENTER
             </button>
           </div>
         </div>

@@ -57,44 +57,7 @@ class Lightbox extends Component {
         <div className='content-wrapper'>
 
           <div className='col'>
-            <div className='lightbox-title' />
             <ProgressBar progress={this.props.progress} />
-            <h2>HOW TO ENTER?</h2>
-            <p>Find yourself in line to win a Linia Side Table and two Linia Cafe Chairs just by posting on <a href='http://instagram.com/forms_surfaces' target='_blank'>Instagram.</a> It's that easy!</p>
-            <Slider {...settings} >
-              <div>
-                <img src={liniaStep1} />
-                <h2>CREATE | 1 of 3</h2>
-                {step1Text}
-              </div>
-              <div>
-                <img src={liniaStep2} />
-                <h2>CAPTURE | 2 of 3</h2>
-                {step2Text}
-              </div>
-              <div>
-                <img src={liniaStep3} />
-                <h2>SHARE | 3 of 3</h2>
-                {step3Text}
-              </div>
-            </Slider>
-            <div className='step-row'>
-              <div className='step'>
-                <img src={liniaStep1} />
-                <h2>CREATE</h2>
-                {step1Text}
-              </div>
-              <div className='step'>
-                <img src={liniaStep2} />
-                <h2>CAPTURE</h2>
-                {step2Text}
-              </div>
-              <div className='step'>
-                <img src={liniaStep3} />
-                <h2>SHARE</h2>
-                {step3Text}
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -178,6 +141,8 @@ const LightboxWrapper = styled.section`
     height: 100%;
     font-size: .8rem;
     width: 90%;
+    display: flex;
+    align-items: center;
   }
   .content-wrapper>.col:first-child{
     padding-top: 2rem;

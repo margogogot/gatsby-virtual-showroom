@@ -41,7 +41,6 @@ export default () => (
   <>
     <Layout>
       <WebvrShowroom/>
-      <Instructions/>
       <Heroes>
         <div
         label="LINIA CAFÉ CHAIRS & SIDE TABLE"
