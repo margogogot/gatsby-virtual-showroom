@@ -11,7 +11,7 @@ module.exports = {
     title: "Forms+Surfaces",
     titleTemplate: "%s | Virtual Showroom",
     description: "The Forms+Surfaces Virtual Showroom",
-    author: "Mike Wieczorkowski",
+    author: "Margot Wieczorkowski",
     image: "/sites/default/files/header-images/OP3C.jpg",
     siteUrl: "https://www.forms-surfaces.com",
     twitterUsername: "@forms_surfaces",
